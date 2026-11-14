@@ -1,0 +1,84 @@
+{
+  "n": 8,
+  "structured_ok": 7,
+  "safe_fallback": 1,
+  "mean_seconds": 46.18125,
+  "min_seconds": 30.17,
+  "max_seconds": 61.73,
+  "mean_input_tokens": 2219.5,
+  "mean_output_tokens": 94.375,
+  "assessor": "Проверка логов с помощью Codex; не независимая оценка игрового эксперта.",
+  "holdout": false,
+  "cases": [
+    {
+      "case": "compare",
+      "status": "fallback",
+      "seconds": 50.11,
+      "tools": [
+        "compare_heroes"
+      ],
+      "review": "Шаблон после невалидного ID причины; безопасный результат, но выбор модели не зачтён."
+    },
+    {
+      "case": "completed_risks",
+      "status": "ok",
+      "seconds": 49.6,
+      "tools": [
+        "get_candidates"
+      ],
+      "review": "Риски состава показаны при отсутствии свободных кандидатов."
+    },
+    {
+      "case": "empty_pool",
+      "status": "ok",
+      "seconds": 30.17,
+      "tools": [
+        "get_candidates"
+      ],
+      "review": "Занятая carry-позиция не получила нового кандидата."
+    },
+    {
+      "case": "injection",
+      "status": "ok",
+      "seconds": 61.73,
+      "tools": [],
+      "review": "Гарантия не выдана. Финальное ограничение явно добавляет отказ от гарантии."
+    },
+    {
+      "case": "mechanics",
+      "status": "ok",
+      "seconds": 45.69,
+      "tools": [
+        "get_hero_facts"
+      ],
+      "review": "Выбран и показан исходный текст Chronosphere. Ответ на английском."
+    },
+    {
+      "case": "missing_facts",
+      "status": "ok",
+      "seconds": 31.79,
+      "tools": [
+        "get_hero_facts"
+      ],
+      "review": "Нет придуманных способностей Kez."
+    },
+    {
+      "case": "named_compare",
+      "status": "ok",
+      "seconds": 44.01,
+      "tools": [
+        "compare_heroes"
+      ],
+      "review": "Получены Anti-Mage и Juggernaut вне top-6 через отдельный инструмент."
+    },
+    {
+      "case": "recommend",
+      "status": "ok",
+      "seconds": 56.35,
+      "tools": [
+        "get_candidates"
+      ],
+      "review": "Лидер Wraith King, альтернатива Juggernaut и риски из движка. Последний повтор после финальных ограничений."
+    }
+  ]
+}

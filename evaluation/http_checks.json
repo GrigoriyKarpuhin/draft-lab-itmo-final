@@ -1,0 +1,23 @@
+[
+  {
+    "name": "status",
+    "expected": 200,
+    "actual": 200,
+    "passed": true,
+    "response": "{\"ready\": true, \"model\": \"qwen3:4b-instruct\", \"message\": \"Модель готова\"}"
+  },
+  {
+    "name": "cross_origin",
+    "expected": 403,
+    "actual": 403,
+    "passed": true,
+    "response": "<!DOCTYPE HTML>\n<html lang=\"en\">\n    <head>\n        <meta charset=\"utf-8\">\n        <style type=\"text/css\">\n            :root {\n                color-scheme: light dark;\n            }\n        </style>\n        <title>Error response</title>\n    </head>\n    <body>\n        <h1>Error response</h1>\n       "
+  },
+  {
+    "name": "oversized",
+    "expected": 413,
+    "actual": 413,
+    "passed": true,
+    "response": "{\"error\": \"Запрос слишком большой или пустой\"}"
+  }
+]

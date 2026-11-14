@@ -1,0 +1,108 @@
+{
+  "status": "ok",
+  "answer": "На пике — Wraith King. Он хорошо начинает бой и может остановить соперника.",
+  "follow_up": "",
+  "risk": "",
+  "candidate_ids": [],
+  "evidence_ids": [
+    "engine:42"
+  ],
+  "response_mode": "conversation",
+  "sources": [
+    {
+      "id": "engine:42",
+      "title": "Wraith King — данные движка",
+      "url": null
+    }
+  ],
+  "trace": [],
+  "model": "qwen3:4b-instruct",
+  "elapsed_seconds": 27.65,
+  "usage": {
+    "input_tokens": 1473,
+    "output_tokens": 25,
+    "model_calls": 1
+  },
+  "snapshot": {
+    "patch": "7.41f",
+    "matches": 49919,
+    "generatedAt": 1792674306.900278,
+    "roleSpecific": false,
+    "mode": "fresh"
+  },
+  "limitations": [
+    "Индекс и итоговые проценты — эвристика, не проверенная вероятность победы.",
+    "Статистика Ranked All Pick, Divine+; не размечена по ролям и не доказывает причинность.",
+    "Сохранённый снимок данных, актуальность патча на сегодня не проверена.",
+    "Справочник механик неполный. Окончательный выбор делает игрок."
+  ],
+  "details": {
+    "side": "radiant",
+    "action": "pick",
+    "role": 1,
+    "drafted_heroes": [],
+    "candidates": [
+      {
+        "name": "Wraith King",
+        "id": 42,
+        "role": 1,
+        "score": 58.89,
+        "winRate": 52.63,
+        "games": 4254,
+        "reasons": [
+          "Мета 7.41f: 52.6% · 4254 матчей",
+          "Добавляет контроль",
+          "Добавляет инициацию",
+          "Возможный ответ: Dragon Knight на свободную роль соперника"
+        ],
+        "source_id": "engine:42"
+      },
+      {
+        "name": "Juggernaut",
+        "id": 8,
+        "role": 1,
+        "score": 55.97,
+        "winRate": 52.64,
+        "games": 8044,
+        "reasons": [
+          "Мета 7.41f: 52.6% · 8044 матчей",
+          "Помогает забирать строения",
+          "Возможный ответ: Enigma на свободную роль соперника"
+        ],
+        "source_id": "engine:8"
+      },
+      {
+        "name": "Anti-Mage",
+        "id": 1,
+        "role": 1,
+        "score": 51.8,
+        "winRate": 50.63,
+        "games": 8450,
+        "reasons": [
+          "Мета 7.41f: 50.6% · 8450 матчей",
+          "Возможный ответ: Ursa на свободную роль соперника"
+        ],
+        "source_id": "engine:1"
+      }
+    ],
+    "team_risks": [
+      {
+        "id": "composition:radiant:0",
+        "text": "Состав radiant ещё не завершён: выбрано 0 из 5 героев. Оценка предварительная."
+      }
+    ],
+    "unavailable_for_new_pick": [],
+    "snapshot": {
+      "patch": "7.41f",
+      "matches": 49919,
+      "generatedAt": 1792674306.900278,
+      "roleSpecific": false,
+      "mode": "fresh"
+    },
+    "data_limits": {
+      "historical_snapshot": true,
+      "role_specific_statistics": false
+    }
+  },
+  "raw_model_answer": "На пике — Wraith King. Он хорошо начинает бой и может остановить соперника."
+}

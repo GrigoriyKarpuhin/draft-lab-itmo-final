@@ -1,0 +1,161 @@
+{
+  "case": "compare",
+  "request": {
+    "state": {
+      "mode": "free",
+      "first": "radiant",
+      "history": [],
+      "pool": []
+    },
+    "side": "radiant",
+    "type": "pick",
+    "role": 1,
+    "personalPool": [
+      1,
+      8,
+      42
+    ],
+    "metaMode": "fresh",
+    "history": [],
+    "question": "Сравни Anti-Mage, Juggernaut и Wraith King по данным движка."
+  },
+  "result": {
+    "answer": "Wraith King имеет наивысший балл мета (58.89) и лучшую синергию в составе, но Juggernaut показывает более стабильную статистику по количеству матчей (8044) и схожую выживаемость (52.64% побед). Anti-Mage имеет наименьший мета-балл (51.8) и минимальную вовлечённость в состав. Риск для всех — низкий. Рекомендуется Wraith King за счёт контроля и инициации, но Juggernaut — более надёжный выбор в составе.",
+    "candidate_ids": [
+      42,
+      8,
+      1
+    ],
+    "evidence_ids": [
+      "engine:42",
+      "engine:8",
+      "engine:1"
+    ],
+    "risk": "низкий",
+    "status": "ok",
+    "sources": [
+      {
+        "id": "engine:42",
+        "title": "Wraith King — расчёт движка",
+        "url": null
+      },
+      {
+        "id": "engine:8",
+        "title": "Juggernaut — расчёт движка",
+        "url": null
+      },
+      {
+        "id": "engine:1",
+        "title": "Anti-Mage — расчёт движка",
+        "url": null
+      }
+    ],
+    "trace": [
+      {
+        "tool": "get_candidates",
+        "arguments": {
+          "candidates": [
+            42,
+            8,
+            1
+          ]
+        },
+        "result": {
+          "error": "get_candidates не принимает аргументы"
+        }
+      },
+      {
+        "tool": "get_hero_facts",
+        "arguments": {
+          "hero_ids": [
+            42,
+            8,
+            1
+          ]
+        },
+        "result": {
+          "facts": [
+            {
+              "id": "mechanics:8:juggernaut_blade_fury",
+              "hero_id": 8,
+              "hero": "Juggernaut",
+              "ability": "Blade Fury",
+              "text": "Causes a bladestorm of destructive force around Juggernaut, rendering him debuff immune with %immunity_resist%%% magic resistance and dealing damage every %blade_fury_damage_tick%s to nearby enemy units. Applies a strong dispel at the end of the spin.",
+              "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=8",
+              "patch": "7.41f"
+            },
+            {
+              "id": "mechanics:8:juggernaut_healing_ward",
+              "hero_id": 8,
+              "hero": "Juggernaut",
+              "ability": "Healing Ward",
+              "text": "Summons a Healing Ward which heals all nearby allied units, based on their max health. The Healing Ward moves at %healing_ward_movespeed_tooltip% movement speed after being summoned. Lasts %abilityduration% seconds.",
+              "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=8",
+              "patch": "7.41f"
+            },
+            {
+              "id": "mechanics:8:juggernaut_blade_dance",
+              "hero_id": 8,
+              "hero": "Juggernaut",
+              "ability": "Blade Dance",
+              "text": "Gives Juggernaut a chance to deal critical damage with Blade Fury and on each attack.",
+              "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=8",
+              "patch": "7.41f"
+            },
+            {
+              "id": "mechanics:8:juggernaut_swift_slash",
+              "hero_id": 8,
+              "hero": "Juggernaut",
+              "ability": "Swiftslash",
+              "text": "Performs a short Omnislash for %duration% seconds.",
+              "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=8",
+              "patch": "7.41f"
+            }
+          ],
+          "missing_hero_ids": [
+            42,
+            1
+          ],
+          "limitation": "Исторический неполный справочник. Параметры вида %...% не восстановлены, точные значения неизвестны."
+        }
+      }
+    ],
+    "model": "qwen3:4b-instruct",
+    "elapsed_seconds": 74.9,
+    "usage": {
+      "input_tokens": 2323,
+      "output_tokens": 260,
+      "model_calls": 2
+    },
+    "snapshot": {
+      "patch": "7.41f",
+      "matches": 49919,
+      "generatedAt": 1792674306.900278,
+      "roleSpecific": false,
+      "mode": "fresh"
+    },
+    "limitations": [
+      "Индекс и итоговые проценты — эвристика, не проверенная вероятность победы.",
+      "Статистика Ranked All Pick, Divine+; не размечена по ролям и не доказывает причинность.",
+      "Сохранённый снимок данных, актуальность патча на сегодня не проверена.",
+      "Справочник механик неполный. Окончательный выбор делает игрок."
+    ],
+    "baseline": {
+      "status": "fallback",
+      "answer": "Wraith King: индекс 58.89; Мета 7.41f: 52.6% · 4254 матчей; Добавляет контроль.\nJuggernaut: индекс 55.97; Мета 7.41f: 52.6% · 8044 матчей; Помогает забирать строения.\nAnti-Mage: индекс 51.8; Мета 7.41f: 50.6% · 8450 матчей; Возможный ответ: Ursa на свободную роль соперника.",
+      "risk": "Шаблон без LLM. Индекс не гарантирует победу.",
+      "candidate_ids": [
+        42,
+        8,
+        1
+      ],
+      "evidence_ids": [
+        "engine:42",
+        "engine:8",
+        "engine:1"
+      ]
+    },
+    "raw_model_answer": "{\"answer\": \"Wraith King имеет наивысший балл мета (58.89) и лучшую синергию в составе, но Juggernaut показывает более стабильную статистику по количеству матчей (8044) и схожую выживаемость (52.64% побед). Anti-Mage имеет наименьший мета-балл (51.8) и минимальную вовлечённость в состав. Риск для всех — низкий. Рекомендуется Wraith King за счёт контроля и инициации, но Juggernaut — более надёжный выбор в составе.\", \"candidate_ids\": [42, 8, 1], \"evidence_ids\": [\"engine:42\", \"engine:8\", \"engine:1\"], \"risk\": \"низкий\"}"
+  },
+  "wall_seconds": 74.96
+}

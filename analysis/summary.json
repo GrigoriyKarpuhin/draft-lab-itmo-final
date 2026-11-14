@@ -1,0 +1,202 @@
+{
+  "source": "Сохранённый снимок OpenDota из Draft Lab, новый сетевой сбор не выполнялся",
+  "original_records": 49919,
+  "prepared_records": 49919,
+  "dropped": {},
+  "historical_collection": {
+    "scanned": 50000,
+    "accepted": 49919,
+    "rejected": {
+      "incompleteOrShort": 81
+    },
+    "note": "Метаданные прежнего сбора; отклонённые исходные записи не сохранены."
+  },
+  "sha256_original": "10efaf807f301dbb3e3d9fc4064426362babcf7224c54bd06fb4a92010da8646",
+  "unique_heroes": 127,
+  "radiant_wins": 26350,
+  "radiant_win_rate": 52.78551253029909,
+  "duration_minutes": {
+    "min": 10.166666666666666,
+    "median": 38.333333333333336,
+    "mean": 39.546412187744146,
+    "p95": 57.733333333333334,
+    "max": 109.38333333333334
+  },
+  "time_utc": {
+    "from": "2026-10-21T14:01:20+00:00",
+    "to": "2026-10-22T12:39:00+00:00"
+  },
+  "top_heroes": [
+    {
+      "id": 14,
+      "name": "Pudge",
+      "games": 14008,
+      "pick_rate": 28.06145956449448
+    },
+    {
+      "id": 86,
+      "name": "Rubick",
+      "games": 13539,
+      "pick_rate": 27.121937538812876
+    },
+    {
+      "id": 26,
+      "name": "Lion",
+      "games": 11161,
+      "pick_rate": 22.3582203169134
+    },
+    {
+      "id": 74,
+      "name": "Invoker",
+      "games": 10743,
+      "pick_rate": 21.520863799354956
+    },
+    {
+      "id": 49,
+      "name": "Dragon Knight",
+      "games": 9839,
+      "pick_rate": 19.70993008674052
+    },
+    {
+      "id": 21,
+      "name": "Windranger",
+      "games": 9618,
+      "pick_rate": 19.267212884873494
+    },
+    {
+      "id": 71,
+      "name": "Spirit Breaker",
+      "games": 8667,
+      "pick_rate": 17.36212664516517
+    },
+    {
+      "id": 93,
+      "name": "Slark",
+      "games": 8527,
+      "pick_rate": 17.081672309140806
+    },
+    {
+      "id": 1,
+      "name": "Anti-Mage",
+      "games": 8450,
+      "pick_rate": 16.92742242432741
+    },
+    {
+      "id": 8,
+      "name": "Juggernaut",
+      "games": 8044,
+      "pick_rate": 16.11410484985677
+    }
+  ],
+  "rank_distribution": {
+    "71": 8149,
+    "72": 6689,
+    "73": 5477,
+    "74": 6098,
+    "75": 23506
+  },
+  "aggregate_matches_existing": true,
+  "mechanics": {
+    "original_heroes": 46,
+    "prepared_facts": 259,
+    "changes": {
+      "unresolved_parameters_flagged": 102,
+      "markup_or_whitespace_normalized": 82
+    },
+    "excluded": [],
+    "example": {
+      "id": "mechanics:41:faceless_void_time_walk",
+      "hero_id": 41,
+      "hero": "Faceless Void",
+      "ability": "Time Walk",
+      "text": "Rushes to a target location while backtracking any damage taken the last [значение не сохранено] seconds.",
+      "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=41",
+      "patch": "7.41f",
+      "unresolved_parameters": [
+        "%backtrack_duration%"
+      ]
+    }
+  },
+  "missing_fields": {
+    "match_id": 0,
+    "radiant_team": 0,
+    "dire_team": 0,
+    "radiant_win": 0,
+    "start_time": 0,
+    "duration": 0,
+    "game_mode": 0,
+    "lobby_type": 0,
+    "avg_rank_tier": 0
+  },
+  "records_example": [
+    {
+      "match_id": 9056480014,
+      "radiant_team": [
+        18,
+        47,
+        53,
+        34,
+        7
+      ],
+      "dire_team": [
+        48,
+        38,
+        49,
+        71,
+        87
+      ],
+      "radiant_win": false,
+      "start_time": 1792672740,
+      "duration": 1294,
+      "game_mode": 22,
+      "lobby_type": 7,
+      "avg_rank_tier": 75
+    },
+    {
+      "match_id": 9056478291,
+      "radiant_team": [
+        62,
+        60,
+        110,
+        1,
+        30
+      ],
+      "dire_team": [
+        69,
+        61,
+        48,
+        26,
+        84
+      ],
+      "radiant_win": true,
+      "start_time": 1792672670,
+      "duration": 993,
+      "game_mode": 22,
+      "lobby_type": 7,
+      "avg_rank_tier": 75
+    },
+    {
+      "match_id": 9056477701,
+      "radiant_team": [
+        119,
+        35,
+        5,
+        8,
+        2
+      ],
+      "dire_team": [
+        104,
+        53,
+        91,
+        9,
+        36
+      ],
+      "radiant_win": true,
+      "start_time": 1792672645,
+      "duration": 1186,
+      "game_mode": 22,
+      "lobby_type": 7,
+      "avg_rank_tier": 75
+    }
+  ]
+}

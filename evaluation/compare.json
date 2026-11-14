@@ -1,0 +1,263 @@
+{
+  "case": "compare",
+  "request": {
+    "state": {
+      "mode": "free",
+      "first": "radiant",
+      "history": [],
+      "pool": []
+    },
+    "side": "radiant",
+    "type": "pick",
+    "role": 1,
+    "personalPool": [
+      1,
+      8,
+      42
+    ],
+    "metaMode": "fresh",
+    "history": [],
+    "question": "Сравни Anti-Mage, Juggernaut и Wraith King по данным движка."
+  },
+  "result": {
+    "status": "fallback",
+    "answer": "Wraith King: индекс 58.89; Мета 7.41f: 52.6% · 4254 матчей; Добавляет контроль.\nJuggernaut: индекс 55.97; Мета 7.41f: 52.6% · 8044 матчей; Помогает забирать строения.\nAnti-Mage: индекс 51.8; Мета 7.41f: 50.6% · 8450 матчей; Возможный ответ: Ursa на свободную роль соперника.",
+    "risk": "Модель выбрала неподтверждённые доказательства. Индекс не гарантирует победу.",
+    "candidate_ids": [
+      42,
+      8,
+      1
+    ],
+    "evidence_ids": [
+      "engine:42",
+      "engine:8",
+      "engine:1"
+    ],
+    "sources": [
+      {
+        "id": "engine:42",
+        "title": "Wraith King — расчёт движка",
+        "url": null
+      },
+      {
+        "id": "engine:8",
+        "title": "Juggernaut — расчёт движка",
+        "url": null
+      },
+      {
+        "id": "engine:1",
+        "title": "Anti-Mage — расчёт движка",
+        "url": null
+      }
+    ],
+    "trace": [
+      {
+        "tool": "compare_heroes",
+        "arguments": {
+          "hero_names": [
+            "Anti-Mage",
+            "Juggernaut",
+            "Wraith King"
+          ]
+        },
+        "result": {
+          "candidates": [
+            {
+              "id": 42,
+              "name": "Wraith King",
+              "role": 1,
+              "roleName": "Carry",
+              "score": 58.89,
+              "games": 4254,
+              "winRate": 52.63,
+              "reasons": [
+                "Мета 7.41f: 52.6% · 4254 матчей",
+                "Добавляет контроль",
+                "Добавляет инициацию",
+                "Добавляет героя передней линии",
+                "Возможный ответ: Dragon Knight на свободную роль соперника"
+              ],
+              "components": {
+                "meta": 2.89,
+                "counter": 0,
+                "synergy": 0,
+                "composition": 4.8,
+                "fit": 2.4,
+                "risk": -1.2,
+                "mechanics": 0,
+                "development": 0
+              },
+              "evidenceId": "engine:42",
+              "reason_options": [
+                {
+                  "id": "reason:42:0",
+                  "text": "Мета 7.41f: 52.6% · 4254 матчей"
+                },
+                {
+                  "id": "reason:42:1",
+                  "text": "Добавляет контроль"
+                },
+                {
+                  "id": "reason:42:2",
+                  "text": "Добавляет инициацию"
+                },
+                {
+                  "id": "reason:42:3",
+                  "text": "Добавляет героя передней линии"
+                },
+                {
+                  "id": "reason:42:4",
+                  "text": "Возможный ответ: Dragon Knight на свободную роль соперника"
+                }
+              ]
+            },
+            {
+              "id": 8,
+              "name": "Juggernaut",
+              "role": 1,
+              "roleName": "Carry",
+              "score": 55.97,
+              "games": 8044,
+              "winRate": 52.64,
+              "reasons": [
+                "Мета 7.41f: 52.6% · 8044 матчей",
+                "Помогает забирать строения",
+                "Возможный ответ: Enigma на свободную роль соперника"
+              ],
+              "components": {
+                "meta": 2.96,
+                "counter": 0,
+                "synergy": 0,
+                "composition": 1.8,
+                "fit": 2.4,
+                "risk": -1.19,
+                "mechanics": 0,
+                "development": 0
+              },
+              "evidenceId": "engine:8",
+              "reason_options": [
+                {
+                  "id": "reason:8:0",
+                  "text": "Мета 7.41f: 52.6% · 8044 матчей"
+                },
+                {
+                  "id": "reason:8:1",
+                  "text": "Помогает забирать строения"
+                },
+                {
+                  "id": "reason:8:2",
+                  "text": "Возможный ответ: Enigma на свободную роль соперника"
+                }
+              ]
+            },
+            {
+              "id": 1,
+              "name": "Anti-Mage",
+              "role": 1,
+              "roleName": "Carry",
+              "score": 51.8,
+              "games": 8450,
+              "winRate": 50.63,
+              "reasons": [
+                "Мета 7.41f: 50.6% · 8450 матчей",
+                "Возможный ответ: Ursa на свободную роль соперника"
+              ],
+              "components": {
+                "meta": 0.7,
+                "counter": 0,
+                "synergy": 0,
+                "composition": 0,
+                "fit": 2.4,
+                "risk": -1.3,
+                "mechanics": 0,
+                "development": 0
+              },
+              "evidenceId": "engine:1",
+              "reason_options": [
+                {
+                  "id": "reason:1:0",
+                  "text": "Мета 7.41f: 50.6% · 8450 матчей"
+                },
+                {
+                  "id": "reason:1:1",
+                  "text": "Возможный ответ: Ursa на свободную роль соперника"
+                }
+              ]
+            }
+          ],
+          "compositionRisks": [
+            {
+              "id": "composition:radiant:0",
+              "text": "Состав radiant ещё не завершён: выбрано 0 из 5 героев. Оценка предварительная."
+            }
+          ],
+          "side": "radiant",
+          "type": "pick",
+          "role": 1,
+          "state": {
+            "mode": "free",
+            "first": "radiant",
+            "pool": [],
+            "history": [],
+            "roleOverrides": {},
+            "potentialItems": true
+          },
+          "currentAction": null,
+          "selected": [],
+          "source": {
+            "patch": "7.41f",
+            "matches": 49919,
+            "generatedAt": 1792674306.900278,
+            "roleSpecific": false,
+            "mode": "fresh"
+          },
+          "outlook": null,
+          "limitations": [
+            "Индекс и итоговые проценты — эвристика, не проверенная вероятность победы.",
+            "Статистика Ranked All Pick, Divine+; не размечена по ролям и не доказывает причинность.",
+            "Сохранённый снимок данных, актуальность патча на сегодня не проверена.",
+            "Справочник механик неполный. Окончательный выбор делает игрок."
+          ],
+          "unavailable_names": []
+        }
+      }
+    ],
+    "model": "qwen3:4b-instruct",
+    "elapsed_seconds": 50.11,
+    "usage": {
+      "input_tokens": 2433,
+      "output_tokens": 124,
+      "model_calls": 2
+    },
+    "snapshot": {
+      "patch": "7.41f",
+      "matches": 49919,
+      "generatedAt": 1792674306.900278,
+      "roleSpecific": false,
+      "mode": "fresh"
+    },
+    "limitations": [
+      "Индекс и итоговые проценты — эвристика, не проверенная вероятность победы.",
+      "Статистика Ranked All Pick, Divine+; не размечена по ролям и не доказывает причинность.",
+      "Сохранённый снимок данных, актуальность патча на сегодня не проверена.",
+      "Справочник механик неполный. Окончательный выбор делает игрок."
+    ],
+    "baseline": {
+      "status": "fallback",
+      "answer": "Wraith King: индекс 58.89; Мета 7.41f: 52.6% · 4254 матчей; Добавляет контроль.\nJuggernaut: индекс 55.97; Мета 7.41f: 52.6% · 8044 матчей; Помогает забирать строения.\nAnti-Mage: индекс 51.8; Мета 7.41f: 50.6% · 8450 матчей; Возможный ответ: Ursa на свободную роль соперника.",
+      "risk": "Шаблон без LLM. Индекс не гарантирует победу.",
+      "candidate_ids": [
+        42,
+        8,
+        1
+      ],
+      "evidence_ids": [
+        "engine:42",
+        "engine:8",
+        "engine:1"
+      ]
+    },
+    "raw_model_answer": "{\"mode\": \"compare\", \"candidate_ids\": [42, 8, 1], \"reason_ids\": [\"reason:42:0\", \"reason:42:1\", \"reason:42:2\", \"reason:42:3\", \"reason:42:4\", \"reason:8:0”, \" ], \"fact_ids\": [], \"note_code\": \"data_limited\"}"
+  },
+  "wall_seconds": 50.13
+}

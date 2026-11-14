@@ -1,0 +1,53 @@
+{
+  "inputs": {
+    "development_hours": 40,
+    "data_hours": 8,
+    "qa_hours": 8,
+    "onboarding_hours": 4,
+    "hour_rub": 600,
+    "support_hours_month": 2,
+    "device_rub": 90000,
+    "device_months": 36,
+    "allocated_device_fraction": 0.2,
+    "power_kw": 0.03,
+    "electricity_rub_kwh": 8,
+    "manual_minutes": 5,
+    "review_minutes": 1.5,
+    "horizon_months": 12,
+    "mean_observed_latency_seconds": 46.18125,
+    "input_api_rub_per_million": 0,
+    "output_api_rub_per_million": 0
+  },
+  "initial_rub": 36000,
+  "fixed_month_rub": 1700.0,
+  "energy_per_task_rub": 0.00307875,
+  "api_cost_per_call_rub": 0,
+  "saved_minutes_per_task": 2.7303125,
+  "value_per_task_rub": 27.303125,
+  "net_per_task_rub": 27.30004625,
+  "operating_break_even_tasks_month": 63,
+  "year_break_even_tasks": 2066,
+  "sensitivity": [
+    {
+      "manual_minutes": 2,
+      "net_value_per_task": -2.6999537499999993,
+      "year_break_even_tasks": null
+    },
+    {
+      "manual_minutes": 3,
+      "net_value_per_task": 7.300046249999999,
+      "year_break_even_tasks": 7726
+    },
+    {
+      "manual_minutes": 5,
+      "net_value_per_task": 27.30004625,
+      "year_break_even_tasks": 2066
+    },
+    {
+      "manual_minutes": 8,
+      "net_value_per_task": 57.30004625,
+      "year_break_even_tasks": 985
+    }
+  ],
+  "note": "Окупаемость через условную стоимость высвобожденного рабочего времени, не выручку и не доказанную экономию денег. Нужен пилот. Для любительской игры денежная окупаемость не установлена."
+}

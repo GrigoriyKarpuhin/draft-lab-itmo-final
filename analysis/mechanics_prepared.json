@@ -1,0 +1,2865 @@
+[
+  {
+    "id": "mechanics:41:faceless_void_time_walk",
+    "hero_id": 41,
+    "hero": "Faceless Void",
+    "ability": "Time Walk",
+    "text": "Rushes to a target location while backtracking any damage taken the last [значение не сохранено] seconds.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=41",
+    "patch": "7.41f",
+    "unresolved_parameters": [
+      "%backtrack_duration%"
+    ]
+  },
+  {
+    "id": "mechanics:41:faceless_void_time_dilation",
+    "hero_id": 41,
+    "hero": "Faceless Void",
+    "ability": "Time Dilation",
+    "text": "Faceless Void envelops nearby enemies with time dilating fields to slow cooldown progression of their abilities. Each enveloped enemy gains one Time Dilation stack when applied, and one stack per ability they have on cooldown. Each stack deals damage per second and slows movement and attack speed. The duration is paused while affected by Chronosphere.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=41",
+    "patch": "7.41f",
+    "unresolved_parameters": []
+  },
+  {
+    "id": "mechanics:41:faceless_void_time_lock",
+    "hero_id": 41,
+    "hero": "Faceless Void",
+    "ability": "Time Lock",
+    "text": "Adds the chance for an attack to lock an enemy unit in time while attacking it a second time.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=41",
+    "patch": "7.41f",
+    "unresolved_parameters": []
+  },
+  {
+    "id": "mechanics:41:faceless_void_time_walk_reverse",
+    "hero_id": 41,
+    "hero": "Faceless Void",
+    "ability": "Reverse Time Walk",
+    "text": "Available for 1.5 seconds after landing Time Walk. If used in this period, you will reverse your time walk back to your previous cast location. Does not affect health or proc scepter hits.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=41",
+    "patch": "7.41f",
+    "unresolved_parameters": []
+  },
+  {
+    "id": "mechanics:41:faceless_void_distortion_field",
+    "hero_id": 41,
+    "hero": "Faceless Void",
+    "ability": "Distortion Field",
+    "text": "Enemy Attack Projectiles targetting Faceless Void or allied heroes within a [значение не сохранено] radius of him get slowed by [значение не сохранено]%%, when they get within [значение не сохранено] distance of their target.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=41",
+    "patch": "7.41f",
+    "unresolved_parameters": [
+      "%friendly_hero_distance%",
+      "%attack_projectile_slow%",
+      "%slow_distance_max%"
+    ]
+  },
+  {
+    "id": "mechanics:41:faceless_void_chronosphere",
+    "hero_id": 41,
+    "hero": "Faceless Void",
+    "ability": "Chronosphere",
+    "text": "Creates a blister in spacetime, trapping all units caught in its sphere of influence and causes you to move very quickly inside it. Only Faceless Void and any units he controls are unaffected. Invisible enemies in the sphere will be revealed.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=41",
+    "patch": "7.41f",
+    "unresolved_parameters": []
+  },
+  {
+    "id": "mechanics:74:invoker_quas",
+    "hero_id": 74,
+    "hero": "Invoker",
+    "ability": "Quas",
+    "text": "Allows manipulation of ice elements. Active Quas instances imbue Invoker with bonus hp regeneration. Passively grants bonus strength per level of Quas .",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=74",
+    "patch": "7.41f",
+    "unresolved_parameters": []
+  },
+  {
+    "id": "mechanics:74:invoker_wex",
+    "hero_id": 74,
+    "hero": "Invoker",
+    "ability": "Wex",
+    "text": "Allows manipulation of storm elements. Active Wex instances imbue Invoker with bonus movement and attack speed. Passively grants bonus agility per level of Wex .",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=74",
+    "patch": "7.41f",
+    "unresolved_parameters": []
+  },
+  {
+    "id": "mechanics:74:invoker_exort",
+    "hero_id": 74,
+    "hero": "Invoker",
+    "ability": "Exort",
+    "text": "Allows manipulation of fire elements. Active Exort instances imbue Invoker with bonus attack damage. Passively grants bonus intelligence per level of Exort .",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=74",
+    "patch": "7.41f",
+    "unresolved_parameters": []
+  },
+  {
+    "id": "mechanics:74:invoker_invoke",
+    "hero_id": 74,
+    "hero": "Invoker",
+    "ability": "Invoke",
+    "text": "Combines the properties of the elements currently being manipulated to create a new spell for Invoker to use. Invoke cooldown is reduced by [значение не сохранено] seconds for each orb level. Invoker gains a bonus ability point for his orbs at levels [значение не сохранено], [значение не сохранено], and [значение не сохранено]. Invoker's vast knowledge of magic allows him to choose from Multiple Aghanim's Scepter and Shard options. The items must be activated before they can be used, and cannot be changed after they are chosen. Click the help button to see the list of possible spells.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=74",
+    "patch": "7.41f",
+    "unresolved_parameters": [
+      "%cooldown_reduction_per_orb%",
+      "%first_ability_level%",
+      "%second_ability_level%",
+      "%third_ability_level%"
+    ]
+  },
+  {
+    "id": "mechanics:74:invoker_cold_snap",
+    "hero_id": 74,
+    "hero": "Invoker",
+    "ability": "Cold Snap",
+    "text": "Invoker draws the heat from an enemy, chilling them to their very core for a duration based on the level of Quas . The enemy will take damage and be briefly frozen. Further damage taken in this state will freeze the enemy again, dealing bonus damage. The enemy can only be frozen so often, but the freeze cooldown decreases based on the level of Quas .",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=74",
+    "patch": "7.41f",
+    "unresolved_parameters": []
+  },
+  {
+    "id": "mechanics:74:invoker_ghost_walk",
+    "hero_id": 74,
+    "hero": "Invoker",
+    "ability": "Ghost Walk",
+    "text": "Invoker manipulates the ice and electrical energies around him, rendering his body invisible and gaining health and mana regen. The elemental imbalance created as a consequence slows nearby enemies based on the level of Quas , and slows Invoker as well based on the level of Wex .",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=74",
+    "patch": "7.41f",
+    "unresolved_parameters": []
+  },
+  {
+    "id": "mechanics:74:invoker_tornado",
+    "hero_id": 74,
+    "hero": "Invoker",
+    "ability": "Tornado",
+    "text": "Unleashes a fast moving tornado that picks up enemy units in its path, suspending them helplessly in the air shortly before allowing them to plummet to their doom. Travels further based on the level of Wex . Holds enemies in the air for a duration based on the level of Quas . Deals base damage plus added damage based on levels in Wex . DISPEL TYPE: Basic Dispel",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=74",
+    "patch": "7.41f",
+    "unresolved_parameters": []
+  },
+  {
+    "id": "mechanics:74:invoker_emp",
+    "hero_id": 74,
+    "hero": "Invoker",
+    "ability": "E.M.P.",
+    "text": "Invoker builds up a charge of electromagnetic energy at a targeted location which automatically detonates after [значение не сохранено] seconds. The detonation covers an area, draining mana based on the level of Wex . Deals damage for each point of mana drained. If EMP drains mana from an enemy hero, Invoker gains [значение не сохранено]%% of the mana drained.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=74",
+    "patch": "7.41f",
+    "unresolved_parameters": [
+      "%delay%",
+      "%self_mana_restore_pct%"
+    ]
+  },
+  {
+    "id": "mechanics:74:invoker_alacrity",
+    "hero_id": 74,
+    "hero": "Invoker",
+    "ability": "Alacrity",
+    "text": "Invoker infuses an ally with an immense surge of energy, increasing their attack speed based on the level of Wex and their damage based on the level of Exort .",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=74",
+    "patch": "7.41f",
+    "unresolved_parameters": []
+  },
+  {
+    "id": "mechanics:74:invoker_chaos_meteor",
+    "hero_id": 74,
+    "hero": "Invoker",
+    "ability": "Chaos Meteor",
+    "text": "Invoker pulls a flaming meteor from space onto the targeted location. Upon landing, the meteor rolls forward, constantly dealing damage based on the level of Exort , and rolling further based on the level of Wex . Units hit by the meteor will also be set on fire for a short time, receiving additional damage based on the level of Exort .",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=74",
+    "patch": "7.41f",
+    "unresolved_parameters": []
+  },
+  {
+    "id": "mechanics:74:invoker_sun_strike",
+    "hero_id": 74,
+    "hero": "Invoker",
+    "ability": "Sun Strike",
+    "text": "Sends a catastrophic ray of fierce energy from the sun at any targeted location, incinerating all enemies standing beneath it once it reaches the earth. Deals damage based on the level of Exort , however this damage is spread evenly over all enemies hit.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=74",
+    "patch": "7.41f",
+    "unresolved_parameters": []
+  },
+  {
+    "id": "mechanics:74:invoker_forge_spirit",
+    "hero_id": 74,
+    "hero": "Invoker",
+    "ability": "Forge Spirit",
+    "text": "Invoker forges a spirit embodying the strength of fire and fortitude of ice. Damage and armor are based on the level of Exort while attack range, health, and duration are based on the level of Quas . The elemental's scorching attack is capable of melting the armor of enemy heroes. The number of spirits spawned is determined by the lower level of Quas and Exort .",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=74",
+    "patch": "7.41f",
+    "unresolved_parameters": []
+  },
+  {
+    "id": "mechanics:74:invoker_ice_wall",
+    "hero_id": 74,
+    "hero": "Invoker",
+    "ability": "Ice Wall",
+    "text": "Generates a wall of solid ice directly in front of Invoker for a duration based on the level of Quas . The bitter cold emanating from it greatly slows nearby enemies based on the level of Quas and deals damage each second based on the level of Exort .",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=74",
+    "patch": "7.41f",
+    "unresolved_parameters": []
+  },
+  {
+    "id": "mechanics:74:invoker_deafening_blast",
+    "hero_id": 74,
+    "hero": "Invoker",
+    "ability": "Deafening Blast",
+    "text": "Invoker unleashes a mighty sonic wave in front of him, dealing damage to any enemy unit it collides with based on the level of Exort . The sheer impact from the blast is enough to knock those enemy units back for a duration based on the level of Quas , then disarm their attacks for a duration based on the level of Wex .",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=74",
+    "patch": "7.41f",
+    "unresolved_parameters": []
+  },
+  {
+    "id": "mechanics:110:phoenix_icarus_dive",
+    "hero_id": 110,
+    "hero": "Phoenix",
+    "ability": "Icarus Dive",
+    "text": "Phoenix dives forward in an arc with a fixed distance in the targeted direction, dealing damage over time and slowing the movement speed of any units it comes into contact with, and then orbiting back to its original position. If Phoenix casts Supernova, the dive ends.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=110",
+    "patch": "7.41f",
+    "unresolved_parameters": []
+  },
+  {
+    "id": "mechanics:110:phoenix_fire_spirits",
+    "hero_id": 110,
+    "hero": "Phoenix",
+    "ability": "Fire Spirits",
+    "text": "Summons 4 fire spirits that circle around Phoenix. Each spirit can be launched independently at a targeted area of effect. Affected enemy units take damage over time and have their attack speed greatly reduced.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=110",
+    "patch": "7.41f",
+    "unresolved_parameters": []
+  },
+  {
+    "id": "mechanics:110:phoenix_sun_ray",
+    "hero_id": 110,
+    "hero": "Phoenix",
+    "ability": "Sun Ray",
+    "text": "Phoenix expels a beam of light at the cost of its own health. The beam damages enemies and heals allies for a base amount plus a percentage of their max health. The percentage increases as the beam continues to fire.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=110",
+    "patch": "7.41f",
+    "unresolved_parameters": []
+  },
+  {
+    "id": "mechanics:110:phoenix_dying_light",
+    "hero_id": 110,
+    "hero": "Phoenix",
+    "ability": "Dying Light",
+    "text": "Phoenix deals [значение не сохранено]%% of its missing health as magic damage to all enemies in a [значение не сохранено] radius every second.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=110",
+    "patch": "7.41f",
+    "unresolved_parameters": [
+      "%damage_pct%",
+      "%radius%"
+    ]
+  },
+  {
+    "id": "mechanics:110:phoenix_supernova",
+    "hero_id": 110,
+    "hero": "Phoenix",
+    "ability": "Supernova",
+    "text": "The Phoenix willingly ends its current life for the chance to be reborn. Transforms into a burning sun that scorches enemies in a huge area. The sun can be destroyed by attacks from enemy Heroes. After [значение не сохранено] seconds the sun explodes, stunning all nearby enemies while restoring Phoenix to full health and mana with refreshed abilities. DISPEL TYPE: Strong Dispel",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=110",
+    "patch": "7.41f",
+    "unresolved_parameters": [
+      "%abilityduration%"
+    ]
+  },
+  {
+    "id": "mechanics:30:witch_doctor_paralyzing_cask",
+    "hero_id": 30,
+    "hero": "Witch Doctor",
+    "ability": "Paralyzing Cask",
+    "text": "Launches a cask of paralyzing powder that ricochets between enemy units, stunning and damaging those it hits. Damage increases each bounce.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=30",
+    "patch": "7.41f",
+    "unresolved_parameters": []
+  },
+  {
+    "id": "mechanics:30:witch_doctor_voodoo_restoration",
+    "hero_id": 30,
+    "hero": "Witch Doctor",
+    "ability": "Voodoo Restoration",
+    "text": "Witch Doctor focuses his magic to heal nearby allied units, costing Witch Doctor mana every second Voodoo Restoration is active.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=30",
+    "patch": "7.41f",
+    "unresolved_parameters": []
+  },
+  {
+    "id": "mechanics:30:witch_doctor_maledict",
+    "hero_id": 30,
+    "hero": "Witch Doctor",
+    "ability": "Maledict",
+    "text": "Curses all enemy Heroes and player-controlled targets in a small area, causing them to take a set amount of damage each second, as well as bursts of damage every 4 seconds based on how much health they have lost since the curse began.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=30",
+    "patch": "7.41f",
+    "unresolved_parameters": []
+  },
+  {
+    "id": "mechanics:30:witch_doctor_voodoo_switcheroo",
+    "hero_id": 30,
+    "hero": "Witch Doctor",
+    "ability": "Voodoo Switcheroo",
+    "text": "Turns Witch Doctor into a Death Ward briefly with reduced attack speed. He is hidden during this time.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=30",
+    "patch": "7.41f",
+    "unresolved_parameters": []
+  },
+  {
+    "id": "mechanics:30:witch_doctor_gris_gris",
+    "hero_id": 30,
+    "hero": "Witch Doctor",
+    "ability": "Gris-Gris",
+    "text": "Witch Doctor gets a Gris-Gris, an item that cannot be dropped or placed in the backpack. When the owner dies, [значение не сохранено]%% of the gold lost from death is added to the item, and will be refunded when the item is consumed. The value of the Gris-Gris is increased by 1 every [значение не сохранено]s. Right-click to consume and permanently remove the item.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=30",
+    "patch": "7.41f",
+    "unresolved_parameters": [
+      "%death_gold_lost_reduction_pct_tooltip%",
+      "%gold_tick_interval_tooltip%"
+    ]
+  },
+  {
+    "id": "mechanics:30:witch_doctor_death_ward",
+    "hero_id": 30,
+    "hero": "Witch Doctor",
+    "ability": "Death Ward",
+    "text": "CHANNELED - Summons a deadly ward to attack enemy heroes within its attack range. Lasts a maximum of [значение не сохранено] seconds. Death Ward has [значение не сохранено]%% bonus accuracy.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=30",
+    "patch": "7.41f",
+    "unresolved_parameters": [
+      "%abilitychanneltime%",
+      "%bonus_accuracy%"
+    ]
+  },
+  {
+    "id": "mechanics:97:magnataur_shockwave",
+    "hero_id": 97,
+    "hero": "Magnus",
+    "ability": "Shockwave",
+    "text": "Magnus sends out a wave of force, damaging enemy units in a line, pulling them towards him, and slowing them for a brief period.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=97",
+    "patch": "7.41f",
+    "unresolved_parameters": []
+  },
+  {
+    "id": "mechanics:97:magnataur_empower",
+    "hero_id": 97,
+    "hero": "Magnus",
+    "ability": "Empower",
+    "text": "When cast on an ally, grants them bonus damage and cleave on attack. Empower is always on Magnus with [значение не сохранено]%% larger bonus.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=97",
+    "patch": "7.41f",
+    "unresolved_parameters": [
+      "%self_multiplier%"
+    ]
+  },
+  {
+    "id": "mechanics:97:magnataur_skewer",
+    "hero_id": 97,
+    "hero": "Magnus",
+    "ability": "Skewer",
+    "text": "Magnus rushes forward, goring enemy units on his massive tusk. Heroes hit on the way will be dragged to the destination, then damaged and affected by slowed movement speed. The damage is increased based on distance traveled.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=97",
+    "patch": "7.41f",
+    "unresolved_parameters": []
+  },
+  {
+    "id": "mechanics:97:magnataur_horn_toss",
+    "hero_id": 97,
+    "hero": "Magnus",
+    "ability": "Horn Toss",
+    "text": "Magnus tosses any enemies in front of him, launching them to his rear. Enemies take damage, spend [значение не сохранено] seconds in the air, and are stunned while in the air and an additional amount of time after landing.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=97",
+    "patch": "7.41f",
+    "unresolved_parameters": [
+      "%air_duration%"
+    ]
+  },
+  {
+    "id": "mechanics:97:magnataur_solid_core",
+    "hero_id": 97,
+    "hero": "Magnus",
+    "ability": "Solid Core",
+    "text": "Magnus has increased slow resistance and suffers less knockback from enemy's abilities and items.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=97",
+    "patch": "7.41f",
+    "unresolved_parameters": []
+  },
+  {
+    "id": "mechanics:97:magnataur_reverse_polarity",
+    "hero_id": 97,
+    "hero": "Magnus",
+    "ability": "Reverse Polarity",
+    "text": "Magnus changes properties of matter, pulling all nearby enemies in front of him and stunning them with a damaging slam.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=97",
+    "patch": "7.41f",
+    "unresolved_parameters": []
+  },
+  {
+    "id": "mechanics:8:juggernaut_blade_fury",
+    "hero_id": 8,
+    "hero": "Juggernaut",
+    "ability": "Blade Fury",
+    "text": "Causes a bladestorm of destructive force around Juggernaut, rendering him debuff immune with [значение не сохранено]%% magic resistance and dealing damage every [значение не сохранено]s to nearby enemy units. Applies a strong dispel at the end of the spin.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=8",
+    "patch": "7.41f",
+    "unresolved_parameters": [
+      "%immunity_resist%",
+      "%blade_fury_damage_tick%"
+    ]
+  },
+  {
+    "id": "mechanics:8:juggernaut_healing_ward",
+    "hero_id": 8,
+    "hero": "Juggernaut",
+    "ability": "Healing Ward",
+    "text": "Summons a Healing Ward which heals all nearby allied units, based on their max health. The Healing Ward moves at [значение не сохранено] movement speed after being summoned. Lasts [значение не сохранено] seconds.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=8",
+    "patch": "7.41f",
+    "unresolved_parameters": [
+      "%healing_ward_movespeed_tooltip%",
+      "%abilityduration%"
+    ]
+  },
+  {
+    "id": "mechanics:8:juggernaut_blade_dance",
+    "hero_id": 8,
+    "hero": "Juggernaut",
+    "ability": "Blade Dance",
+    "text": "Gives Juggernaut a chance to deal critical damage with Blade Fury and on each attack.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=8",
+    "patch": "7.41f",
+    "unresolved_parameters": []
+  },
+  {
+    "id": "mechanics:8:juggernaut_swift_slash",
+    "hero_id": 8,
+    "hero": "Juggernaut",
+    "ability": "Swiftslash",
+    "text": "Performs a short Omnislash for [значение не сохранено] seconds.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=8",
+    "patch": "7.41f",
+    "unresolved_parameters": [
+      "%duration%"
+    ]
+  },
+  {
+    "id": "mechanics:8:juggernaut_bladeform",
+    "hero_id": 8,
+    "hero": "Juggernaut",
+    "ability": "Bladeform",
+    "text": "Juggernaut gains a stack of Bladeform every [значение не сохранено]s that Juggernaut does not take damage. Each stack grants bonus base Agility and Movement Speed. Stacks fade after [значение не сохранено]s upon taking any damage.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=8",
+    "patch": "7.41f",
+    "unresolved_parameters": [
+      "%stack_gain_time%",
+      "%linger_duration%"
+    ]
+  },
+  {
+    "id": "mechanics:8:juggernaut_omni_slash",
+    "hero_id": 8,
+    "hero": "Juggernaut",
+    "ability": "Omnislash",
+    "text": "Juggernaut leaps towards the target enemy units, and then slashes the target and other nearby enemy units at an increased attack rate. Juggernaut is invulnerable for the duration. DISPEL TYPE: Basic Dispel",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=8",
+    "patch": "7.41f",
+    "unresolved_parameters": []
+  },
+  {
+    "id": "mechanics:55:dark_seer_vacuum",
+    "hero_id": 55,
+    "hero": "Dark Seer",
+    "ability": "Vacuum",
+    "text": "Dark Seer creates a vacuum over the target area that sucks in enemy units, disrupting them and dealing damage.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=55",
+    "patch": "7.41f",
+    "unresolved_parameters": []
+  },
+  {
+    "id": "mechanics:55:dark_seer_ion_shell",
+    "hero_id": 55,
+    "hero": "Dark Seer",
+    "ability": "Ion Shell",
+    "text": "Surrounds the target unit with a bristling shield that damages enemy units in an area around it.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=55",
+    "patch": "7.41f",
+    "unresolved_parameters": []
+  },
+  {
+    "id": "mechanics:55:dark_seer_surge",
+    "hero_id": 55,
+    "hero": "Dark Seer",
+    "ability": "Surge",
+    "text": "Charges a target friendly unit with power, giving it a brief burst of phased movement speed. Allows the unit to reach maximum movement speed and cannot be slowed.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=55",
+    "patch": "7.41f",
+    "unresolved_parameters": []
+  },
+  {
+    "id": "mechanics:55:dark_seer_normal_punch",
+    "hero_id": 55,
+    "hero": "Dark Seer",
+    "ability": "Normal Punch",
+    "text": "Passive ability. Causes Dark Seer's next attack on a hero to have True Strike, knock a replica out of the victim, damaging and stunning them based on how far Dark Seer has moved in the past [значение не сохранено] seconds. Max power is reached after [значение не сохранено] distance moved.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=55",
+    "patch": "7.41f",
+    "unresolved_parameters": [
+      "%recent_duration%",
+      "%max_distance%"
+    ]
+  },
+  {
+    "id": "mechanics:55:dark_seer_aggrandize",
+    "hero_id": 55,
+    "hero": "Dark Seer",
+    "ability": "Quick Wit",
+    "text": "Dark Seer gains [значение не сохранено] Attack Speed from each point of Intelligence. When Dark Seer levels up, he restores a percentage of his max health and mana.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=55",
+    "patch": "7.41f",
+    "unresolved_parameters": [
+      "%int_to_atkspd%"
+    ]
+  },
+  {
+    "id": "mechanics:55:dark_seer_wall_of_replica",
+    "hero_id": 55,
+    "hero": "Dark Seer",
+    "ability": "Wall of Replica",
+    "text": "Raises a wall of warping light that slows, damages, and creates replicas of any enemy hero who crosses it. Enemy replicas serve at the Dark Seer's will. Replicas last until they are destroyed, or until the wall's duration ends.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=55",
+    "patch": "7.41f",
+    "unresolved_parameters": []
+  },
+  {
+    "id": "mechanics:7:earthshaker_fissure",
+    "hero_id": 7,
+    "hero": "Earthshaker",
+    "ability": "Fissure",
+    "text": "Slams the ground with a mighty totem, creating an impassable ridge of stone while stunning and damaging enemy units along its line.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=7",
+    "patch": "7.41f",
+    "unresolved_parameters": []
+  },
+  {
+    "id": "mechanics:7:earthshaker_enchant_totem",
+    "hero_id": 7,
+    "hero": "Earthshaker",
+    "ability": "Enchant Totem",
+    "text": "Empowers Earthshaker's totem, causing it to deal extra damage and have [значение не сохранено] bonus attack range on the next attack.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=7",
+    "patch": "7.41f",
+    "unresolved_parameters": [
+      "%bonus_attack_range%"
+    ]
+  },
+  {
+    "id": "mechanics:7:earthshaker_aftershock",
+    "hero_id": 7,
+    "hero": "Earthshaker",
+    "ability": "Aftershock",
+    "text": "Causes the earth to shake underfoot, adding additional damage and stuns to nearby enemy units when Earthshaker casts his abilities.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=7",
+    "patch": "7.41f",
+    "unresolved_parameters": []
+  },
+  {
+    "id": "mechanics:7:earthshaker_echo_slam",
+    "hero_id": 7,
+    "hero": "Earthshaker",
+    "ability": "Echo Slam",
+    "text": "Shockwaves travel through the ground, damaging enemy units. Each enemy hit causes an echo to damage nearby units. Real heroes cause two echoes.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=7",
+    "patch": "7.41f",
+    "unresolved_parameters": []
+  },
+  {
+    "id": "mechanics:7:earthshaker_slugger",
+    "hero_id": 7,
+    "hero": "Earthshaker",
+    "ability": "Slugger",
+    "text": "Enemies killed with Enchant Totem or Earthshaker's other abilities are sent flying, dealing damage to enemies they hit.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=7",
+    "patch": "7.41f",
+    "unresolved_parameters": []
+  },
+  {
+    "id": "mechanics:79:shadow_demon_disruption",
+    "hero_id": 79,
+    "hero": "Shadow Demon",
+    "ability": "Disruption",
+    "text": "Banishes the targeted unit from the battlefield for a short duration. Upon returning, two illusions of the banished unit with bonus base damage are created under Shadow Demon's control.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=79",
+    "patch": "7.41f",
+    "unresolved_parameters": []
+  },
+  {
+    "id": "mechanics:79:shadow_demon_disseminate",
+    "hero_id": 79,
+    "hero": "Shadow Demon",
+    "ability": "Disseminate",
+    "text": "Whenever the target takes damage, all enemies, including the target itself if it is an enemy, within [значение не сохранено] range of the target also receive a portion of that damage. Can target enemy and allied units. Effect is paused if the target is hidden by Disruption.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=79",
+    "patch": "7.41f",
+    "unresolved_parameters": [
+      "%radius%"
+    ]
+  },
+  {
+    "id": "mechanics:79:shadow_demon_shadow_poison",
+    "hero_id": 79,
+    "hero": "Shadow Demon",
+    "ability": "Shadow Poison",
+    "text": "Deals damage in a line, and afflicts enemy units with a poison effect. The poison deals 1/2/4/8/16 times the stack damage based on the number of stacks on the target, up to [значение не сохранено] stacks. Additional stacks cause [значение не сохранено] damage each. This deferred damage is dealt when Shadow Poison's duration is expired, or the Release sub-ability is used.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=79",
+    "patch": "7.41f",
+    "unresolved_parameters": [
+      "%max_multiply_stacks%",
+      "%bonus_stack_damage%"
+    ]
+  },
+  {
+    "id": "mechanics:79:shadow_demon_demonic_cleanse",
+    "hero_id": 79,
+    "hero": "Shadow Demon",
+    "ability": "Demonic Cleanse",
+    "text": "Cleanses the target allied unit, removing negative buffs for the duration. At the end of the duration, the unit is healed. Units under the effect of Disruption can still be affected by Demonic Cleanse. DISPEL TYPE: Basic Dispel",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=79",
+    "patch": "7.41f",
+    "unresolved_parameters": []
+  },
+  {
+    "id": "mechanics:79:shadow_demon_demonic_purge",
+    "hero_id": 79,
+    "hero": "Shadow Demon",
+    "ability": "Demonic Purge",
+    "text": "Purges the target enemy unit, removing positive buffs, and slowing the target for the duration. The unit slowly regains its speed until the end of the duration, upon which damage is dealt. Units under the effect of Disruption can still be affected by Demonic Purge. DISPEL TYPE: Basic Dispel",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=79",
+    "patch": "7.41f",
+    "unresolved_parameters": []
+  },
+  {
+    "id": "mechanics:79:shadow_demon_menace",
+    "hero_id": 79,
+    "hero": "Shadow Demon",
+    "ability": "Menace",
+    "text": "Shadow Demon's Attacks apply a stacking debuff to the enemy for [значение не сохранено] seconds that increases their damage taken.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=79",
+    "patch": "7.41f",
+    "unresolved_parameters": [
+      "%duration%"
+    ]
+  },
+  {
+    "id": "mechanics:9:mirana_starfall",
+    "hero_id": 9,
+    "hero": "Mirana",
+    "ability": "Starstorm",
+    "text": "Calls down a wave of meteors to damage nearby enemy units. The closest enemy unit to Mirana in a [значение не сохранено] radius will be struck a second time.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=9",
+    "patch": "7.41f",
+    "unresolved_parameters": [
+      "%starfall_secondary_radius%"
+    ]
+  },
+  {
+    "id": "mechanics:9:mirana_arrow",
+    "hero_id": 9,
+    "hero": "Mirana",
+    "ability": "Sacred Arrow",
+    "text": "Fires a long-range arrow with deadly precision, which stuns and damages the first enemy unit it strikes. The stun duration ranges from [значение не сохранено] to [значение не сохранено] seconds, with bonus damage up to [значение не сохранено] added, based on the distance the arrow travels to its target. Instantly kills the first non-ancient creep it hits.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=9",
+    "patch": "7.41f",
+    "unresolved_parameters": [
+      "%arrow_min_stun%",
+      "%arrow_max_stun%",
+      "%arrow_bonus_damage%"
+    ]
+  },
+  {
+    "id": "mechanics:9:mirana_leap",
+    "hero_id": 9,
+    "hero": "Mirana",
+    "ability": "Leap",
+    "text": "Mirana leaps forward into battle, empowering herself with a ferocious roar that grants bonus attack and movement speed. Speed bonus lasts [значение не сохранено] seconds.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=9",
+    "patch": "7.41f",
+    "unresolved_parameters": [
+      "%leap_bonus_duration%"
+    ]
+  },
+  {
+    "id": "mechanics:9:mirana_celestial_quiver",
+    "hero_id": 9,
+    "hero": "Mirana",
+    "ability": "Celestial Quiver",
+    "text": "When a charge is available, Mirana's next attack will deal bonus magic damage.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=9",
+    "patch": "7.41f",
+    "unresolved_parameters": []
+  },
+  {
+    "id": "mechanics:9:mirana_invis",
+    "hero_id": 9,
+    "hero": "Mirana",
+    "ability": "Moonlight Shadow",
+    "text": "Turns Mirana and all allied heroes invisible and grants bonus movement speed. Mirana gains bonus outgoing damage during the duration. If a hero is revealed, invisibility will restore after the fade delay as long as Moonlight Shadow's duration has not expired.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=9",
+    "patch": "7.41f",
+    "unresolved_parameters": []
+  },
+  {
+    "id": "mechanics:3:bane_enfeeble",
+    "hero_id": 3,
+    "hero": "Bane",
+    "ability": "Enfeeble",
+    "text": "Deals damage every second and lowers the enemy's total attack damage and cast range.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=3",
+    "patch": "7.41f",
+    "unresolved_parameters": []
+  },
+  {
+    "id": "mechanics:3:bane_brain_sap",
+    "hero_id": 3,
+    "hero": "Bane",
+    "ability": "Brain Sap",
+    "text": "Feasts on the vital energies of an enemy unit, healing Bane and dealing damage.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=3",
+    "patch": "7.41f",
+    "unresolved_parameters": []
+  },
+  {
+    "id": "mechanics:3:bane_nightmare",
+    "hero_id": 3,
+    "hero": "Bane",
+    "ability": "Nightmare",
+    "text": "Puts the target enemy or friendly Hero to sleep. Sleeping units walk in Bane's chosen direction and are awakened when damaged. If the target was directly attacked, the Nightmare passes to the attacking unit. Bane can attack and damage Nightmared targets freely. Can be put on alt-cast to have the target stand still.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=3",
+    "patch": "7.41f",
+    "unresolved_parameters": []
+  },
+  {
+    "id": "mechanics:3:bane_fiends_grip",
+    "hero_id": 3,
+    "hero": "Bane",
+    "ability": "Fiend's Grip",
+    "text": "CHANNELED - Grips an enemy unit, disabling it and causing heavy damage over time, while stealing mana every [значение не сохранено] seconds based on the unit's maximum mana.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=3",
+    "patch": "7.41f",
+    "unresolved_parameters": [
+      "%fiend_grip_tick_interval%"
+    ]
+  },
+  {
+    "id": "mechanics:3:bane_ichor_of_nyctasha",
+    "hero_id": 3,
+    "hero": "Bane",
+    "ability": "Ichor of Nyctasha",
+    "text": "Every time Bane kills an enemy hero or they die under the effect of Bane's debuff, they receive a Terror for the rest of the game that decreases their status resistance to Bane's subsequent debuffs.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=3",
+    "patch": "7.41f",
+    "unresolved_parameters": []
+  },
+  {
+    "id": "mechanics:129:mars_spear",
+    "hero_id": 129,
+    "hero": "Mars",
+    "ability": "Spear of Mars",
+    "text": "Mars throws his legendary Spear with deadly precision, damaging each enemy unit it strikes. The first enemy hero it hits is skewered on the spear, pushing it back. If a skewered hero hits a tree, building, or cliff, they will be impaled to it and stunned.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=129",
+    "patch": "7.41f",
+    "unresolved_parameters": []
+  },
+  {
+    "id": "mechanics:129:mars_gods_rebuke",
+    "hero_id": 129,
+    "hero": "Mars",
+    "ability": "God's Rebuke",
+    "text": "Mars smashes enemies in front of him with his shield, knocking them back and damaging them with a critical hit based on his attack. Bonus damage is added when hitting heroes. Has True Strike.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=129",
+    "patch": "7.41f",
+    "unresolved_parameters": []
+  },
+  {
+    "id": "mechanics:129:mars_bulwark",
+    "hero_id": 129,
+    "hero": "Mars",
+    "ability": "Bulwark",
+    "text": "Mars wields his massive shield to block a portion of each physical attack when hit from the front or sides. Can be toggled, granting phased movement, removing Mars's ability to attack, and locking the direction he is facing. When active, reduces movement speed and re-directs [значение не сохранено]%% of the attack projectiles aimed at allies towards himself.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=129",
+    "patch": "7.41f",
+    "unresolved_parameters": [
+      "%redirect_chance%"
+    ]
+  },
+  {
+    "id": "mechanics:129:mars_dauntless",
+    "hero_id": 129,
+    "hero": "Mars",
+    "ability": "Dauntless",
+    "text": "Mars gets more HP Regen the more he is outnumbered by enemy heroes in [значение не сохранено] radius.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=129",
+    "patch": "7.41f",
+    "unresolved_parameters": [
+      "%radius%"
+    ]
+  },
+  {
+    "id": "mechanics:129:mars_arena_of_blood",
+    "hero_id": 129,
+    "hero": "Mars",
+    "ability": "Arena Of Blood",
+    "text": "After a short formation time, Mars summons an arena lined with the undead warriors of the Ash Legion, who block enemy attacks and movement. Enemy heroes near the inside edge of the arena will be attacked by spears, dealing damage and knocking them back.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=129",
+    "patch": "7.41f",
+    "unresolved_parameters": []
+  },
+  {
+    "id": "mechanics:128:snapfire_scatterblast",
+    "hero_id": 128,
+    "hero": "Snapfire",
+    "ability": "Scatterblast",
+    "text": "Snapfire unloads with a wide blast that damages and slows enemies in a cone. Damage is increased by [значение не сохранено]%% and Movement Slow, Attack Slow and Slow Duration are increased by [значение не сохранено]%% for enemies caught at point-blank range.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=128",
+    "patch": "7.41f",
+    "unresolved_parameters": [
+      "%point_blank_dmg_bonus_pct%",
+      "%point_blank_debuff_duration_pct%"
+    ]
+  },
+  {
+    "id": "mechanics:128:snapfire_firesnap_cookie",
+    "hero_id": 128,
+    "hero": "Snapfire",
+    "ability": "Firesnap Cookie",
+    "text": "Snapfire feeds a potent cookie to Mortimer or an ally, causing them to hop a short distance. The hopping unit stuns and damages enemies in the landing zone.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=128",
+    "patch": "7.41f",
+    "unresolved_parameters": []
+  },
+  {
+    "id": "mechanics:128:snapfire_lil_shredder",
+    "hero_id": 128,
+    "hero": "Snapfire",
+    "ability": "Lil' Shredder",
+    "text": "Snapfire heats up her mounted turret to rapidly fire [значение не сохранено] attacks dealing fixed damage plus a percentage of her attack damage. Each attack reduces the enemy's armor. Provides bonus attack range for the duration.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=128",
+    "patch": "7.41f",
+    "unresolved_parameters": [
+      "%buffed_attacks%"
+    ]
+  },
+  {
+    "id": "mechanics:128:snapfire_gobble_up",
+    "hero_id": 128,
+    "hero": "Snapfire",
+    "ability": "Gobble Up",
+    "text": "Mortimer gobbles up a creep or an allied hero, which he can then spit towards enemies. The unit stays in his belly up to [значение не сохранено] seconds.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=128",
+    "patch": "7.41f",
+    "unresolved_parameters": [
+      "%max_time_in_belly%"
+    ]
+  },
+  {
+    "id": "mechanics:128:snapfire_spit_creep",
+    "hero_id": 128,
+    "hero": "Snapfire",
+    "ability": "Spit Out",
+    "text": "Mortimer spits out the unit that's in his mouth, causing impact damage and stun in a large area. The glob leaves a pool of firespit based on the current level of Mortimer Kisses, that slows and applies damage over time. Spit Out has a no minimum launch range.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=128",
+    "patch": "7.41f",
+    "unresolved_parameters": []
+  },
+  {
+    "id": "mechanics:128:snapfire_mortimer_kisses",
+    "hero_id": 128,
+    "hero": "Snapfire",
+    "ability": "Mortimer Kisses",
+    "text": "Snapfire's friend launches a barrage of firespit globs over [значение не сохранено] seconds. Globs cause impact damage and create pools of firespit, which slow and apply damage over time. Snapfire has a reduced turn rate for the duration and a minimum launch range of [значение не сохранено]. Each glob can be targeted with a right click.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=128",
+    "patch": "7.41f",
+    "unresolved_parameters": [
+      "%duration_tooltip%",
+      "%min_range%"
+    ]
+  },
+  {
+    "id": "mechanics:128:snapfire_boomstick",
+    "hero_id": 128,
+    "hero": "Snapfire",
+    "ability": "Boomstick",
+    "text": "Snapfire deals more damage to nearby enemies.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=128",
+    "patch": "7.41f",
+    "unresolved_parameters": []
+  },
+  {
+    "id": "mechanics:33:enigma_malefice",
+    "hero_id": 33,
+    "hero": "Enigma",
+    "ability": "Malefice",
+    "text": "Focuses Enigma's power on a target, causing it to take damage and become repeatedly stunned for multiple instances. An instance strikes every [значение не сохранено] seconds.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=33",
+    "patch": "7.41f",
+    "unresolved_parameters": [
+      "%tick_rate%"
+    ]
+  },
+  {
+    "id": "mechanics:33:enigma_demonic_conversion",
+    "hero_id": 33,
+    "hero": "Enigma",
+    "ability": "Demonic Summoning",
+    "text": "Summons three fragments of Enigma himself at the cost of health. The eidolons health is increased by [значение не сохранено]%% of Enigma's current health. These eidolons are all under Enigma's control, and repeated successful attacks cause them to multiply. When this happens, the eidolons have their health restored.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=33",
+    "patch": "7.41f",
+    "unresolved_parameters": [
+      "%current_health_pct%"
+    ]
+  },
+  {
+    "id": "mechanics:33:enigma_midnight_pulse",
+    "hero_id": 33,
+    "hero": "Enigma",
+    "ability": "Midnight Pulse",
+    "text": "Steeps an area in dark resonance, dealing [значение не сохранено] + a percentage of the enemies current HP as damage.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=33",
+    "patch": "7.41f",
+    "unresolved_parameters": [
+      "%base_damage%"
+    ]
+  },
+  {
+    "id": "mechanics:33:enigma_event_horizon",
+    "hero_id": 33,
+    "hero": "Enigma",
+    "ability": "Event Horizon",
+    "text": "Units in a [значение не сохранено] radius moving away from Enigma have a movespeed penalty.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=33",
+    "patch": "7.41f",
+    "unresolved_parameters": [
+      "%radius%"
+    ]
+  },
+  {
+    "id": "mechanics:33:enigma_black_hole",
+    "hero_id": 33,
+    "hero": "Enigma",
+    "ability": "Black Hole",
+    "text": "CHANNELED - Summons a vortex that sucks in nearby enemy units. Enemies affected by Black Hole cannot move, attack, or cast spells.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=33",
+    "patch": "7.41f",
+    "unresolved_parameters": []
+  },
+  {
+    "id": "mechanics:89:naga_siren_mirror_image",
+    "hero_id": 89,
+    "hero": "Naga Siren",
+    "ability": "Mirror Image",
+    "text": "Creates multiple images of Naga Siren under her control. DISPEL TYPE: Basic Dispel",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=89",
+    "patch": "7.41f",
+    "unresolved_parameters": []
+  },
+  {
+    "id": "mechanics:89:naga_siren_ensnare",
+    "hero_id": 89,
+    "hero": "Naga Siren",
+    "ability": "Ensnare",
+    "text": "Interrupts the target and traps them in place, preventing movement or blinking. Can target units affected by Song of the Siren.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=89",
+    "patch": "7.41f",
+    "unresolved_parameters": []
+  },
+  {
+    "id": "mechanics:89:naga_siren_rip_tide",
+    "hero_id": 89,
+    "hero": "Naga Siren",
+    "ability": "Rip Tide",
+    "text": "Naga Siren and her illusions deal bonus damage to enemies and reduce their armor for [значение не сохранено] seconds every [значение не сохранено] attacks.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=89",
+    "patch": "7.41f",
+    "unresolved_parameters": [
+      "%duration%",
+      "%hits%"
+    ]
+  },
+  {
+    "id": "mechanics:89:naga_siren_eelskin",
+    "hero_id": 89,
+    "hero": "Naga Siren",
+    "ability": "Eelskin",
+    "text": "Naga Siren has bonus evasion, increased per every other Naga Siren within [значение не сохранено] radius.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=89",
+    "patch": "7.41f",
+    "unresolved_parameters": [
+      "%radius%"
+    ]
+  },
+  {
+    "id": "mechanics:89:naga_siren_song_of_the_siren",
+    "hero_id": 89,
+    "hero": "Naga Siren",
+    "ability": "Song of the Siren",
+    "text": "All enemies in range of the Naga Siren are put into a magical stasis where they cannot act or be attacked. Using Song of the Siren again will end the duration early.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=89",
+    "patch": "7.41f",
+    "unresolved_parameters": []
+  },
+  {
+    "id": "mechanics:31:lich_frost_nova",
+    "hero_id": 31,
+    "hero": "Lich",
+    "ability": "Frost Blast",
+    "text": "Blasts the target enemy unit with damaging frost, dealing area damage and slowing movement and attack rates for [значение не сохранено] seconds. The primary target receives both base and area damage.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=31",
+    "patch": "7.41f",
+    "unresolved_parameters": [
+      "%abilityduration%"
+    ]
+  },
+  {
+    "id": "mechanics:31:lich_frost_shield",
+    "hero_id": 31,
+    "hero": "Lich",
+    "ability": "Frost Shield",
+    "text": "Applies a magical frost shield around the target, reducing damage from attacks against it. While the shield is active, ice magic will affect nearby enemy units every [значение не сохранено] seconds, dealing minor damage and slowing them.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=31",
+    "patch": "7.41f",
+    "unresolved_parameters": [
+      "%interval%"
+    ]
+  },
+  {
+    "id": "mechanics:31:lich_sinister_gaze",
+    "hero_id": 31,
+    "hero": "Lich",
+    "ability": "Sinister Gaze",
+    "text": "CHANNELED - Hypnotizes an enemy unit, causing it to move towards a point between the two of you and drains a percentage of its current mana.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=31",
+    "patch": "7.41f",
+    "unresolved_parameters": []
+  },
+  {
+    "id": "mechanics:31:lich_ice_spire",
+    "hero_id": 31,
+    "hero": "Lich",
+    "ability": "Ice Spire",
+    "text": "Creates an Ice Spire at the target spot, slowing enemies around it. Can take [значение не сохранено] hero hits or [значение не сохранено] creep hits and when destroyed it will create a Frost Blast around it. Chain Frost can be cast on the Spire and can bounce to the Spire and damage the spire by 1 hero attack if there are no other enemies in range. Lich can cast Frost Shield on the Spire. Each Frost Shield tick will heal the spire by 1 hero attack.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=31",
+    "patch": "7.41f",
+    "unresolved_parameters": [
+      "%max_hero_attacks%",
+      "%max_creep_attacks%"
+    ]
+  },
+  {
+    "id": "mechanics:31:lich_death_charge",
+    "hero_id": 31,
+    "hero": "Lich",
+    "ability": "Sacrifice",
+    "text": "Sacrifice an allied creep to convert its current health into mana for Lich and give Lich its experience bounty. Begins the game on cooldown and with no charges.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=31",
+    "patch": "7.41f",
+    "unresolved_parameters": []
+  },
+  {
+    "id": "mechanics:31:lich_chain_frost",
+    "hero_id": 31,
+    "hero": "Lich",
+    "ability": "Chain Frost",
+    "text": "Releases an orb of frost that bounces between nearby enemy units up to [значение не сохранено] times, slowing and damaging each time it hits. Each bounce increases the damage for the subsequent bounces. Chain Frost lingers on its last target if it fails to bounce and can bounce again if new targets become available.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=31",
+    "patch": "7.41f",
+    "unresolved_parameters": [
+      "%jumps%"
+    ]
+  },
+  {
+    "id": "mechanics:121:grimstroke_dark_artistry",
+    "hero_id": 121,
+    "hero": "Grimstroke",
+    "ability": "Stroke of Fate",
+    "text": "Grimstroke paints a curved path of ink with his brush, damaging and slowing enemies. The damage is increased with each enemy the ink hits. Can be put on alt-cast to have the path be straight.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=121",
+    "patch": "7.41f",
+    "unresolved_parameters": []
+  },
+  {
+    "id": "mechanics:121:grimstroke_ink_creature",
+    "hero_id": 121,
+    "hero": "Grimstroke",
+    "ability": "Phantom's Embrace",
+    "text": "Summons a phantom that moves quickly towards the target, latching to it when she arrives. Once latched, the phantom damages and silences. If she survives the full latch duration she rends her victim for heavy damage and refreshes Phantom's Embrace's cooldown. Hero attacks against the phantom count as 3 attacks each.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=121",
+    "patch": "7.41f",
+    "unresolved_parameters": []
+  },
+  {
+    "id": "mechanics:121:grimstroke_spirit_walk",
+    "hero_id": 121,
+    "hero": "Grimstroke",
+    "ability": "Ink Swell",
+    "text": "Grimstroke shrouds an allied unit in ink, increasing its movement speed. Enemies in range of the allied unit are damaged with inky tendrils over time. After [значение не сохранено] seconds it applies damage and stun in an area around the unit in proportion to how long ink tendril was near any hero.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=121",
+    "patch": "7.41f",
+    "unresolved_parameters": [
+      "%buff_duration%"
+    ]
+  },
+  {
+    "id": "mechanics:121:grimstroke_dark_portrait",
+    "hero_id": 121,
+    "hero": "Grimstroke",
+    "ability": "Dark Portrait",
+    "text": "Creates an ink illusion of a target enemy hero. Illusion is debuff immune, has [значение не сохранено]%% magic resistance, and has bonus movement speed and attack damage.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=121",
+    "patch": "7.41f",
+    "unresolved_parameters": [
+      "%immunity_resist%"
+    ]
+  },
+  {
+    "id": "mechanics:121:grimstroke_soul_chain",
+    "hero_id": 121,
+    "hero": "Grimstroke",
+    "ability": "Soulbind",
+    "text": "Binds a targeted enemy hero to its nearest allied hero within the bind radius, preventing both from moving away from each other. Any unit-targeted ability that either bound hero receives also gets cast on the other hero. If the bind is broken before the duration expires, the initial target will be bound to its nearest allied hero in the radius.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=121",
+    "patch": "7.41f",
+    "unresolved_parameters": []
+  },
+  {
+    "id": "mechanics:121:grimstroke_ink_trail",
+    "hero_id": 121,
+    "hero": "Grimstroke",
+    "ability": "Ink Trail",
+    "text": "Grimstroke's attacks and spells cause affected enemy heroes to leave a trail of Ink behind them and deal less damage to Grimstroke for [значение не сохранено]s.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=121",
+    "patch": "7.41f",
+    "unresolved_parameters": [
+      "%debuff_duration%"
+    ]
+  },
+  {
+    "id": "mechanics:111:oracle_fortunes_end",
+    "hero_id": 111,
+    "hero": "Oracle",
+    "ability": "Fortune's End",
+    "text": "CHANNELED - Gathers Oracle's power into a bolt of scouring energy that, when released, damages, roots, and dispels enemies of buffs in an area around the target. If target is an ally it will only dispel debuffs. The root duration increases with channeling time. DISPEL TYPE: Basic Dispel",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=111",
+    "patch": "7.41f",
+    "unresolved_parameters": []
+  },
+  {
+    "id": "mechanics:111:oracle_fates_edict",
+    "hero_id": 111,
+    "hero": "Oracle",
+    "ability": "Fate's Edict",
+    "text": "Oracle enraptures a target, disarming them and granting them [значение не сохранено]%% magic damage resistance.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=111",
+    "patch": "7.41f",
+    "unresolved_parameters": [
+      "%magic_damage_resistance_pct_tooltip%"
+    ]
+  },
+  {
+    "id": "mechanics:111:oracle_purifying_flames",
+    "hero_id": 111,
+    "hero": "Oracle",
+    "ability": "Purifying Flames",
+    "text": "Burns away impurities, dealing heavy magic damage to the target before causing them to regenerate health over time. The amount of health regenerated over its duration exceeds the amount of initial damage. Can be cast on enemies and allies.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=111",
+    "patch": "7.41f",
+    "unresolved_parameters": []
+  },
+  {
+    "id": "mechanics:111:oracle_rain_of_destiny",
+    "hero_id": 111,
+    "hero": "Oracle",
+    "ability": "Rain of Destiny",
+    "text": "Brings forth rain to the target area. Enemies standing in the area receive damage and have reduced Heal Amplification. Allies in the area heal and have increased incoming Heal Amplification.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=111",
+    "patch": "7.41f",
+    "unresolved_parameters": []
+  },
+  {
+    "id": "mechanics:111:oracle_false_promise",
+    "hero_id": 111,
+    "hero": "Oracle",
+    "ability": "False Promise",
+    "text": "Temporarily alters an ally's destiny, delaying any healing or damage taken until False Promise ends. Any healing that is delayed by False Promise is amplified. Removes most negative status effects and disables on initial cast. DISPEL TYPE: Strong Dispel",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=111",
+    "patch": "7.41f",
+    "unresolved_parameters": []
+  },
+  {
+    "id": "mechanics:111:oracle_prognosticate",
+    "hero_id": 111,
+    "hero": "Oracle",
+    "ability": "Prognosticate",
+    "text": "Oracle will predict and announce to allies, where the next power rune will spawn (top or bottom) as well as Roshan's exact respawn time.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=111",
+    "patch": "7.41f",
+    "unresolved_parameters": []
+  },
+  {
+    "id": "mechanics:59:huskar_inner_fire",
+    "hero_id": 59,
+    "hero": "Huskar",
+    "ability": "Inner Fire",
+    "text": "In a fiery rage, knocks all nearby enemies away from you to a fixed distance, dealing damage and silencing them.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=59",
+    "patch": "7.41f",
+    "unresolved_parameters": []
+  },
+  {
+    "id": "mechanics:59:huskar_burning_spear",
+    "hero_id": 59,
+    "hero": "Huskar",
+    "ability": "Burning Spear",
+    "text": "Huskar sets his spears aflame, dealing damage over time with his regular attack. Multiple attacks will stack additional damage. Each attack drains some of Huskar's health.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=59",
+    "patch": "7.41f",
+    "unresolved_parameters": []
+  },
+  {
+    "id": "mechanics:59:huskar_berserkers_blood",
+    "hero_id": 59,
+    "hero": "Huskar",
+    "ability": "Berserker's Blood",
+    "text": "Huskar's injuries feed his power, giving increased attack speed, magic resistance and health regen based on missing health. Health regen is a percentage of your strength.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=59",
+    "patch": "7.41f",
+    "unresolved_parameters": []
+  },
+  {
+    "id": "mechanics:59:huskar_blood_magic",
+    "hero_id": 59,
+    "hero": "Huskar",
+    "ability": "Blood Magic",
+    "text": "Huskar does not have mana. Mana costs of items are converted into health costs. Huskar's Health Costs are Magical Damage and can be reduced by Magic Resist.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=59",
+    "patch": "7.41f",
+    "unresolved_parameters": []
+  },
+  {
+    "id": "mechanics:59:huskar_life_break",
+    "hero_id": 59,
+    "hero": "Huskar",
+    "ability": "Life Break",
+    "text": "Huskar draws upon his health to break an enemy's life, leaping at a target to shatter a percentage of that hero's current health and slow both their movement and attack speed. While leaping, Huskar is Debuff Immune with [значение не сохранено]%% magic resistance. DISPEL TYPE: Basic Dispel",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=59",
+    "patch": "7.41f",
+    "unresolved_parameters": [
+      "%immunity_resist%"
+    ]
+  },
+  {
+    "id": "mechanics:102:abaddon_death_coil",
+    "hero_id": 102,
+    "hero": "Abaddon",
+    "ability": "Mist Coil",
+    "text": "Abaddon releases a coil of deathly mist that can damage an enemy unit or heal a friendly unit at the cost of some of Abaddon's health.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=102",
+    "patch": "7.41f",
+    "unresolved_parameters": []
+  },
+  {
+    "id": "mechanics:102:abaddon_aphotic_shield",
+    "hero_id": 102,
+    "hero": "Abaddon",
+    "ability": "Aphotic Shield",
+    "text": "Summons dark energies around an ally unit, dispelling them and creating an all damage barrier that absorbs a set amount of damage before expiring. When the barrier is destroyed it will burst and deal damage equal to the amount it could absorb to an area around it. DISPEL TYPE: Strong Dispel",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=102",
+    "patch": "7.41f",
+    "unresolved_parameters": []
+  },
+  {
+    "id": "mechanics:102:abaddon_frostmourne",
+    "hero_id": 102,
+    "hero": "Abaddon",
+    "ability": "Curse of Avernus",
+    "text": "Abaddon strikes an enemy, affecting them by a chilling curse, slowing them, causing them to take damage over time, and all attacks against them gain an attack speed boost. Damage over time component to buildings is reduced by [значение не сохранено]%%.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=102",
+    "patch": "7.41f",
+    "unresolved_parameters": [
+      "%tower_dps_pct%"
+    ]
+  },
+  {
+    "id": "mechanics:102:abaddon_withering_mist",
+    "hero_id": 102,
+    "hero": "Abaddon",
+    "ability": "Withering Mist",
+    "text": "Damaging enemies applies the Withering Mist debuff for [значение не сохранено]s. Affected enemies have their Health Restoration reduced by [значение не сохранено]%% if they are below [значение не сохранено]%% HP.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=102",
+    "patch": "7.41f",
+    "unresolved_parameters": [
+      "%duration%",
+      "%heal_reduction_pct%",
+      "%hp_threshold_pct%"
+    ]
+  },
+  {
+    "id": "mechanics:102:abaddon_borrowed_time",
+    "hero_id": 102,
+    "hero": "Abaddon",
+    "ability": "Borrowed Time",
+    "text": "When activated, dispels you and all damage dealt to you will heal instead of harm. If the ability is not on cooldown, it will automatically activate if your health falls below [значение не сохранено]. DISPEL TYPE: Strong Dispel",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=102",
+    "patch": "7.41f",
+    "unresolved_parameters": [
+      "%hp_threshold%"
+    ]
+  },
+  {
+    "id": "mechanics:104:legion_commander_overwhelming_odds",
+    "hero_id": 104,
+    "hero": "Legion Commander",
+    "ability": "Overwhelming Odds",
+    "text": "Turns the foes' numbers against them, dealing a [значение не сохранено]%% impact slow for [значение не сохранено]s and damage to all enemies in the area. Damage increases with each enemy unit or hero in the area, and grants Legion Commander bonus attack speed.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=104",
+    "patch": "7.41f",
+    "unresolved_parameters": [
+      "%movement_slow%",
+      "%slow_duration%"
+    ]
+  },
+  {
+    "id": "mechanics:104:legion_commander_press_the_attack",
+    "hero_id": 104,
+    "hero": "Legion Commander",
+    "ability": "Press The Attack",
+    "text": "Removes debuffs and disables from the target friendly unit, and grants bonus movement speed and health regen for a short time. DISPEL TYPE: Strong Dispel",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=104",
+    "patch": "7.41f",
+    "unresolved_parameters": []
+  },
+  {
+    "id": "mechanics:104:legion_commander_moment_of_courage",
+    "hero_id": 104,
+    "hero": "Legion Commander",
+    "ability": "Moment of Courage",
+    "text": "When attacked a number of times, Legion Commander will counter-attack her target with bonus lifesteal.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=104",
+    "patch": "7.41f",
+    "unresolved_parameters": []
+  },
+  {
+    "id": "mechanics:104:legion_commander_outfight_them",
+    "hero_id": 104,
+    "hero": "Legion Commander",
+    "ability": "Outfight Them!",
+    "text": "When Legion Commander or an allied Hero within [значение не сохранено] range casts an ability, they gain bonus armor for [значение не сохранено]s; allies gain [значение не сохранено]%% of the value. This bonus stacks independently.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=104",
+    "patch": "7.41f",
+    "unresolved_parameters": [
+      "%radius%",
+      "%duration%",
+      "%ally_factor%"
+    ]
+  },
+  {
+    "id": "mechanics:104:legion_commander_duel",
+    "hero_id": 104,
+    "hero": "Legion Commander",
+    "ability": "Duel",
+    "text": "Legion Commander and the target enemy hero are forced to attack each other for a short duration. Neither hero can use items, and the target enemy hero cannot use abilities. If either hero dies during the duration, the hero winning the Duel gains permanent bonus damage.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=104",
+    "patch": "7.41f",
+    "unresolved_parameters": []
+  },
+  {
+    "id": "mechanics:75:silencer_curse_of_the_silent",
+    "hero_id": 75,
+    "hero": "Silencer",
+    "ability": "Arcane Curse",
+    "text": "Curses the target area, dealing damage and causing enemies to take damage over time and slowing their movement speed. Anytime affected enemies cast a spell, the duration is increased. The duration is paused as long as the target is silenced.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=75",
+    "patch": "7.41f",
+    "unresolved_parameters": []
+  },
+  {
+    "id": "mechanics:75:silencer_glaives_of_wisdom",
+    "hero_id": 75,
+    "hero": "Silencer",
+    "ability": "Glaives of Wisdom",
+    "text": "Silencer enchants his glaives with his wisdom, stealing his target's Intelligence with each hit and dealing additional damage based on his Intelligence.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=75",
+    "patch": "7.41f",
+    "unresolved_parameters": []
+  },
+  {
+    "id": "mechanics:75:silencer_last_word",
+    "hero_id": 75,
+    "hero": "Silencer",
+    "ability": "Last Word",
+    "text": "Enchants a target, providing vision of them and causing them to be damaged and silenced if they cast a spell or if the enchantment timer expires. Deals extra damage based on the difference in intelligence between Silencer and the target.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=75",
+    "patch": "7.41f",
+    "unresolved_parameters": []
+  },
+  {
+    "id": "mechanics:75:silencer_brain_drain",
+    "hero_id": 75,
+    "hero": "Silencer",
+    "ability": "Suffer In Silence",
+    "text": "Silencer takes less damage from and deals more damage to silenced targets. If an enemy Hero dies within [значение не сохранено] range of Silencer or was debuffed by Silencer at the time of death, Silencer permanently steals [значение не сохранено] Intelligence from them. If the victim was silenced, steal an extra [значение не сохранено] Intelligence.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=75",
+    "patch": "7.41f",
+    "unresolved_parameters": [
+      "%permanent_int_steal_range%",
+      "%permanent_int_steal_amount%",
+      "%silenced_bonus_int_steal_amount%"
+    ]
+  },
+  {
+    "id": "mechanics:75:silencer_global_silence",
+    "hero_id": 75,
+    "hero": "Silencer",
+    "ability": "Global Silence",
+    "text": "Silencer stops all sound, preventing enemy heroes and units on the map from casting spells.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=75",
+    "patch": "7.41f",
+    "unresolved_parameters": []
+  },
+  {
+    "id": "mechanics:65:batrider_sticky_napalm",
+    "hero_id": 65,
+    "hero": "Batrider",
+    "ability": "Sticky Napalm",
+    "text": "Drenches an area in sticky oil, amplifying damage from Batrider's attacks and abilities and slowing the movement speed and turn rate of enemies. Additional casts of Sticky Napalm continue to increase damage, up to [значение не сохранено] stacks. Applies a small amount of damage with each cast.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=65",
+    "patch": "7.41f",
+    "unresolved_parameters": [
+      "%max_stacks%"
+    ]
+  },
+  {
+    "id": "mechanics:65:batrider_flamebreak",
+    "hero_id": 65,
+    "hero": "Batrider",
+    "ability": "Flamebreak",
+    "text": "Hurls an explosive cocktail that explodes when it reaches the target location, knocking back, slowing and dealing damage over time to enemies in the area.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=65",
+    "patch": "7.41f",
+    "unresolved_parameters": []
+  },
+  {
+    "id": "mechanics:65:batrider_firefly",
+    "hero_id": 65,
+    "hero": "Batrider",
+    "ability": "Firefly",
+    "text": "Batrider takes to the skies, moving increasingly fast and laying down a trail of flames from the air. The fire damages any enemies it touches and destroys trees below Batrider. Maximum movement speed bonus is reached at the end of Firefly's duration.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=65",
+    "patch": "7.41f",
+    "unresolved_parameters": []
+  },
+  {
+    "id": "mechanics:65:batrider_smoldering_resin",
+    "hero_id": 65,
+    "hero": "Batrider",
+    "ability": "Smoldering Resin",
+    "text": "Batrider's attacks apply a debuff that deals [значение не сохранено]%% of the attack damage every [значение не сохранено]s for [значение не сохранено]s.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=65",
+    "patch": "7.41f",
+    "unresolved_parameters": [
+      "%tick_attack_damage_pct%",
+      "%tick_rate%",
+      "%total_ticks%"
+    ]
+  },
+  {
+    "id": "mechanics:65:batrider_flaming_lasso",
+    "hero_id": 65,
+    "hero": "Batrider",
+    "ability": "Flaming Lasso",
+    "text": "Lassoes an enemy and drags them in Batrider's wake. Dragged units cannot move, attack, or use abilities. Teleporting or blinking will break the lasso.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=65",
+    "patch": "7.41f",
+    "unresolved_parameters": []
+  },
+  {
+    "id": "mechanics:69:doom_bringer_devour",
+    "hero_id": 69,
+    "hero": "Doom",
+    "ability": "Devour",
+    "text": "Consumes an enemy or neutral creep, acquiring any special abilities that it possessed. If alt-cast is activated, Doom will not acquire the creep's abilities. Duration is equal to the cooldown.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=69",
+    "patch": "7.41f",
+    "unresolved_parameters": []
+  },
+  {
+    "id": "mechanics:69:doom_bringer_scorched_earth",
+    "hero_id": 69,
+    "hero": "Doom",
+    "ability": "Scorched Earth",
+    "text": "Carpets the nearby earth in flames which damage enemies, while also granting Doom increased movement speed and health regeneration.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=69",
+    "patch": "7.41f",
+    "unresolved_parameters": []
+  },
+  {
+    "id": "mechanics:69:doom_bringer_infernal_blade",
+    "hero_id": 69,
+    "hero": "Doom",
+    "ability": "Infernal Blade",
+    "text": "Doom swings his burning sword, igniting the enemy. Stuns for [значение не сохранено] seconds and applies a [значение не сохранено] second burn that deals a base damage plus a percentage of the target's Max HP as damage per second.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=69",
+    "patch": "7.41f",
+    "unresolved_parameters": [
+      "%ministun_duration%",
+      "%burn_duration%"
+    ]
+  },
+  {
+    "id": "mechanics:69:doom_bringer_doom",
+    "hero_id": 69,
+    "hero": "Doom",
+    "ability": "Doom",
+    "text": "Inflicts a curse that dispels an enemy and prevents them from casting spells or healing in any way, while taking damage over time. DISPEL TYPE: Basic Dispel",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=69",
+    "patch": "7.41f",
+    "unresolved_parameters": []
+  },
+  {
+    "id": "mechanics:69:doom_bringer_lvl_pain",
+    "hero_id": 69,
+    "hero": "Doom",
+    "ability": "Lvl ? Pain",
+    "text": "Doom's attacks curse enemy heroes. After [значение не сохранено]s, the cursed hero bursts with a pillar of fire, damaging itself and all units in a [значение не сохранено] AoE for [значение не сохранено]%% of the damage taken from Doom during the curse. The damage and radius of the curse is [значение не сохранено]%% stronger if the enemy's level is a multiple of [значение не сохранено].",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=69",
+    "patch": "7.41f",
+    "unresolved_parameters": [
+      "%damage_debuff_duration%",
+      "%spread_radius%",
+      "%bonus_damage_pct_base%",
+      "%bonus_at_level_pct%",
+      "%level_multiplier%"
+    ]
+  },
+  {
+    "id": "mechanics:68:ancient_apparition_cold_feet",
+    "hero_id": 68,
+    "hero": "Ancient Apparition",
+    "ability": "Cold Feet",
+    "text": "Places a curse on an enemy, dealing damage over time. If the enemy unit doesn't move outside of the given range from the initial location, it will be stunned and frozen in place after [значение не сохранено] seconds.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=68",
+    "patch": "7.41f",
+    "unresolved_parameters": [
+      "%AbilityDuration%"
+    ]
+  },
+  {
+    "id": "mechanics:68:ancient_apparition_ice_vortex",
+    "hero_id": 68,
+    "hero": "Ancient Apparition",
+    "ability": "Ice Vortex",
+    "text": "Creates a vortex of icy energy that slows, deals damage, and increases magic damage done to enemies in its range.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=68",
+    "patch": "7.41f",
+    "unresolved_parameters": []
+  },
+  {
+    "id": "mechanics:68:ancient_apparition_chilling_touch",
+    "hero_id": 68,
+    "hero": "Ancient Apparition",
+    "ability": "Chilling Touch",
+    "text": "Enhances Ancient Apparition's attack with increased range and a burst of magical damage and slow.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=68",
+    "patch": "7.41f",
+    "unresolved_parameters": []
+  },
+  {
+    "id": "mechanics:68:ancient_apparition_bone_chill",
+    "hero_id": 68,
+    "hero": "Ancient Apparition",
+    "ability": "Bone Chill",
+    "text": "When Ancient Apparition deals Magic damage to an enemy with his abilities, it is slowed for a short duration. If the target is a Hero, its Strength is also reduced. Multiple instances of this effect stack and have independent durations.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=68",
+    "patch": "7.41f",
+    "unresolved_parameters": []
+  },
+  {
+    "id": "mechanics:68:ancient_apparition_ice_blast",
+    "hero_id": 68,
+    "hero": "Ancient Apparition",
+    "ability": "Ice Blast",
+    "text": "Launches a tracer toward any location on the battlefield, which must be triggered again to mark the area to be blasted by a damaging explosion of hail. The further the tracer travels, the larger the explosion will be. Enemies caught in the explosion, or who touch the icy ball of hail as it travels, are Frostbitten, taking damage over time and prevented from regenerating or healing. If a Frostbitten unit's health drops below a certain percentage, they will instantly shatter.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=68",
+    "patch": "7.41f",
+    "unresolved_parameters": []
+  },
+  {
+    "id": "mechanics:112:winter_wyvern_arctic_burn",
+    "hero_id": 112,
+    "hero": "Winter Wyvern",
+    "ability": "Arctic Burn",
+    "text": "Winter Wyvern soars upon an arctic wind, granting her unobstructed movement and allowing her to exhale a blistering chill into each attack. While soaring, her attacks travel further and faster, and slow enemies with a magical freeze that strips them of [значение не сохранено]%% of their current health each second.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=112",
+    "patch": "7.41f",
+    "unresolved_parameters": [
+      "%percent_damage%"
+    ]
+  },
+  {
+    "id": "mechanics:112:winter_wyvern_splinter_blast",
+    "hero_id": 112,
+    "hero": "Winter Wyvern",
+    "ability": "Splinter Blast",
+    "text": "Launches a ball of brittle ice toward a unit. The ice shatters on impact, leaving the primary target completely unaffected, while hurling damaging splinters into nearby enemies in a [значение не сохранено] base radius. Enemies struck by these splinters are slowed by [значение не сохранено]%%.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=112",
+    "patch": "7.41f",
+    "unresolved_parameters": [
+      "%split_radius%",
+      "%movespeed_slow_tooltip%"
+    ]
+  },
+  {
+    "id": "mechanics:112:winter_wyvern_cold_embrace",
+    "hero_id": 112,
+    "hero": "Winter Wyvern",
+    "ability": "Cold Embrace",
+    "text": "Encases an ally in an icy cocoon, freezing them solid while healing a base amount as well as a percentage of their maximum health each second. The cocoon blocks all physical damage.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=112",
+    "patch": "7.41f",
+    "unresolved_parameters": []
+  },
+  {
+    "id": "mechanics:112:winter_wyvern_eldwurms_edda",
+    "hero_id": 112,
+    "hero": "Winter Wyvern",
+    "ability": "Eldwurm's Edda",
+    "text": "Grants Winter Wyvern the item Eldwurm's Edda, which can be consumed to increase the current and maximum level of a basic ability by one and Winter Wyvern's base intelligence by [значение не сохранено]%% of its current value at the time of consumption.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=112",
+    "patch": "7.41f",
+    "unresolved_parameters": [
+      "%tooltip_int_pct%"
+    ]
+  },
+  {
+    "id": "mechanics:112:winter_wyvern_winters_curse",
+    "hero_id": 112,
+    "hero": "Winter Wyvern",
+    "ability": "Winter's Curse",
+    "text": "Winter Wyvern dispells then freezes an enemy in place while striking those nearby with a maddening curse which causes them to attack their frozen ally with increased attack speed. The frozen ally and those cursed to attack their ally are immune to all damage from their enemies with the exception of damage from Winter Wyvern or her controlled units. Enemy heroes which enter the cursed area after the cast add to the duration of the curse.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=112",
+    "patch": "7.41f",
+    "unresolved_parameters": []
+  },
+  {
+    "id": "mechanics:76:obsidian_destroyer_arcane_orb",
+    "hero_id": 76,
+    "hero": "Outworld Devourer",
+    "ability": "Arcane Orb",
+    "text": "Adds extra pure damage to Outworld Destroyer's attacks, based on his remaining mana pool.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=76",
+    "patch": "7.41f",
+    "unresolved_parameters": []
+  },
+  {
+    "id": "mechanics:76:obsidian_destroyer_astral_imprisonment",
+    "hero_id": 76,
+    "hero": "Outworld Devourer",
+    "ability": "Astral Imprisonment",
+    "text": "Steals a percentage of the target's max mana and places them into an astral prison. The hidden unit is invulnerable and disabled. When the astral prison implodes, it deals damage to the target.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=76",
+    "patch": "7.41f",
+    "unresolved_parameters": []
+  },
+  {
+    "id": "mechanics:76:obsidian_destroyer_objurgation",
+    "hero_id": 76,
+    "hero": "Outworld Devourer",
+    "ability": "Objurgation",
+    "text": "Increases Outworld Destroyer's maximum mana. When cast, protects Outworld Destroyer with an all damage barrier equal to a flat amount and a percentage of his maximum mana.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=76",
+    "patch": "7.41f",
+    "unresolved_parameters": []
+  },
+  {
+    "id": "mechanics:76:obsidian_destroyer_equilibrium",
+    "hero_id": 76,
+    "hero": "Outworld Devourer",
+    "ability": "Essence Flux",
+    "text": "Passively grants a chance to restore a percentage of your max mana each time you cast an ability. Restores less mana from spells that modify attacks.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=76",
+    "patch": "7.41f",
+    "unresolved_parameters": []
+  },
+  {
+    "id": "mechanics:76:obsidian_destroyer_sanity_eclipse",
+    "hero_id": 76,
+    "hero": "Outworld Devourer",
+    "ability": "Sanity's Eclipse",
+    "text": "Unleashes a psychic blast that deals damage to enemies based on the difference between your max mana and the target's max mana. Sanity's Eclipse can hit units trapped by Astral Imprisonment.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=76",
+    "patch": "7.41f",
+    "unresolved_parameters": []
+  },
+  {
+    "id": "mechanics:100:tusk_ice_shards",
+    "hero_id": 100,
+    "hero": "Tusk",
+    "ability": "Ice Shards",
+    "text": "Tusk compresses shards of ice into a ball of frozen energy that damages all enemies it comes in contact with. When the ball reaches its target destination the shards are released, creating a barrier that lasts for [значение не сохранено] seconds.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=100",
+    "patch": "7.41f",
+    "unresolved_parameters": [
+      "%shard_duration%"
+    ]
+  },
+  {
+    "id": "mechanics:100:tusk_snowball",
+    "hero_id": 100,
+    "hero": "Tusk",
+    "ability": "Snowball",
+    "text": "Tusk begins rolling into a snowball. Allies within a [значение не сохранено] radius can also be added to the snowball by right-clicking on them, even while the snowball is moving. Once launched, any enemies caught in the snowball's path will be stunned and take damage. Each allied Hero in the snowball will add to its damage and stun duration.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=100",
+    "patch": "7.41f",
+    "unresolved_parameters": [
+      "%snowball_grab_radius%"
+    ]
+  },
+  {
+    "id": "mechanics:100:tusk_tag_team",
+    "hero_id": 100,
+    "hero": "Tusk",
+    "ability": "Tag Team",
+    "text": "Activate to temporarily apply a negative debuff aura around you, causing enemies that are attacked under it to take bonus physical damage and reduced movement speed. Lasts [значение не сохранено] seconds.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=100",
+    "patch": "7.41f",
+    "unresolved_parameters": [
+      "%debuff_duration%"
+    ]
+  },
+  {
+    "id": "mechanics:100:tusk_drinking_buddies",
+    "hero_id": 100,
+    "hero": "Tusk",
+    "ability": "Drinking Buddies",
+    "text": "Tusk reaches out to tag an allied unit, pulling them closer. Once tagged, both Tusk and his tagged ally gain movement speed and armor.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=100",
+    "patch": "7.41f",
+    "unresolved_parameters": []
+  },
+  {
+    "id": "mechanics:100:tusk_walrus_kick",
+    "hero_id": 100,
+    "hero": "Tusk",
+    "ability": "Walrus Kick",
+    "text": "Kicks the closest enemy unit in the drawn direction, stunning, damaging, and slowing them. Also deals damage to all heroes within [значение не сохранено] radius of its landing area. Cooldown is reduced by [значение не сохранено]%% if kicking a creep.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=100",
+    "patch": "7.41f",
+    "unresolved_parameters": [
+      "%search_radius%",
+      "%creep_cooldown_reduction_pct%"
+    ]
+  },
+  {
+    "id": "mechanics:100:tusk_walrus_punch",
+    "hero_id": 100,
+    "hero": "Tusk",
+    "ability": "Walrus PUNCH!",
+    "text": "Tusk connects with his mighty Walrus Punch, a critical strike with bonus damage so powerful it launches its victim into the air.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=100",
+    "patch": "7.41f",
+    "unresolved_parameters": []
+  },
+  {
+    "id": "mechanics:100:tusk_bitter_chill",
+    "hero_id": 100,
+    "hero": "Tusk",
+    "ability": "Bitter Chill",
+    "text": "Passively slows the attack speed of all enemy heroes within a [значение не сохранено] unit radius.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=100",
+    "patch": "7.41f",
+    "unresolved_parameters": [
+      "%radius%"
+    ]
+  },
+  {
+    "id": "mechanics:20:vengefulspirit_magic_missile",
+    "hero_id": 20,
+    "hero": "Vengeful Spirit",
+    "ability": "Magic Missile",
+    "text": "Fires a magic missile at an enemy unit, stunning and dealing damage.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=20",
+    "patch": "7.41f",
+    "unresolved_parameters": []
+  },
+  {
+    "id": "mechanics:20:vengefulspirit_wave_of_terror",
+    "hero_id": 20,
+    "hero": "Vengeful Spirit",
+    "ability": "Wave of Terror",
+    "text": "Vengeful Spirit lets loose a wicked cry, weakening the total attack damage and armor of enemies, and giving vision of the path ahead.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=20",
+    "patch": "7.41f",
+    "unresolved_parameters": []
+  },
+  {
+    "id": "mechanics:20:vengefulspirit_command_aura",
+    "hero_id": 20,
+    "hero": "Vengeful Spirit",
+    "ability": "Vengeance Aura",
+    "text": "Vengeful Spirit's presence increases the damage of nearby friendly heroes. Vengeful Spirit herself receives [значение не сохранено]%% extra bonus.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=20",
+    "patch": "7.41f",
+    "unresolved_parameters": [
+      "%self_multiplier%"
+    ]
+  },
+  {
+    "id": "mechanics:20:vengefulspirit_retribution",
+    "hero_id": 20,
+    "hero": "Vengeful Spirit",
+    "ability": "Retribution",
+    "text": "Vengeful Spirit is considered both a ranged and a melee attacker to gain the respective bonuses. When killed by an enemy hero, Vengeful Spirit deals [значение не сохранено]%% bonus damage to her killer until their next death. Only one debuff can exist at a time.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=20",
+    "patch": "7.41f",
+    "unresolved_parameters": [
+      "%bonus_damage%"
+    ]
+  },
+  {
+    "id": "mechanics:20:vengefulspirit_nether_swap",
+    "hero_id": 20,
+    "hero": "Vengeful Spirit",
+    "ability": "Nether Swap",
+    "text": "Instantaneously swaps positions with a target Hero, friend or enemy. Nether Swap interrupts channeling abilities on the target. Enemy Swapped units take damage. Vengeful Spirit and allied swapped units gain a barrier equal to the damage dealt.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=20",
+    "patch": "7.41f",
+    "unresolved_parameters": []
+  },
+  {
+    "id": "mechanics:101:skywrath_mage_arcane_bolt",
+    "hero_id": 101,
+    "hero": "Skywrath Mage",
+    "ability": "Arcane Bolt",
+    "text": "Skywrath Mage launches a slow-moving bolt of arcane magic, dealing damage to an enemy unit based on Skywrath Mage's intelligence.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=101",
+    "patch": "7.41f",
+    "unresolved_parameters": []
+  },
+  {
+    "id": "mechanics:101:skywrath_mage_concussive_shot",
+    "hero_id": 101,
+    "hero": "Skywrath Mage",
+    "ability": "Concussive Shot",
+    "text": "Skywrath Mage sets off a long range shot that hits the closest hero within a long range. Upon impact, it deals damage and slows in an area of effect.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=101",
+    "patch": "7.41f",
+    "unresolved_parameters": []
+  },
+  {
+    "id": "mechanics:101:skywrath_mage_ancient_seal",
+    "hero_id": 101,
+    "hero": "Skywrath Mage",
+    "ability": "Ancient Seal",
+    "text": "Skywrath Mage seals the targeted unit with an ancient rune, silencing it and causing it to take additional damage from spells.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=101",
+    "patch": "7.41f",
+    "unresolved_parameters": []
+  },
+  {
+    "id": "mechanics:101:skywrath_mage_shield_of_the_scion",
+    "hero_id": 101,
+    "hero": "Skywrath Mage",
+    "ability": "Shield of the Scion",
+    "text": "Every time Skywrath Mage deals magical damage to an enemy hero with his abilities, he gains a small magic damage barrier. Each buff stacks independently.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=101",
+    "patch": "7.41f",
+    "unresolved_parameters": []
+  },
+  {
+    "id": "mechanics:101:skywrath_mage_mystic_flare",
+    "hero_id": 101,
+    "hero": "Skywrath Mage",
+    "ability": "Mystic Flare",
+    "text": "Skywrath Mage uses his ultimate magical ability to conjure a precise and violent mystical field that lays waste to his adversaries. Deals massive damage distributed evenly among any Heroes in the area over [значение не сохранено] seconds.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=101",
+    "patch": "7.41f",
+    "unresolved_parameters": [
+      "%duration%"
+    ]
+  },
+  {
+    "id": "mechanics:26:lion_impale",
+    "hero_id": 26,
+    "hero": "Lion",
+    "ability": "Earth Spike",
+    "text": "Rock spikes burst from the earth along a straight path. Enemy units are hurled into the air, then are stunned and take damage when they fall.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=26",
+    "patch": "7.41f",
+    "unresolved_parameters": []
+  },
+  {
+    "id": "mechanics:26:lion_voodoo",
+    "hero_id": 26,
+    "hero": "Lion",
+    "ability": "Hex",
+    "text": "Transforms an enemy unit into a harmless beast, with all special abilities disabled.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=26",
+    "patch": "7.41f",
+    "unresolved_parameters": []
+  },
+  {
+    "id": "mechanics:26:lion_mana_drain",
+    "hero_id": 26,
+    "hero": "Lion",
+    "ability": "Mana Drain",
+    "text": "CHANNELED - Channels magical energy, taking mana and slowing enemies over time. If the enemy has no mana remaining, the slow is increased by [значение не сохранено]%%. Can target allies to give them mana and movement speed at a [значение не сохранено]%% rate.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=26",
+    "patch": "7.41f",
+    "unresolved_parameters": [
+      "%movespeed_bonus_when_empty_pct%",
+      "%ally_pct%"
+    ]
+  },
+  {
+    "id": "mechanics:26:lion_to_hell_and_back",
+    "hero_id": 26,
+    "hero": "Lion",
+    "ability": "To Hell and Back",
+    "text": "Lion gains [значение не сохранено]%% debuff duration after killing or assisting in a Hero kill while that Hero is dead. Lion gains [значение не сохранено]%% spell amplification for [значение не сохранено]s after respawning or resurrecting or until he gets a kill or assist.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=26",
+    "patch": "7.41f",
+    "unresolved_parameters": [
+      "%debuff_amp%",
+      "%spell_amp%",
+      "%duration%"
+    ]
+  },
+  {
+    "id": "mechanics:26:lion_finger_of_death",
+    "hero_id": 26,
+    "hero": "Lion",
+    "ability": "Finger of Death",
+    "text": "Rips at an enemy unit, trying to turn it inside-out, dealing massive damage to the target. After using Finger of Death, Lion's hand becomes empowered, allowing him to use a cleaving melee attack with [значение не сохранено] range with bonus movement speed. Finger of Death gains permanent bonus damage for it and the fist for each enemy Hero it or the fist kills. The melee attack may be disabled by setting the ability to Alt Cast.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=26",
+    "patch": "7.41f",
+    "unresolved_parameters": [
+      "%punch_attack_range%"
+    ]
+  },
+  {
+    "id": "mechanics:17:storm_spirit_static_remnant",
+    "hero_id": 17,
+    "hero": "Storm Spirit",
+    "ability": "Static Remnant",
+    "text": "Creates an explosively charged image of Storm Spirit that walks to the target position and lasts for [значение не сохранено] seconds. Will detonate and deal damage if an enemy unit comes near it.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=17",
+    "patch": "7.41f",
+    "unresolved_parameters": [
+      "%abilityduration%"
+    ]
+  },
+  {
+    "id": "mechanics:17:storm_spirit_electric_vortex",
+    "hero_id": 17,
+    "hero": "Storm Spirit",
+    "ability": "Electric Vortex",
+    "text": "A vortex that pulls an enemy unit to Storm Spirit's location.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=17",
+    "patch": "7.41f",
+    "unresolved_parameters": []
+  },
+  {
+    "id": "mechanics:17:storm_spirit_overload",
+    "hero_id": 17,
+    "hero": "Storm Spirit",
+    "ability": "Overload",
+    "text": "Casting a spell creates an electrical charge, which is released in a burst on Storm's next attack, dealing damage and slowing nearby enemies.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=17",
+    "patch": "7.41f",
+    "unresolved_parameters": []
+  },
+  {
+    "id": "mechanics:17:storm_spirit_ball_lightning",
+    "hero_id": 17,
+    "hero": "Storm Spirit",
+    "ability": "Ball Lightning",
+    "text": "Storm Spirit becomes volatile electricity, charging across the battlefield until he depletes his mana or reaches his target. The activation mana cost is [значение не сохранено]+[значение не сохранено]%% of his total mana pool, and the cost per 100 units traveled is [значение не сохранено]+[значение не сохранено]%% of his total mana pool. Damage is expressed in damage per 100 units traveled.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=17",
+    "patch": "7.41f",
+    "unresolved_parameters": [
+      "%ball_lightning_initial_mana_base%",
+      "%ball_lightning_initial_mana_percentage%",
+      "%ball_lightning_travel_cost_base%",
+      "%ball_lightning_travel_cost_percent%"
+    ]
+  },
+  {
+    "id": "mechanics:17:storm_spirit_galvanized",
+    "hero_id": 17,
+    "hero": "Storm Spirit",
+    "ability": "Galvanized",
+    "text": "Storm Spirit gains a charge of [значение не сохранено] mana regeneration per kill, and a charge every [значение не сохранено] levels. Loses [значение не сохранено] charges per death. Additionally every time he gains a charge he also gains [значение не сохранено] Mana Regen permanently.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=17",
+    "patch": "7.41f",
+    "unresolved_parameters": [
+      "%mp_per_kill%",
+      "%level_divisor%",
+      "%charges_per_death%",
+      "%perma_mp_per_kill%"
+    ]
+  },
+  {
+    "id": "mechanics:13:puck_illusory_orb",
+    "hero_id": 13,
+    "hero": "Puck",
+    "ability": "Illusory Orb",
+    "text": "Vector Targeted. Puck launches a magic orb that travels along the path, damaging enemy units along the way. The orb deals an additional [значение не сохранено]%% of its impact damage every [значение не сохранено]s in its area of effect, but if it exceeds the max cast range it will be destroyed. At any point, Puck may teleport to the orb's location using Ethereal Jaunt. Can be put on alt-cast to launch the Orb straight ahead.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=13",
+    "patch": "7.41f",
+    "unresolved_parameters": [
+      "%damage_over_time_pct%",
+      "%damage_interval%"
+    ]
+  },
+  {
+    "id": "mechanics:13:puck_waning_rift",
+    "hero_id": 13,
+    "hero": "Puck",
+    "ability": "Waning Rift",
+    "text": "Puck teleports to the target location and releases a burst of faerie dust that deals damage and silences enemy units nearby.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=13",
+    "patch": "7.41f",
+    "unresolved_parameters": []
+  },
+  {
+    "id": "mechanics:13:puck_phase_shift",
+    "hero_id": 13,
+    "hero": "Puck",
+    "ability": "Phase Shift",
+    "text": "CHANNELED - Puck briefly shifts into another dimension where it is immune from harm.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=13",
+    "patch": "7.41f",
+    "unresolved_parameters": []
+  },
+  {
+    "id": "mechanics:13:puck_puckish",
+    "hero_id": 13,
+    "hero": "Puck",
+    "ability": "Puckish",
+    "text": "Whenever Puck disjoints an attack, it restores [значение не сохранено]%% of its max health and mana. Dodging a targeted spell projectile restores [значение не сохранено]x that amount. Does not apply to attacks by Towers.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=13",
+    "patch": "7.41f",
+    "unresolved_parameters": [
+      "%mana_and_health_restore_pct%",
+      "%dodged_spell_multiplier%"
+    ]
+  },
+  {
+    "id": "mechanics:13:puck_dream_coil",
+    "hero_id": 13,
+    "hero": "Puck",
+    "ability": "Dream Coil",
+    "text": "Creates a coil of volatile magic that latches onto enemy Heroes, damaging and leashing them. If the enemy hero stretches the coil by moving too far away, it snaps, stunning and dealing additional damage.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=13",
+    "patch": "7.41f",
+    "unresolved_parameters": []
+  },
+  {
+    "id": "mechanics:39:queenofpain_shadow_strike",
+    "hero_id": 39,
+    "hero": "Queen of Pain",
+    "ability": "Shadow Strike",
+    "text": "Hurls a poisoned dagger which deals large initial damage, and then deals damage over time. The poisoned unit has its movement speed slowed for [значение не сохранено] seconds. An instance of damage is dealt every [значение не сохранено] seconds.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=39",
+    "patch": "7.41f",
+    "unresolved_parameters": [
+      "%duration%",
+      "%damage_interval%"
+    ]
+  },
+  {
+    "id": "mechanics:39:queenofpain_blink",
+    "hero_id": 39,
+    "hero": "Queen of Pain",
+    "ability": "Blink",
+    "text": "Short distance teleportation that allows Queen of Pain to move in and out of combat.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=39",
+    "patch": "7.41f",
+    "unresolved_parameters": []
+  },
+  {
+    "id": "mechanics:39:queenofpain_scream_of_pain",
+    "hero_id": 39,
+    "hero": "Queen of Pain",
+    "ability": "Scream Of Pain",
+    "text": "The Queen of Pain lets loose a piercing scream around her, damaging nearby enemies. [значение не сохранено]%% of the damage dealt to heroes is reflected back to her.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=39",
+    "patch": "7.41f",
+    "unresolved_parameters": [
+      "%damage_reflected_to_self%"
+    ]
+  },
+  {
+    "id": "mechanics:39:queenofpain_succubus",
+    "hero_id": 39,
+    "hero": "Queen of Pain",
+    "ability": "Succubus",
+    "text": "All sources of Spell Lifesteal also apply to Pure Damage. Queen of Pain gains Spell Lifesteal that increases with proximity to her enemies. Lifesteal is at its maximum when the enemy is [значение не сохранено] units or closer to her and at its minimum when the enemy is [значение не сохранено] units or further from her.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=39",
+    "patch": "7.41f",
+    "unresolved_parameters": [
+      "%close_radius%",
+      "%max_radius%"
+    ]
+  },
+  {
+    "id": "mechanics:39:queenofpain_sonic_wave",
+    "hero_id": 39,
+    "hero": "Queen of Pain",
+    "ability": "Sonic Wave",
+    "text": "Creates a gigantic wave of sound in front of Queen of Pain, dealing heavy damage to all enemy units in its wake and pushing them back.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=39",
+    "patch": "7.41f",
+    "unresolved_parameters": []
+  },
+  {
+    "id": "mechanics:107:earth_spirit_boulder_smash",
+    "hero_id": 107,
+    "hero": "Earth Spirit",
+    "ability": "Boulder Smash",
+    "text": "Earth Spirit smashes the target enemy or ally, sending them in the direction he is facing. If Earth Spirit targets an area, he will smash the nearest unit in a [значение не сохранено] radius, prioritizing Stone Remnants. The travelling unit or Remnant damages all enemy units it hits. If an enemy is hit by a Stone Remnant, they are also slowed. Stone Remnants travel further than other units.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=107",
+    "patch": "7.41f",
+    "unresolved_parameters": [
+      "%remnant_smash_radius_tooltip%"
+    ]
+  },
+  {
+    "id": "mechanics:107:earth_spirit_rolling_boulder",
+    "hero_id": 107,
+    "hero": "Earth Spirit",
+    "ability": "Rolling Boulder",
+    "text": "Earth Spirit gathers himself into a boulder and, after a [значение не сохранено]s delay, rolls toward the target location, dealing [значение не сохранено] + [значение не сохранено]%% STR damage and stunning enemy units. He will stop if he collides with an enemy hero or is stunned. If he rolls over a Stone Remnant, he will travel further and faster, and stun enemies for longer.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=107",
+    "patch": "7.41f",
+    "unresolved_parameters": [
+      "%delay%",
+      "%damage%",
+      "%damage_str%"
+    ]
+  },
+  {
+    "id": "mechanics:107:earth_spirit_geomagnetic_grip",
+    "hero_id": 107,
+    "hero": "Earth Spirit",
+    "ability": "Geomagnetic Grip",
+    "text": "Earth Spirit pulls the target Stone Remnant or Allied Unit. Enemies struck by the gripped target will be silenced. Pulled Remnants also deal damage to struck enemies. Cast range is reduced when targeting an ally.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=107",
+    "patch": "7.41f",
+    "unresolved_parameters": []
+  },
+  {
+    "id": "mechanics:107:earth_spirit_stone_caller",
+    "hero_id": 107,
+    "hero": "Earth Spirit",
+    "ability": "Stone Remnant",
+    "text": "Call a Stone Remnant to the target location. Stone Remnants have no vision and are invulnerable, and can be used with Earth Spirit's abilities. Calling a Stone Remnant consumes a charge, which recharge over time. Stone Remnant has [значение не сохранено] charges. Earth Spirit passively gains [значение не сохранено]%% bonus damage per unused Stone Remnant charge, and gains an additional [значение не сохранено]%% bonus damage for [значение не сохранено]s when a Stone Remnant is targeted with an ability (does not stack).",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=107",
+    "patch": "7.41f",
+    "unresolved_parameters": [
+      "%AbilityCharges%",
+      "%attack_damage_per_stone%",
+      "%attack_damage_per_stone_used%",
+      "%buff_duration%"
+    ]
+  },
+  {
+    "id": "mechanics:107:earth_spirit_petrify",
+    "hero_id": 107,
+    "hero": "Earth Spirit",
+    "ability": "Enchant Remnant",
+    "text": "Earth Spirit temporarily enchants a hero, granting them the properties of a Stone Remnant. After a short duration the remnant shatters, releasing the hero and damaging nearby enemies. Can be cast on Stone Remnants. Has a 5 second cooldown when used that way. Has a larger cast range when cast on an ally hero.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=107",
+    "patch": "7.41f",
+    "unresolved_parameters": []
+  },
+  {
+    "id": "mechanics:107:earth_spirit_magnetize",
+    "hero_id": 107,
+    "hero": "Earth Spirit",
+    "ability": "Magnetize",
+    "text": "Magnetizes units in a small nearby area, causing them to take damage for a short duration. Magnetized heroes cause nearby Stone Remnants to explode, destroying the remnant and refreshing Magnetize's duration on all nearby enemies. This process can repeat multiple times. If an enemy hero is affected by Geomagnetic Grip or Boulder Smash, all magnetized heroes share the effects.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=107",
+    "patch": "7.41f",
+    "unresolved_parameters": []
+  },
+  {
+    "id": "mechanics:16:sandking_burrowstrike",
+    "hero_id": 16,
+    "hero": "Sand King",
+    "ability": "Burrowstrike",
+    "text": "Sand King burrows into the ground and tunnels forward, damaging and stunning enemy units above him as he resurfaces. Adds Caustic Finale poison to heroes hit Can be put on alt-cast to immediately cast in the desired direction, without walking towards the targeted location.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=16",
+    "patch": "7.41f",
+    "unresolved_parameters": []
+  },
+  {
+    "id": "mechanics:16:sandking_sand_storm",
+    "hero_id": 16,
+    "hero": "Sand King",
+    "ability": "Sand Storm",
+    "text": "Sand King creates a fearsome sandstorm that damages enemy units and grants Sand King Invisibility while he is in it. The effect ends when Sand King leaves the area.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=16",
+    "patch": "7.41f",
+    "unresolved_parameters": []
+  },
+  {
+    "id": "mechanics:16:sandking_scorpion_strike",
+    "hero_id": 16,
+    "hero": "Sand King",
+    "ability": "Stinger",
+    "text": "Sand King strikes an area, performing an attack on all enemies in the area of effect, dealing extra damage to each. Enemies within an innermost radius of [значение не сохранено] take [значение не сохранено]%% extra damage. Applies Caustic Finale and a slow to all enemies hit.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=16",
+    "patch": "7.41f",
+    "unresolved_parameters": [
+      "%inner_radius%",
+      "%inner_radius_bonus_damage_pct%"
+    ]
+  },
+  {
+    "id": "mechanics:16:sandking_caustic_finale",
+    "hero_id": 16,
+    "hero": "Sand King",
+    "ability": "Caustic Finale",
+    "text": "Sand King's attacks inject a venom that causes enemy units to violently explode when they die that does a flat amount of damage and an additional amount based on the dying units max health.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=16",
+    "patch": "7.41f",
+    "unresolved_parameters": []
+  },
+  {
+    "id": "mechanics:16:sandking_epicenter",
+    "hero_id": 16,
+    "hero": "Sand King",
+    "ability": "Epicenter",
+    "text": "After a cast point of [значение не сохранено] seconds, Sand King sends a disturbance into the earth, causing it to shudder violently. All enemies caught within range will take damage and become slowed. Each subsequent pulse increases the radius of damage dealt.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=16",
+    "patch": "7.41f",
+    "unresolved_parameters": [
+      "%abilitycastpoint%"
+    ]
+  },
+  {
+    "id": "mechanics:120:pangolier_swashbuckle",
+    "hero_id": 120,
+    "hero": "Pangolier",
+    "ability": "Swashbuckle",
+    "text": "Pangolier dashes along the target line, then slashes and briefly slows all enemies in the drawn direction with several quick swipes. Lucky Shot has a chance to activate from this damage.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=120",
+    "patch": "7.41f",
+    "unresolved_parameters": []
+  },
+  {
+    "id": "mechanics:120:pangolier_shield_crash",
+    "hero_id": 120,
+    "hero": "Pangolier",
+    "ability": "Shield Crash",
+    "text": "Pangolier jumps in the air and slams back to the ground in front of his current position damaging all enemies in a radius. Pangolier gains an all damage barrier for a short time if Shield Crash hits an enemy hero. Forward movement is maintained if Shield Crash is used while Rolling Thunder is active, and allows Rolling Thunder to clear walls or cliffs.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=120",
+    "patch": "7.41f",
+    "unresolved_parameters": []
+  },
+  {
+    "id": "mechanics:120:pangolier_lucky_shot",
+    "hero_id": 120,
+    "hero": "Pangolier",
+    "ability": "Lucky Shot",
+    "text": "Pangolier rolls the dice and lets fate decide the outcome for his enemies. Grants a chance to drastically slow their attack speed and reduce armor on any damage dealt by Pangolier's attacks or abilities.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=120",
+    "patch": "7.41f",
+    "unresolved_parameters": []
+  },
+  {
+    "id": "mechanics:120:pangolier_rollup",
+    "hero_id": 120,
+    "hero": "Pangolier",
+    "ability": "Roll Up",
+    "text": "Pangolier curls into an immobile protective ball, gaining debuff immunity, [значение не сохранено]%% magic resistance, and allowing him to turn. Can be cast during Rolling Thunder to temporarily hit the brakes. Can cast Rolling Thunder and Shield Crash during Roll Up. If enemies attack Pangolier during this, he will roll away from the attacker, applying Rolling Thunder damage/stun if there are enemies in the way.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=120",
+    "patch": "7.41f",
+    "unresolved_parameters": [
+      "%magic_resistance%"
+    ]
+  },
+  {
+    "id": "mechanics:120:pangolier_gyroshell",
+    "hero_id": 120,
+    "hero": "Pangolier",
+    "ability": "Rolling Thunder",
+    "text": "Pangolier curls into a debuff immune ball with [значение не сохранено]%% magic resistance and rolls out. When rolling, he moves at an increased speed and can move through trees, but has a decreased ability to turn. Striking enemies knocks them back, inflicting damage proportional to his attack damage and stunning them when they land. Colliding with walls or cliffs will cause a temporary pause while Pangolier reverses in direction. DISPEL TYPE: Basic Dispel",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=120",
+    "patch": "7.41f",
+    "unresolved_parameters": [
+      "%magic_resistance%"
+    ]
+  },
+  {
+    "id": "mechanics:120:pangolier_fortune_favors_the_bold",
+    "hero_id": 120,
+    "hero": "Pangolier",
+    "ability": "Fortune Favors the Bold",
+    "text": "Random item and ability effects of enemies near Pangolier have a reduced chance to affect him.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=120",
+    "patch": "7.41f",
+    "unresolved_parameters": []
+  },
+  {
+    "id": "mechanics:2:axe_berserkers_call",
+    "hero_id": 2,
+    "hero": "Axe",
+    "ability": "Berserker's Call",
+    "text": "Axe taunts nearby enemy units, forcing them to attack him while he gains bonus armor during the duration.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=2",
+    "patch": "7.41f",
+    "unresolved_parameters": []
+  },
+  {
+    "id": "mechanics:2:axe_battle_hunger",
+    "hero_id": 2,
+    "hero": "Axe",
+    "ability": "Battle Hunger",
+    "text": "Enrages an enemy unit, causing it to take damage over time until it kills another unit or the duration ends. The enemy is slowed as long as they are facing away from Axe.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=2",
+    "patch": "7.41f",
+    "unresolved_parameters": []
+  },
+  {
+    "id": "mechanics:2:axe_counter_helix",
+    "hero_id": 2,
+    "hero": "Axe",
+    "ability": "Counter Helix",
+    "text": "After a set number of attacks, Axe will perform a helix counter attack, dealing pure damage to all nearby enemies.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=2",
+    "patch": "7.41f",
+    "unresolved_parameters": []
+  },
+  {
+    "id": "mechanics:2:axe_culling_blade",
+    "hero_id": 2,
+    "hero": "Axe",
+    "ability": "Culling Blade",
+    "text": "Axe spots a weakness and strikes, dealing pure damage. When an enemy hero is killed with Culling Blade, its cooldown is reset, and all nearby allied units gain bonus movement speed and armor. Axe permanently drenches his blade every time he kills an enemy Hero with Culling Blade, gaining bonus armor for each stack.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=2",
+    "patch": "7.41f",
+    "unresolved_parameters": []
+  },
+  {
+    "id": "mechanics:2:axe_one_man_army",
+    "hero_id": 2,
+    "hero": "Axe",
+    "ability": "One Man Army",
+    "text": "Axe gains Strength based on [значение не сохранено]%% of his Armor as long as there are no allied heroes within [значение не сохранено] distance from Axe. The effect fades over [значение не сохранено]s after approaching an ally.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=2",
+    "patch": "7.41f",
+    "unresolved_parameters": [
+      "%armor_pct_as_strength%",
+      "%radius%",
+      "%bonus_linger_duration%"
+    ]
+  },
+  {
+    "id": "mechanics:87:disruptor_thunder_strike",
+    "hero_id": 87,
+    "hero": "Disruptor",
+    "ability": "Thunder Strike",
+    "text": "Repeatedly strikes the targeted unit with lightning. Each strike damages nearby enemy units in a small radius and slows enemy movement and attack speed by [значение не сохранено]%% for [значение не сохранено] seconds. Provides vision of its target.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=87",
+    "patch": "7.41f",
+    "unresolved_parameters": [
+      "%slow_amount%",
+      "%slow_duration%"
+    ]
+  },
+  {
+    "id": "mechanics:87:disruptor_glimpse",
+    "hero_id": 87,
+    "hero": "Disruptor",
+    "ability": "Glimpse",
+    "text": "Teleports the target hero back to where it was [значение не сохранено] seconds ago. Instantly kills illusions. Deals damage equal to a percentage of the distance glimpsed, that cannot go over a damage maximum.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=87",
+    "patch": "7.41f",
+    "unresolved_parameters": [
+      "%backtrack_time%"
+    ]
+  },
+  {
+    "id": "mechanics:87:disruptor_kinetic_field",
+    "hero_id": 87,
+    "hero": "Disruptor",
+    "ability": "Kinetic Field",
+    "text": "After a short formation time, creates a circular barrier of kinetic energy that enemies can't pass.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=87",
+    "patch": "7.41f",
+    "unresolved_parameters": []
+  },
+  {
+    "id": "mechanics:87:disruptor_kinetic_fence",
+    "hero_id": 87,
+    "hero": "Disruptor",
+    "ability": "Kinetic Fence",
+    "text": "After a short formation time, creates a wall out of kinetic energy that enemies cannot pass.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=87",
+    "patch": "7.41f",
+    "unresolved_parameters": []
+  },
+  {
+    "id": "mechanics:87:disruptor_electromagnetic_repulsion",
+    "hero_id": 87,
+    "hero": "Disruptor",
+    "ability": "Electromagnetic Repulsion",
+    "text": "Whenever Disruptor takes more than [значение не сохранено] damage from any source within [значение не сохранено] radius, all nearby enemies within take damage equal to [значение не сохранено]x of Disruptor's Intelligence, and are pushed back up to a [значение не сохранено] distance away.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=87",
+    "patch": "7.41f",
+    "unresolved_parameters": [
+      "%damage_threshold%",
+      "%effect_radius%",
+      "%damage_per_int%",
+      "%effect_radius%"
+    ]
+  },
+  {
+    "id": "mechanics:87:disruptor_static_storm",
+    "hero_id": 87,
+    "hero": "Disruptor",
+    "ability": "Static Storm",
+    "text": "Creates a damaging static storm that also silences all enemy units in the area for the duration. The damage starts off weak, but increases in power over the duration.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=87",
+    "patch": "7.41f",
+    "unresolved_parameters": []
+  },
+  {
+    "id": "mechanics:32:riki_smoke_screen",
+    "hero_id": 32,
+    "hero": "Riki",
+    "ability": "Smoke Screen",
+    "text": "Throws down a smoke bomb, silencing enemies and causing them to miss attacks.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=32",
+    "patch": "7.41f",
+    "unresolved_parameters": []
+  },
+  {
+    "id": "mechanics:32:riki_blink_strike",
+    "hero_id": 32,
+    "hero": "Riki",
+    "ability": "Blink Strike",
+    "text": "Teleports behind the target unit, momentarily slowing them by [значение не сохранено]%% and attacking them with bonus damage if it is an enemy.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=32",
+    "patch": "7.41f",
+    "unresolved_parameters": [
+      "%slow_pct_tooltip%"
+    ]
+  },
+  {
+    "id": "mechanics:32:riki_tricks_of_the_trade",
+    "hero_id": 32,
+    "hero": "Riki",
+    "ability": "Tricks of the Trade",
+    "text": "CHANNELED - Riki phases out of the world and periodically strikes [значение не сохранено] random enemy units from behind in an area around him. He has fixed attack damage while phased out.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=32",
+    "patch": "7.41f",
+    "unresolved_parameters": [
+      "%interval_targets%"
+    ]
+  },
+  {
+    "id": "mechanics:32:riki_innate_backstab",
+    "hero_id": 32,
+    "hero": "Riki",
+    "ability": "Backstab",
+    "text": "Every time Riki strikes his enemy from behind, he deals additional bonus damage equal to a multiple of his Agility.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=32",
+    "patch": "7.41f",
+    "unresolved_parameters": []
+  },
+  {
+    "id": "mechanics:32:riki_backstab",
+    "hero_id": 32,
+    "hero": "Riki",
+    "ability": "Cloak and Dagger",
+    "text": "Riki fades into the shadows, becoming invisible until he attacks. Hero kills and assists grant additional experience.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=32",
+    "patch": "7.41f",
+    "unresolved_parameters": []
+  },
+  {
+    "id": "mechanics:36:necrolyte_death_pulse",
+    "hero_id": 36,
+    "hero": "Necrophos",
+    "ability": "Death Pulse",
+    "text": "Necrophos releases a wave of death around him, dealing damage to enemy units and healing allied units.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=36",
+    "patch": "7.41f",
+    "unresolved_parameters": []
+  },
+  {
+    "id": "mechanics:36:necrolyte_ghost_shroud",
+    "hero_id": 36,
+    "hero": "Necrophos",
+    "ability": "Ghost Shroud",
+    "text": "Necrophos slips into the realm that separates the living from the dead. Unable to attack or be attacked, he emits an aura that slows enemies around him. He takes additional magic damage in this form, but his restorative powers are amplified.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=36",
+    "patch": "7.41f",
+    "unresolved_parameters": []
+  },
+  {
+    "id": "mechanics:36:necrolyte_heartstopper_aura",
+    "hero_id": 36,
+    "hero": "Necrophos",
+    "ability": "Heartstopper Aura",
+    "text": "Necrophos stills the hearts of his opponents, causing nearby enemy units to lose a percentage of their max health over time.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=36",
+    "patch": "7.41f",
+    "unresolved_parameters": []
+  },
+  {
+    "id": "mechanics:36:necrolyte_death_seeker",
+    "hero_id": 36,
+    "hero": "Necrophos",
+    "ability": "Death Seeker",
+    "text": "Necrophos turns into a large Death Pulse towards the target unit's position. Once it arrives to the location, the Death Pulse spreads towards nearby enemies and allies.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=36",
+    "patch": "7.41f",
+    "unresolved_parameters": []
+  },
+  {
+    "id": "mechanics:36:necrolyte_sadist",
+    "hero_id": 36,
+    "hero": "Necrophos",
+    "ability": "Sadist",
+    "text": "Necrophos gains stacking regen for [значение не сохранено] seconds for each unit he kills. Hero kills multiply the effect.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=36",
+    "patch": "7.41f",
+    "unresolved_parameters": [
+      "%regen_duration%"
+    ]
+  },
+  {
+    "id": "mechanics:36:necrolyte_reapers_scythe",
+    "hero_id": 36,
+    "hero": "Necrophos",
+    "ability": "Reaper's Scythe",
+    "text": "Stuns the target enemy hero, then deals damage based on how much life it is missing. If Necrophos kills an enemy this way, he'll permanently gain Health and Mana Regen. Any kill under this effect is credited to Necrophos.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=36",
+    "patch": "7.41f",
+    "unresolved_parameters": []
+  },
+  {
+    "id": "mechanics:52:leshrac_split_earth",
+    "hero_id": 52,
+    "hero": "Leshrac",
+    "ability": "Split Earth",
+    "text": "Splits the earth under enemies. Deals damage and stuns for a short duration.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=52",
+    "patch": "7.41f",
+    "unresolved_parameters": []
+  },
+  {
+    "id": "mechanics:52:leshrac_diabolic_edict",
+    "hero_id": 52,
+    "hero": "Leshrac",
+    "ability": "Diabolic Edict",
+    "text": "Saturates the area around Leshrac with magical explosions that deal pure damage to enemy units and buildings. The fewer units available to attack, the more damage those units will take.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=52",
+    "patch": "7.41f",
+    "unresolved_parameters": []
+  },
+  {
+    "id": "mechanics:52:leshrac_lightning_storm",
+    "hero_id": 52,
+    "hero": "Leshrac",
+    "ability": "Lightning Storm",
+    "text": "Summons a lightning storm that blasts the target enemy unit, then strikes any nearby enemy units. Struck enemies have their move speed slowed.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=52",
+    "patch": "7.41f",
+    "unresolved_parameters": []
+  },
+  {
+    "id": "mechanics:52:leshrac_greater_lightning_storm",
+    "hero_id": 52,
+    "hero": "Leshrac",
+    "ability": "Nihilism",
+    "text": "Causes Leshrac and all nearby enemies to turn ethereal, preventing them from attacking, slowing them, and making them take more magic damage. Increases Leshrac's speed rather than reducing it. Does not cause Leshrac to take amplified damage.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=52",
+    "patch": "7.41f",
+    "unresolved_parameters": []
+  },
+  {
+    "id": "mechanics:52:leshrac_defilement",
+    "hero_id": 52,
+    "hero": "Leshrac",
+    "ability": "Defilement",
+    "text": "Leshrac gains [значение не сохранено] Area of Effect Bonus per Intelligence.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=52",
+    "patch": "7.41f",
+    "unresolved_parameters": [
+      "%aoe_per_int%"
+    ]
+  },
+  {
+    "id": "mechanics:52:leshrac_pulse_nova",
+    "hero_id": 52,
+    "hero": "Leshrac",
+    "ability": "Pulse Nova",
+    "text": "Creates waves of damaging energy around Leshrac, one per second, to damage nearby enemy units. Drains Leshrac's mana with each pulse.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=52",
+    "patch": "7.41f",
+    "unresolved_parameters": []
+  },
+  {
+    "id": "mechanics:60:night_stalker_void",
+    "hero_id": 60,
+    "hero": "Night Stalker",
+    "ability": "Void",
+    "text": "Creates a damaging void that slows an enemy unit and deals damage. At night, Void also mini-stuns, interrupting channeling abilities, and its effects lasts longer.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=60",
+    "patch": "7.41f",
+    "unresolved_parameters": []
+  },
+  {
+    "id": "mechanics:60:night_stalker_crippling_fear",
+    "hero_id": 60,
+    "hero": "Night Stalker",
+    "ability": "Crippling Fear",
+    "text": "Night Stalker horrifies all nearby enemies, causing them to become silenced and take damage over time while near him. The effect lasts longer at night.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=60",
+    "patch": "7.41f",
+    "unresolved_parameters": []
+  },
+  {
+    "id": "mechanics:60:night_stalker_midnight_feast",
+    "hero_id": 60,
+    "hero": "Night Stalker",
+    "ability": "Midnight Feast",
+    "text": "Night Stalker heals himself when attacking enemy units. At night, the ability can be activated to instantly destroy a non-ancient creep and restore a percentage of Night Stalker's maximum health and mana.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=60",
+    "patch": "7.41f",
+    "unresolved_parameters": []
+  },
+  {
+    "id": "mechanics:60:night_stalker_hunter_in_the_night",
+    "hero_id": 60,
+    "hero": "Night Stalker",
+    "ability": "Hunter in the Night",
+    "text": "Night Stalker is in his element at night, attacking and moving with great swiftness.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=60",
+    "patch": "7.41f",
+    "unresolved_parameters": []
+  },
+  {
+    "id": "mechanics:60:night_stalker_darkness",
+    "hero_id": 60,
+    "hero": "Night Stalker",
+    "ability": "Dark Ascension",
+    "text": "Night Stalker smothers the sun and summons instant darkness, so that he might use his powers at their fullest. Night Stalker gains flight and bonus damage during this time. Has unobstructed vision.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=60",
+    "patch": "7.41f",
+    "unresolved_parameters": []
+  },
+  {
+    "id": "mechanics:12:phantom_lancer_spirit_lance",
+    "hero_id": 12,
+    "hero": "Phantom Lancer",
+    "ability": "Spirit Lance",
+    "text": "Sends a magical spirit lance to a target enemy unit that damages and slows, while summoning an illusory phantom to attack the unit.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=12",
+    "patch": "7.41f",
+    "unresolved_parameters": []
+  },
+  {
+    "id": "mechanics:12:phantom_lancer_doppelwalk",
+    "hero_id": 12,
+    "hero": "Phantom Lancer",
+    "ability": "Doppelganger",
+    "text": "Phantom Lancer briefly vanishes from the battlefield. After [значение не сохранено] second, Phantom Lancer and any of his nearby illusions reappear at a random position within the targeted location, along with two additional doppelgangers. Extends duration of all illusions. The two added doppelgangers have different properties: one takes normal damage and deals none, while the other takes [значение не сохранено]%% bonus damage and deals [значение не сохранено]%% less damage. DISPEL TYPE: Basic Dispel",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=12",
+    "patch": "7.41f",
+    "unresolved_parameters": [
+      "%delay%",
+      "%illusion_2_damage_in_pct%",
+      "%illusion_2_damage_out_pct%"
+    ]
+  },
+  {
+    "id": "mechanics:12:phantom_lancer_phantom_edge",
+    "hero_id": 12,
+    "hero": "Phantom Lancer",
+    "ability": "Phantom Rush",
+    "text": "When targeting an enemy for an attack, Phantom Lancer quickly charges into range, gaining increased movement speed and evasion.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=12",
+    "patch": "7.41f",
+    "unresolved_parameters": []
+  },
+  {
+    "id": "mechanics:12:phantom_lancer_illusory_armaments",
+    "hero_id": 12,
+    "hero": "Phantom Lancer",
+    "ability": "Illusory Armaments",
+    "text": "Whenever an illusion of Phantom Lancer is created, its outgoing damage cannot go below a fixed value for [значение не сохранено] seconds.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=12",
+    "patch": "7.41f",
+    "unresolved_parameters": [
+      "%duration%"
+    ]
+  },
+  {
+    "id": "mechanics:12:phantom_lancer_juxtapose",
+    "hero_id": 12,
+    "hero": "Phantom Lancer",
+    "ability": "Juxtapose",
+    "text": "Phantom Lancer has a chance to fracture his presence on an attack, creating an illusion of himself. Illusions also have a chance to fracture further. Illusions created from Phantom Lancer last for [значение не сохранено] seconds, while illusions created from other illusions last [значение не сохранено] seconds.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=12",
+    "patch": "7.41f",
+    "unresolved_parameters": [
+      "%illusion_duration%",
+      "%illusion_from_illusion_duration%"
+    ]
+  },
+  {
+    "id": "mechanics:21:windrunner_shackleshot",
+    "hero_id": 21,
+    "hero": "Windranger",
+    "ability": "Shackleshot",
+    "text": "Shackles the target to an enemy unit or tree in a line directly behind it. If no unit or tree is present, the stun duration is reduced to [значение не сохранено].",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=21",
+    "patch": "7.41f",
+    "unresolved_parameters": [
+      "%fail_stun_duration%"
+    ]
+  },
+  {
+    "id": "mechanics:21:windrunner_powershot",
+    "hero_id": 21,
+    "hero": "Windranger",
+    "ability": "Powershot",
+    "text": "CHANNELED - Windranger charges her bow for up to [значение не сохранено] second for a single powerful shot, which deals more damage the longer it is charged. The arrow damages and slows enemies' movement speed along its path. For each enemy that Powershot hits, its damage and slow is reduced.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=21",
+    "patch": "7.41f",
+    "unresolved_parameters": [
+      "%abilitychanneltime%"
+    ]
+  },
+  {
+    "id": "mechanics:21:windrunner_windrun",
+    "hero_id": 21,
+    "hero": "Windranger",
+    "ability": "Windrun",
+    "text": "Increases movement speed and adds evasion from all physical attacks.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=21",
+    "patch": "7.41f",
+    "unresolved_parameters": []
+  },
+  {
+    "id": "mechanics:21:windrunner_gale_force",
+    "hero_id": 21,
+    "hero": "Windranger",
+    "ability": "Gale Force",
+    "text": "Vector Targeted. Summons a strong wind that pushes all enemies in the target area towards the target direction.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=21",
+    "patch": "7.41f",
+    "unresolved_parameters": []
+  },
+  {
+    "id": "mechanics:21:windrunner_focusfire",
+    "hero_id": 21,
+    "hero": "Windranger",
+    "ability": "Focus Fire",
+    "text": "Windranger channels the wind to gain [значение не сохранено] additional attack speed against a single enemy unit or structure, though with a reduction to her attack damage. Extra damage from secondary item effects is not reduced.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=21",
+    "patch": "7.41f",
+    "unresolved_parameters": [
+      "%bonus_attack_speed%"
+    ]
+  },
+  {
+    "id": "mechanics:21:windrunner_tailwind",
+    "hero_id": 21,
+    "hero": "Windranger",
+    "ability": "Tailwind",
+    "text": "Using an ability conjures a stacking Tailwind that gives Windranger a brief burst of movement speed. Movement speed bonus gradually starts fading halfway through the Tailwind duration. Passively increases Windranger's max movement speed.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=21",
+    "patch": "7.41f",
+    "unresolved_parameters": []
+  },
+  {
+    "id": "mechanics:119:dark_willow_bramble_maze",
+    "hero_id": 119,
+    "hero": "Dark Willow",
+    "ability": "Bramble Maze",
+    "text": "Dark Willow creates a [значение не сохранено] AoE maze of [значение не сохранено] brambles that grow in the target area after [значение не сохранено] seconds. Enemies that walk into a bramble are rooted and take damage over time. Lasts [значение не сохранено] seconds.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=119",
+    "patch": "7.41f",
+    "unresolved_parameters": [
+      "%placement_range%",
+      "%placement_count%",
+      "%initial_creation_delay%",
+      "%placement_duration%"
+    ]
+  },
+  {
+    "id": "mechanics:119:dark_willow_shadow_realm",
+    "hero_id": 119,
+    "hero": "Dark Willow",
+    "ability": "Shadow Realm",
+    "text": "Dark Willow recedes into the shadows, becoming untargetable. Her next attack has [значение не сохранено] bonus attack range and deals bonus magic damage, and will end Shadow Realm. Damage scales based on how long she remains under the effects of Shadow Realm, the maximum being reached after [значение не сохранено] seconds.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=119",
+    "patch": "7.41f",
+    "unresolved_parameters": [
+      "%attack_range_bonus%",
+      "%max_damage_duration%"
+    ]
+  },
+  {
+    "id": "mechanics:119:dark_willow_cursed_crown",
+    "hero_id": 119,
+    "hero": "Dark Willow",
+    "ability": "Cursed Crown",
+    "text": "Dark Willow casts an ancient fae curse on the target. After a delay, the target and nearby enemies are stunned.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=119",
+    "patch": "7.41f",
+    "unresolved_parameters": []
+  },
+  {
+    "id": "mechanics:119:dark_willow_bedlam",
+    "hero_id": 119,
+    "hero": "Dark Willow",
+    "ability": "Bedlam",
+    "text": "Dark Willow sends her pet wisp to roam around herself for the duration, rapidly attacking nearby enemies. Bedlam cannot be used while Terrorize is active.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=119",
+    "patch": "7.41f",
+    "unresolved_parameters": []
+  },
+  {
+    "id": "mechanics:119:dark_willow_pixie_dust",
+    "hero_id": 119,
+    "hero": "Dark Willow",
+    "ability": "Pixie Dust",
+    "text": "Dark Willow gains [значение не сохранено]%% bonus Health and Mana Regeneration, increased to [значение не сохранено]%% while she is untargetable or invulnerable.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=119",
+    "patch": "7.41f",
+    "unresolved_parameters": [
+      "%hp_regen_amp%",
+      "%hp_regen_amp_out_of_world%"
+    ]
+  },
+  {
+    "id": "mechanics:119:dark_willow_terrorize",
+    "hero_id": 119,
+    "hero": "Dark Willow",
+    "ability": "Terrorize",
+    "text": "Dark Willow releases her pet wisp to terrorize her enemies. After a short delay, all enemies in the target area become fearful and run toward their home fountain. Terrorize cannot be used while Bedlam is active.",
+    "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=119",
+    "patch": "7.41f",
+    "unresolved_parameters": []
+  }
+]

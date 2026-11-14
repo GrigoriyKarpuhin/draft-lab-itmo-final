@@ -1,0 +1,107 @@
+{
+  "basis": "Valve 7.34 pick phases with 7.40 ban order changes",
+  "sources": [
+    "https://www.dota2.com/datafeed/patchnotes?version=7.34&language=english",
+    "https://www.dota2.com/datafeed/patchnotes?version=7.40&language=english"
+  ],
+  "checkedAt": "2026-10-22",
+  "firstPick": "radiant",
+  "steps": [
+    {
+      "side": "radiant",
+      "type": "ban"
+    },
+    {
+      "side": "radiant",
+      "type": "ban"
+    },
+    {
+      "side": "dire",
+      "type": "ban"
+    },
+    {
+      "side": "dire",
+      "type": "ban"
+    },
+    {
+      "side": "radiant",
+      "type": "ban"
+    },
+    {
+      "side": "dire",
+      "type": "ban"
+    },
+    {
+      "side": "dire",
+      "type": "ban"
+    },
+    {
+      "side": "radiant",
+      "type": "pick"
+    },
+    {
+      "side": "dire",
+      "type": "pick"
+    },
+    {
+      "side": "radiant",
+      "type": "ban"
+    },
+    {
+      "side": "radiant",
+      "type": "ban"
+    },
+    {
+      "side": "dire",
+      "type": "ban"
+    },
+    {
+      "side": "dire",
+      "type": "pick"
+    },
+    {
+      "side": "radiant",
+      "type": "pick"
+    },
+    {
+      "side": "radiant",
+      "type": "pick"
+    },
+    {
+      "side": "dire",
+      "type": "pick"
+    },
+    {
+      "side": "dire",
+      "type": "pick"
+    },
+    {
+      "side": "radiant",
+      "type": "pick"
+    },
+    {
+      "side": "radiant",
+      "type": "ban"
+    },
+    {
+      "side": "dire",
+      "type": "ban"
+    },
+    {
+      "side": "radiant",
+      "type": "ban"
+    },
+    {
+      "side": "dire",
+      "type": "ban"
+    },
+    {
+      "side": "radiant",
+      "type": "pick"
+    },
+    {
+      "side": "dire",
+      "type": "pick"
+    }
+  ]
+}

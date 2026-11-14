@@ -1,0 +1,958 @@
+{
+  "case": "completed_risks",
+  "request": {
+    "state": {
+      "mode": "free",
+      "first": "radiant",
+      "history": [
+        {
+          "id": 67,
+          "side": "radiant",
+          "type": "pick",
+          "role": 1
+        },
+        {
+          "id": 25,
+          "side": "radiant",
+          "type": "pick",
+          "role": 2
+        },
+        {
+          "id": 2,
+          "side": "radiant",
+          "type": "pick",
+          "role": 3
+        },
+        {
+          "id": 3,
+          "side": "radiant",
+          "type": "pick",
+          "role": 4
+        },
+        {
+          "id": 5,
+          "side": "radiant",
+          "type": "pick",
+          "role": 5
+        },
+        {
+          "id": 8,
+          "side": "dire",
+          "type": "pick",
+          "role": 1
+        },
+        {
+          "id": 76,
+          "side": "dire",
+          "type": "pick",
+          "role": 2
+        },
+        {
+          "id": 129,
+          "side": "dire",
+          "type": "pick",
+          "role": 3
+        },
+        {
+          "id": 71,
+          "side": "dire",
+          "type": "pick",
+          "role": 4
+        },
+        {
+          "id": 31,
+          "side": "dire",
+          "type": "pick",
+          "role": 5
+        }
+      ],
+      "pool": []
+    },
+    "side": "radiant",
+    "type": "pick",
+    "role": 1,
+    "personalPool": [],
+    "metaMode": "fresh",
+    "history": [],
+    "question": "Какие риски у завершённого состава Radiant?"
+  },
+  "result": {
+    "status": "ok",
+    "answer": "• Crystal Maiden против Juggernaut: 41.2% побед в 571 играх, ниже ожидания по базовым WR. Планировать помощь союзников и численное преимущество; статистика не описывает конкретный эпизод один на один.\n\n• Нет героя с тегом Pusher: выигранные драки могут медленнее превращаться в башни. Это не означает, что состав не умеет пушить.\n\n• Совместный результат Axe + Crystal Maiden ниже среднего базового WR этих героев в выборке. Это корреляция, а не доказательство несовместимости.",
+    "risk": "Данные ограничены сохранённым снимком; статистика не разделена по ролям. Индекс не является вероятностью победы. Решение принимает игрок.",
+    "candidate_ids": [],
+    "evidence_ids": [
+      "composition:radiant:0",
+      "composition:radiant:1",
+      "composition:radiant:2"
+    ],
+    "response_mode": "evidence_selection",
+    "selection": {
+      "mode": "risks",
+      "candidate_ids": [],
+      "reason_ids": [
+        "composition:radiant:0",
+        "composition:radiant:1",
+        "composition:radiant:2"
+      ],
+      "fact_ids": [],
+      "note_code": "data_limited"
+    },
+    "sources": [
+      {
+        "id": "composition:radiant:0",
+        "title": "Риск состава по движку",
+        "url": null
+      },
+      {
+        "id": "composition:radiant:1",
+        "title": "Риск состава по движку",
+        "url": null
+      },
+      {
+        "id": "composition:radiant:2",
+        "title": "Риск состава по движку",
+        "url": null
+      }
+    ],
+    "trace": [
+      {
+        "tool": "get_candidates",
+        "arguments": {
+          "side": "radiant",
+          "type": "pick",
+          "role": 1
+        },
+        "result": {
+          "candidates": [],
+          "compositionRisks": [
+            {
+              "id": "composition:radiant:0",
+              "text": "Crystal Maiden против Juggernaut: 41.2% побед в 571 играх, ниже ожидания по базовым WR. Планировать помощь союзников и численное преимущество; статистика не описывает конкретный эпизод один на один."
+            },
+            {
+              "id": "composition:radiant:1",
+              "text": "Нет героя с тегом Pusher: выигранные драки могут медленнее превращаться в башни. Это не означает, что состав не умеет пушить."
+            },
+            {
+              "id": "composition:radiant:2",
+              "text": "Совместный результат Axe + Crystal Maiden ниже среднего базового WR этих героев в выборке. Это корреляция, а не доказательство несовместимости."
+            }
+          ],
+          "side": "radiant",
+          "type": "pick",
+          "role": 1,
+          "currentAction": null,
+          "selected": [
+            {
+              "side": "radiant",
+              "type": "pick",
+              "id": 67,
+              "role": 1,
+              "name": "Spectre"
+            },
+            {
+              "side": "radiant",
+              "type": "pick",
+              "id": 25,
+              "role": 2,
+              "name": "Lina"
+            },
+            {
+              "side": "radiant",
+              "type": "pick",
+              "id": 2,
+              "role": 3,
+              "name": "Axe"
+            },
+            {
+              "side": "radiant",
+              "type": "pick",
+              "id": 3,
+              "role": 4,
+              "name": "Bane"
+            },
+            {
+              "side": "radiant",
+              "type": "pick",
+              "id": 5,
+              "role": 5,
+              "name": "Crystal Maiden"
+            },
+            {
+              "side": "dire",
+              "type": "pick",
+              "id": 8,
+              "role": 1,
+              "name": "Juggernaut"
+            },
+            {
+              "side": "dire",
+              "type": "pick",
+              "id": 76,
+              "role": 2,
+              "name": "Outworld Devourer"
+            },
+            {
+              "side": "dire",
+              "type": "pick",
+              "id": 129,
+              "role": 3,
+              "name": "Mars"
+            },
+            {
+              "side": "dire",
+              "type": "pick",
+              "id": 71,
+              "role": 4,
+              "name": "Spirit Breaker"
+            },
+            {
+              "side": "dire",
+              "type": "pick",
+              "id": 31,
+              "role": 5,
+              "name": "Lich"
+            }
+          ],
+          "source": {
+            "patch": "7.41f",
+            "matches": 49919,
+            "generatedAt": 1792674306.900278,
+            "roleSpecific": false,
+            "mode": "fresh"
+          },
+          "outlook": {
+            "radiant": 40,
+            "dire": 60,
+            "explanation": {
+              "teams": {
+                "radiant": {
+                  "strengths": [
+                    "Первый контакт: Axe. В справочнике отмечены как инициаторы; составу есть через кого начинать бой.",
+                    "Несколько источников контроля: Lina, Axe, Bane, Crystal Maiden. Можно распределить контроль между целью первого входа и её союзниками.",
+                    "Передняя линия среди коров: Spectre, Axe. Есть кому принимать первый контакт, пока остальные выбирают позицию.",
+                    "Статистическая опора: Spectre против Lich — 56.8% побед в 234 играх; результат выше ожидаемого по базовым WR. Это результат всей игры, не гарантия дуэли."
+                  ],
+                  "winConditions": [
+                    {
+                      "title": "Начать бой первым и связать контроль",
+                      "text": "Искать подготовленный вход через Axe, затем продолжать контроль через Lina, Bane. Spectre и Lina должны успевать подключиться к выбранной цели. Не разменивать все средства контроля на одну цель, если рядом остаются другие угрозы."
+                    },
+                    {
+                      "title": "Связать развитие Carry с действиями команды",
+                      "text": "Сохранять доступ Spectre к безопасному фарму и заранее договариваться, к каким боям он подключается. Через Lina и героев контроля искать возможности занять территорию."
+                    },
+                    {
+                      "title": "Сначала создать окно для осады",
+                      "text": "В справочнике нет выраженного Pusher. Стараться выходить к строениям после выгодного размена или вынужденного отступления соперника. Без численного или территориального преимущества завершение игры может требовать больше подготовки."
+                    },
+                    {
+                      "title": "Страховать неудобный встречный матчап",
+                      "text": "В выбранных данных Crystal Maiden имеет неблагоприятный эффект против Juggernaut. Возможный ответ команды — подготовленный бой с поддержкой через Lina, Axe, а не ставка на изолированный контакт. При угрозе для Crystal Maiden сохранять средства помощи; Juggernaut не должен получать удобный вход без ответа."
+                    }
+                  ],
+                  "risks": [
+                    "Crystal Maiden против Juggernaut: 41.2% побед в 571 играх, ниже ожидания по базовым WR. Планировать помощь союзников и численное преимущество; статистика не описывает конкретный эпизод один на один.",
+                    "Нет героя с тегом Pusher: выигранные драки могут медленнее превращаться в башни. Это не означает, что состав не умеет пушить.",
+                    "Совместный результат Axe + Crystal Maiden ниже среднего базового WR этих героев в выборке. Это корреляция, а не доказательство несовместимости."
+                  ],
+                  "carryMatchup": {
+                    "hero": "Spectre",
+                    "role": 1,
+                    "enemy": "Juggernaut",
+                    "enemyRole": 1,
+                    "effect": 1.5453802382646205,
+                    "observed": 52.53164556962025,
+                    "n": 316,
+                    "empirical": true
+                  },
+                  "mechanics": {
+                    "interactions": [],
+                    "saves": [],
+                    "items": [],
+                    "resources": {
+                      "rows": [
+                        {
+                          "hero": "Spectre",
+                          "role": 1,
+                          "verified": true,
+                          "path": "Urn of Shadows ≈4 мин; Power Treads ≈7 мин; Radiance ≈17 мин; Manta Style ≈24 мин; Eye of Skadi ≈33 мин",
+                          "focus": "Стабильный доступ к волнам и лагерям до Radiance/Manta; глобальные подключения не должны постоянно обрывать фарм.",
+                          "source": "https://dota2protracker.com/hero/Spectre?section=builds",
+                          "matches": 4018
+                        },
+                        {
+                          "hero": "Lina",
+                          "role": 2,
+                          "verified": false,
+                          "path": "Проверенного билда на эту позицию в локальном справочнике пока нет.",
+                          "focus": "Волны, уровни и свой первый боевой предмет; затем согласовать переход к давлению.",
+                          "source": null,
+                          "matches": 0
+                        },
+                        {
+                          "hero": "Axe",
+                          "role": 3,
+                          "verified": true,
+                          "path": "Phase Boots ≈7 мин; Blade Mail ≈13 мин; Blink Dagger ≈15 мин; Black King Bar ≈26 мин",
+                          "focus": "Получить предметы входа / командной пользы и захватывать пространство.",
+                          "source": "https://dota2protracker.com/hero/Axe?section=builds",
+                          "matches": 8846
+                        },
+                        {
+                          "hero": "Bane",
+                          "role": 4,
+                          "verified": true,
+                          "path": "Arcane Boots ≈11 мин; Blink Dagger ≈28 мин; Aghanim's Scepter ≈32 мин",
+                          "focus": "Опыт, вылазки и обзор; несколько дорогих предметов требуют выбора очередности.",
+                          "source": "https://dota2protracker.com/hero/Bane?section=builds&role=support",
+                          "matches": 778
+                        },
+                        {
+                          "hero": "Crystal Maiden",
+                          "role": 5,
+                          "verified": true,
+                          "path": "Tranquil Boots ≈8 мин; Blink Dagger ≈24 мин; Black King Bar ≈33 мин",
+                          "focus": "Опыт, обзор и расходники; свободные волны не должны срывать ключевую покупку кора.",
+                          "source": "https://dota2protracker.com/hero/Crystal%20Maiden?section=builds",
+                          "matches": 6085
+                        }
+                      ],
+                      "notes": [
+                        "Золото принадлежит отдельным игрокам: доход Carry нельзя потратить на предмет саппорта. Позиции задают исходный приоритет фарма; его можно временно менять ради важного Blink или сейва.",
+                        "Волны и лагеря нужно делить по маршрутам. Давление на башни и вражескую часть карты открывает дополнительный доступ к фарму; проигранные драки и потеря обзора его сокращают. Стаки полезны, только если их можно безопасно забрать подходящим героем.",
+                        "Саппорты получают ресурсы через участие в игре, стаки и свободные волны, но тратятся на обзор, обнаружение, Smoke и перемещения. Им не приписывается доход кора."
+                      ],
+                      "checkedAt": "2026-10-23",
+                      "patch": "7.41f",
+                      "count": 50
+                    },
+                    "limits": [],
+                    "potentialItems": true
+                  },
+                  "development": {
+                    "score": 0.17786631252766713,
+                    "active": true,
+                    "known": 4,
+                    "total": 5,
+                    "enemyKnown": 3,
+                    "enemyTotal": 5,
+                    "evidence": [
+                      {
+                        "key": "space",
+                        "label": "Ранний предметный план рядом с фармящим кором",
+                        "value": 0.17786631252766713,
+                        "text": "Axe: Blink Dagger ≈15 мин дают возможный план активных действий, пока Spectre развиваются. Наличие контроля и предмета не гарантирует захват пространства.",
+                        "sources": [
+                          {
+                            "hero": "Spectre",
+                            "role": 1,
+                            "url": "https://dota2protracker.com/hero/Spectre?section=builds",
+                            "matches": 4018
+                          },
+                          {
+                            "hero": "Axe",
+                            "role": 3,
+                            "url": "https://dota2protracker.com/hero/Axe?section=builds",
+                            "matches": 8846
+                          }
+                        ]
+                      }
+                    ],
+                    "notes": [
+                      "Проверенные билды: 4/5 выбранных героев; у соперника 3/5. Неизвестная сборка не считается слабой или безопасной и не получает выдуманного предметного плана.",
+                      "Минуты — средние в примере роли, а не прогноз этой игры. Частоты отдельных покупок не доказывают одновременный инвентарь. Винрейт предметов не прибавляется к шансу победы."
+                    ],
+                    "timelines": [
+                      {
+                        "hero": "Spectre",
+                        "role": 1,
+                        "known": true,
+                        "source": "https://dota2protracker.com/hero/Spectre?section=builds",
+                        "matches": 4018,
+                        "farm": {
+                          "item": "Radiance",
+                          "sourceName": "Radiance",
+                          "minute": 17,
+                          "purchase": 0.5,
+                          "purchaseKind": "lower-bound",
+                          "reportedRange": [
+                            15,
+                            20
+                          ]
+                        },
+                        "enable": null,
+                        "dispel": {
+                          "item": "Manta Style",
+                          "sourceName": "Manta Style",
+                          "minute": 24,
+                          "purchase": 0.5,
+                          "purchaseKind": "lower-bound",
+                          "reportedRange": [
+                            21,
+                            27
+                          ]
+                        }
+                      },
+                      {
+                        "hero": "Lina",
+                        "role": 2,
+                        "known": false,
+                        "source": null,
+                        "matches": 0,
+                        "farm": null,
+                        "enable": null,
+                        "dispel": null
+                      },
+                      {
+                        "hero": "Axe",
+                        "role": 3,
+                        "known": true,
+                        "source": "https://dota2protracker.com/hero/Axe?section=builds",
+                        "matches": 8846,
+                        "farm": null,
+                        "enable": {
+                          "item": "Blink Dagger",
+                          "sourceName": "Blink Dagger",
+                          "minute": 15,
+                          "purchase": 0.5,
+                          "purchaseKind": "lower-bound",
+                          "reportedRange": [
+                            12,
+                            18
+                          ]
+                        },
+                        "dispel": {
+                          "item": "Black King Bar",
+                          "sourceName": "Black King Bar",
+                          "minute": 26,
+                          "purchase": 0.5,
+                          "purchaseKind": "lower-bound",
+                          "reportedRange": [
+                            22,
+                            31
+                          ]
+                        }
+                      },
+                      {
+                        "hero": "Bane",
+                        "role": 4,
+                        "known": true,
+                        "source": "https://dota2protracker.com/hero/Bane?section=builds&role=support",
+                        "matches": 778,
+                        "farm": null,
+                        "enable": {
+                          "item": "Blink Dagger",
+                          "sourceName": "Blink Dagger",
+                          "minute": 28,
+                          "purchase": 0.5,
+                          "purchaseKind": "lower-bound",
+                          "reportedRange": [
+                            20,
+                            36
+                          ]
+                        },
+                        "dispel": null
+                      },
+                      {
+                        "hero": "Crystal Maiden",
+                        "role": 5,
+                        "known": true,
+                        "source": "https://dota2protracker.com/hero/Crystal%20Maiden?section=builds",
+                        "matches": 6085,
+                        "farm": null,
+                        "enable": {
+                          "item": "Blink Dagger",
+                          "sourceName": "Blink Dagger",
+                          "minute": 24,
+                          "purchase": 0.5,
+                          "purchaseKind": "lower-bound",
+                          "reportedRange": [
+                            18,
+                            31
+                          ]
+                        },
+                        "dispel": {
+                          "item": "Black King Bar",
+                          "sourceName": "Black King Bar",
+                          "minute": 33,
+                          "purchase": 0.511,
+                          "purchaseKind": "exact",
+                          "reportedRange": [
+                            27,
+                            39
+                          ]
+                        }
+                      }
+                    ]
+                  },
+                  "matchups": [
+                    {
+                      "hero": "Crystal Maiden",
+                      "role": 5,
+                      "enemy": "Juggernaut",
+                      "enemyRole": 1,
+                      "effect": -4.254843517138599,
+                      "observed": 41.155866900175134,
+                      "n": 571,
+                      "empirical": true,
+                      "priority": 1
+                    },
+                    {
+                      "hero": "Axe",
+                      "role": 3,
+                      "enemy": "Spirit Breaker",
+                      "enemyRole": 4,
+                      "effect": -4.252717105010271,
+                      "observed": 42.90030211480362,
+                      "n": 662,
+                      "empirical": true,
+                      "priority": 1
+                    },
+                    {
+                      "hero": "Lina",
+                      "role": 2,
+                      "enemy": "Spirit Breaker",
+                      "enemyRole": 4,
+                      "effect": -4.188311688311688,
+                      "observed": 39.53488372093023,
+                      "n": 516,
+                      "empirical": true,
+                      "priority": 1
+                    }
+                  ],
+                  "synergies": [
+                    {
+                      "heroes": [
+                        "Lina",
+                        "Crystal Maiden"
+                      ],
+                      "expert": false,
+                      "observed": 52.254641909814325,
+                      "n": 377,
+                      "effect": 1.9390440480371334
+                    },
+                    {
+                      "heroes": [
+                        "Spectre",
+                        "Axe"
+                      ],
+                      "expert": false,
+                      "observed": 55.12367491166078,
+                      "n": 283,
+                      "effect": 1.8391403365062922
+                    },
+                    {
+                      "heroes": [
+                        "Axe",
+                        "Crystal Maiden"
+                      ],
+                      "expert": false,
+                      "observed": 45.77114427860697,
+                      "n": 402,
+                      "effect": -1.775852052694457
+                    }
+                  ]
+                },
+                "dire": {
+                  "strengths": [
+                    "Первый контакт: Mars, Spirit Breaker. В справочнике отмечены как инициаторы; составу есть через кого начинать бой.",
+                    "Несколько источников контроля: Outworld Devourer, Mars, Spirit Breaker. Можно распределить контроль между целью первого входа и её союзниками.",
+                    "Передняя линия среди коров: Mars. Есть кому принимать первый контакт, пока остальные выбирают позицию.",
+                    "Давление на строения: Juggernaut отмечены как Pusher. У состава есть профильные средства превращать преимущество в потерю башен соперника.",
+                    "Статистическая опора: Juggernaut против Crystal Maiden — 58.8% побед в 571 играх; результат выше ожидаемого по базовым WR. Это результат всей игры, не гарантия дуэли."
+                  ],
+                  "winConditions": [
+                    {
+                      "title": "Начать бой первым и связать контроль",
+                      "text": "Искать подготовленный вход через Mars, затем продолжать контроль через Outworld Devourer, Spirit Breaker. Juggernaut и Outworld Devourer должны успевать подключиться к выбранной цели. Не разменивать все средства контроля на одну цель, если рядом остаются другие угрозы."
+                    },
+                    {
+                      "title": "Связать развитие Carry с действиями команды",
+                      "text": "Сохранять доступ Juggernaut к безопасному фарму и заранее договариваться, к каким боям он подключается. Через Outworld Devourer и героев контроля искать возможности занять территорию."
+                    },
+                    {
+                      "title": "Закреплять выигранный эпизод строениями",
+                      "text": "После убийства или отступления соперника использовать Juggernaut для давления на башни, а остальными героями прикрывать подходы. Возвращаться к фарму, когда безопасное окно закончилось; не продолжать осаду только потому, что предыдущая драка была выиграна."
+                    },
+                    {
+                      "title": "Страховать неудобный встречный матчап",
+                      "text": "В выбранных данных Lich имеет неблагоприятный эффект против Spectre. Возможный ответ команды — подготовленный бой с поддержкой через Outworld Devourer, Mars, а не ставка на изолированный контакт. При угрозе для Lich сохранять средства помощи; Spectre не должен получать удобный вход без ответа."
+                    }
+                  ],
+                  "risks": [
+                    "Lich против Spectre: 43.2% побед в 234 играх, ниже ожидания по базовым WR. Планировать помощь союзников и численное преимущество; статистика не описывает конкретный эпизод один на один."
+                  ],
+                  "carryMatchup": {
+                    "hero": "Juggernaut",
+                    "role": 1,
+                    "enemy": "Spectre",
+                    "enemyRole": 1,
+                    "effect": -1.5453802382646205,
+                    "observed": 47.46835443037975,
+                    "n": 316,
+                    "empirical": true
+                  },
+                  "mechanics": {
+                    "interactions": [],
+                    "saves": [],
+                    "items": [],
+                    "resources": {
+                      "rows": [
+                        {
+                          "hero": "Juggernaut",
+                          "role": 1,
+                          "verified": true,
+                          "path": "Power Treads ≈6 мин; Battle Fury ≈13 мин; Manta Style ≈21 мин; Butterfly ≈27 мин; Blink Dagger ≈28 мин",
+                          "focus": "Приоритет безопасных волн и лагерей; раннее участие в боях согласовать с предметным планом.",
+                          "source": "https://dota2protracker.com/hero/Juggernaut?section=builds",
+                          "matches": 9478
+                        },
+                        {
+                          "hero": "Outworld Devourer",
+                          "role": 2,
+                          "verified": false,
+                          "path": "Проверенного билда на эту позицию в локальном справочнике пока нет.",
+                          "focus": "Волны, уровни и свой первый боевой предмет; затем согласовать переход к давлению.",
+                          "source": null,
+                          "matches": 0
+                        },
+                        {
+                          "hero": "Mars",
+                          "role": 3,
+                          "verified": true,
+                          "path": "Phase Boots ≈9 мин; Blink Dagger ≈15 мин; Black King Bar ≈27 мин",
+                          "focus": "Получить предметы входа / командной пользы и захватывать пространство.",
+                          "source": "https://dota2protracker.com/hero/Mars?section=builds",
+                          "matches": 2674
+                        },
+                        {
+                          "hero": "Spirit Breaker",
+                          "role": 4,
+                          "verified": true,
+                          "path": "Phase Boots ≈9 мин; Shadow Blade ≈24 мин",
+                          "focus": "Опыт, вылазки и обзор; несколько дорогих предметов требуют выбора очередности.",
+                          "source": "https://dota2protracker.com/hero/Spirit%20Breaker?section=builds",
+                          "matches": 12207
+                        },
+                        {
+                          "hero": "Lich",
+                          "role": 5,
+                          "verified": false,
+                          "path": "Проверенного билда на эту позицию в локальном справочнике пока нет.",
+                          "focus": "Опыт, обзор, расходники и свободные волны; дорогой личный сейв не считается доступным заранее.",
+                          "source": null,
+                          "matches": 0
+                        }
+                      ],
+                      "notes": [
+                        "Золото принадлежит отдельным игрокам: доход Carry нельзя потратить на предмет саппорта. Позиции задают исходный приоритет фарма; его можно временно менять ради важного Blink или сейва.",
+                        "Волны и лагеря нужно делить по маршрутам. Давление на башни и вражескую часть карты открывает дополнительный доступ к фарму; проигранные драки и потеря обзора его сокращают. Стаки полезны, только если их можно безопасно забрать подходящим героем.",
+                        "Саппорты получают ресурсы через участие в игре, стаки и свободные волны, но тратятся на обзор, обнаружение, Smoke и перемещения. Им не приписывается доход кора."
+                      ],
+                      "checkedAt": "2026-10-23",
+                      "patch": "7.41f",
+                      "count": 50
+                    },
+                    "limits": [
+                      "Linken’s Sphere стоит 4 800: не включается в базовый план позиций 4–5 и откладывает основные предметы кора. Это ограничение сценария, а не запрет покупки.",
+                      "Перед Fiend's Grip Linken могут сбить: Bane — Enfeeble; Bane — Brain Sap; Bane — Nightmare. Нужны доступ к цели и готовый спелл; перечень неполный, неизвестные способности не считаются безопасными.",
+                      "Fiend's Grip проходит сквозь debuff immunity: BKB не считается снятием этой угрозы.",
+                      "Berserker's Call проходит сквозь debuff immunity: BKB не считается снятием этой угрозы."
+                    ],
+                    "potentialItems": true
+                  },
+                  "development": {
+                    "score": 0.1684940138626339,
+                    "active": true,
+                    "known": 3,
+                    "total": 5,
+                    "enemyKnown": 4,
+                    "enemyTotal": 5,
+                    "evidence": [
+                      {
+                        "key": "space",
+                        "label": "Ранний предметный план рядом с фармящим кором",
+                        "value": 0.1684940138626339,
+                        "text": "Mars: Blink Dagger ≈15 мин дают возможный план активных действий, пока Juggernaut развиваются. Наличие контроля и предмета не гарантирует захват пространства.",
+                        "sources": [
+                          {
+                            "hero": "Juggernaut",
+                            "role": 1,
+                            "url": "https://dota2protracker.com/hero/Juggernaut?section=builds",
+                            "matches": 9478
+                          },
+                          {
+                            "hero": "Mars",
+                            "role": 3,
+                            "url": "https://dota2protracker.com/hero/Mars?section=builds",
+                            "matches": 2674
+                          }
+                        ]
+                      }
+                    ],
+                    "notes": [
+                      "Проверенные билды: 3/5 выбранных героев; у соперника 4/5. Неизвестная сборка не считается слабой или безопасной и не получает выдуманного предметного плана.",
+                      "Минуты — средние в примере роли, а не прогноз этой игры. Частоты отдельных покупок не доказывают одновременный инвентарь. Винрейт предметов не прибавляется к шансу победы."
+                    ],
+                    "timelines": [
+                      {
+                        "hero": "Juggernaut",
+                        "role": 1,
+                        "known": true,
+                        "source": "https://dota2protracker.com/hero/Juggernaut?section=builds",
+                        "matches": 9478,
+                        "farm": {
+                          "item": "Battle Fury",
+                          "sourceName": "Battle Fury",
+                          "minute": 13,
+                          "purchase": 0.5,
+                          "purchaseKind": "lower-bound",
+                          "reportedRange": [
+                            12,
+                            15
+                          ]
+                        },
+                        "enable": {
+                          "item": "Blink Dagger",
+                          "sourceName": "Blink Dagger",
+                          "minute": 28,
+                          "purchase": 0.5,
+                          "purchaseKind": "lower-bound",
+                          "reportedRange": [
+                            23,
+                            34
+                          ]
+                        },
+                        "dispel": {
+                          "item": "Manta Style",
+                          "sourceName": "Manta Style",
+                          "minute": 21,
+                          "purchase": 0.5,
+                          "purchaseKind": "lower-bound",
+                          "reportedRange": [
+                            17,
+                            24
+                          ]
+                        }
+                      },
+                      {
+                        "hero": "Outworld Devourer",
+                        "role": 2,
+                        "known": false,
+                        "source": null,
+                        "matches": 0,
+                        "farm": null,
+                        "enable": null,
+                        "dispel": null
+                      },
+                      {
+                        "hero": "Mars",
+                        "role": 3,
+                        "known": true,
+                        "source": "https://dota2protracker.com/hero/Mars?section=builds",
+                        "matches": 2674,
+                        "farm": null,
+                        "enable": {
+                          "item": "Blink Dagger",
+                          "sourceName": "Blink Dagger",
+                          "minute": 15,
+                          "purchase": 0.5,
+                          "purchaseKind": "lower-bound",
+                          "reportedRange": [
+                            12,
+                            17
+                          ]
+                        },
+                        "dispel": {
+                          "item": "Black King Bar",
+                          "sourceName": "Black King Bar",
+                          "minute": 27,
+                          "purchase": 0.5,
+                          "purchaseKind": "lower-bound",
+                          "reportedRange": [
+                            23,
+                            32
+                          ]
+                        }
+                      },
+                      {
+                        "hero": "Spirit Breaker",
+                        "role": 4,
+                        "known": true,
+                        "source": "https://dota2protracker.com/hero/Spirit%20Breaker?section=builds",
+                        "matches": 12207,
+                        "farm": null,
+                        "enable": null,
+                        "dispel": null
+                      },
+                      {
+                        "hero": "Lich",
+                        "role": 5,
+                        "known": false,
+                        "source": null,
+                        "matches": 0,
+                        "farm": null,
+                        "enable": null,
+                        "dispel": null
+                      }
+                    ]
+                  },
+                  "matchups": [
+                    {
+                      "hero": "Juggernaut",
+                      "role": 1,
+                      "enemy": "Crystal Maiden",
+                      "enemyRole": 5,
+                      "effect": 4.254843517138599,
+                      "observed": 58.844133099824866,
+                      "n": 571,
+                      "empirical": true,
+                      "priority": 1
+                    },
+                    {
+                      "hero": "Spirit Breaker",
+                      "role": 4,
+                      "enemy": "Axe",
+                      "enemyRole": 3,
+                      "effect": 4.252717105010271,
+                      "observed": 57.09969788519638,
+                      "n": 662,
+                      "empirical": true,
+                      "priority": 1
+                    },
+                    {
+                      "hero": "Spirit Breaker",
+                      "role": 4,
+                      "enemy": "Lina",
+                      "enemyRole": 2,
+                      "effect": 4.188311688311688,
+                      "observed": 60.46511627906977,
+                      "n": 516,
+                      "empirical": true,
+                      "priority": 1
+                    }
+                  ],
+                  "synergies": [
+                    {
+                      "heroes": [
+                        "Juggernaut",
+                        "Outworld Devourer"
+                      ],
+                      "expert": false,
+                      "observed": 58.22021116138763,
+                      "n": 663,
+                      "effect": 2.8098845111000834
+                    },
+                    {
+                      "heroes": [
+                        "Outworld Devourer",
+                        "Lich"
+                      ],
+                      "expert": false,
+                      "observed": 60.97560975609756,
+                      "n": 492,
+                      "effect": 2.682242990654206
+                    },
+                    {
+                      "heroes": [
+                        "Spirit Breaker",
+                        "Lich"
+                      ],
+                      "expert": false,
+                      "observed": 57.89473684210526,
+                      "n": 418,
+                      "effect": 2.5757042253521125
+                    }
+                  ]
+                }
+              },
+              "factors": [
+                {
+                  "key": "counter",
+                  "label": "Матчапы против полного состава соперника",
+                  "delta": -4.1325334746042355
+                },
+                {
+                  "key": "synergy",
+                  "label": "Союзные пары и экспертные комбинации",
+                  "delta": -3.1580575392272454
+                },
+                {
+                  "key": "meta",
+                  "label": "Базовая сила героев в выбранной статистике",
+                  "delta": -2.481271973084457
+                }
+              ],
+              "lanes": [
+                {
+                  "label": "Mid",
+                  "radiant": "Lina",
+                  "dire": "Outworld Devourer",
+                  "effect": -2.794738836569233,
+                  "knownPairs": 1,
+                  "expertPairs": 0,
+                  "totalPairs": 1
+                },
+                {
+                  "label": "Лёгкая Radiant / сложная Dire",
+                  "radiant": "Spectre, Crystal Maiden",
+                  "dire": "Mars, Spirit Breaker",
+                  "effect": 1.883924047492349,
+                  "knownPairs": 4,
+                  "expertPairs": 0,
+                  "totalPairs": 4
+                },
+                {
+                  "label": "Сложная Radiant / лёгкая Dire",
+                  "radiant": "Axe, Bane",
+                  "dire": "Juggernaut, Lich",
+                  "effect": 0.15830019183913335,
+                  "knownPairs": 4,
+                  "expertPairs": 0,
+                  "totalPairs": 4
+                }
+              ]
+            }
+          },
+          "limitations": [
+            "Индекс и итоговые проценты — эвристика, не проверенная вероятность победы.",
+            "Статистика Ranked All Pick, Divine+; не размечена по ролям и не доказывает причинность.",
+            "Сохранённый снимок данных, актуальность патча на сегодня не проверена.",
+            "Справочник механик неполный. Окончательный выбор делает игрок."
+          ]
+        }
+      }
+    ],
+    "model": "qwen3:4b-instruct",
+    "elapsed_seconds": 49.6,
+    "usage": {
+      "input_tokens": 2322,
+      "output_tokens": 88,
+      "model_calls": 2
+    },
+    "snapshot": {
+      "patch": "7.41f",
+      "matches": 49919,
+      "generatedAt": 1792674306.900278,
+      "roleSpecific": false,
+      "mode": "fresh"
+    },
+    "limitations": [
+      "Индекс и итоговые проценты — эвристика, не проверенная вероятность победы.",
+      "Статистика Ranked All Pick, Divine+; не размечена по ролям и не доказывает причинность.",
+      "Сохранённый снимок данных, актуальность патча на сегодня не проверена.",
+      "Справочник механик неполный. Окончательный выбор делает игрок."
+    ],
+    "baseline": {
+      "status": "fallback",
+      "answer": "Для выбранной роли и пула допустимых кандидатов нет. Измените роль или личный пул.",
+      "risk": "Шаблон без LLM. Индекс не гарантирует победу.",
+      "candidate_ids": [],
+      "evidence_ids": []
+    },
+    "raw_model_answer": "{\"mode\": \"risks\", \"candidate_ids\": [], \"reason_ids\": [\"composition:radiant:0\", \"composition:radiant:1\", \"composition:radiant:2\"], \"fact_ids\": [], \"note_code\": \"data_limited\"}"
+  },
+  "wall_seconds": 49.64
+}

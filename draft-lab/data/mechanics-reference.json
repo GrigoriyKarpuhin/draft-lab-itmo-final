@@ -1,0 +1,4165 @@
+{
+  "checkedAt": 1792695125.476126,
+  "patch": "7.41f",
+  "heroes": {
+    "41": {
+      "id": 41,
+      "name": "Faceless Void",
+      "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=41",
+      "abilities": [
+        {
+          "name": "faceless_void_time_walk",
+          "name_loc": "Time Walk",
+          "desc_loc": "Rushes to a target location while backtracking any damage taken the last %backtrack_duration% seconds.",
+          "notes_loc": [
+            "Faceless Void is invulnerable while using Time Walk."
+          ],
+          "shard_loc": "",
+          "scepter_loc": "Applies a Time Lock to all units at the landing destination.",
+          "immunity": 1,
+          "dispellable": 0,
+          "target_team": 0,
+          "behavior": "525328",
+          "item_cost": 0
+        },
+        {
+          "name": "faceless_void_time_dilation",
+          "name_loc": "Time Dilation",
+          "desc_loc": "Faceless Void envelops nearby enemies with time dilating fields to slow cooldown progression of their abilities. Each enveloped enemy gains one Time Dilation stack when applied, and one stack per ability they have on cooldown. Each stack deals damage per second and slows movement and attack speed. The duration is paused while affected by Chronosphere.",
+          "notes_loc": [
+            "Does not affect item cooldowns.",
+            "Number of stacks can change during the effect. Casting an ability will provide a stack if it goes on cooldown. If an ability cooldown ends during Time Dilation, a stack will be removed."
+          ],
+          "shard_loc": "Increases slow per stack. Provides Faceless Void with stacks that increase his attack and movement speed. Amount of stacks is equal to the total amount of Time Dilation stacks applied to enemies at the moment of the cast and linearly fades out over the duration.",
+          "scepter_loc": "",
+          "immunity": 4,
+          "dispellable": 2,
+          "target_team": 0,
+          "behavior": "4",
+          "item_cost": 0
+        },
+        {
+          "name": "faceless_void_time_lock",
+          "name_loc": "Time Lock",
+          "desc_loc": "Adds the chance for an attack to lock an enemy unit in time while attacking it a second time.",
+          "notes_loc": [
+            "Does not stack with Skull Basher."
+          ],
+          "shard_loc": "",
+          "scepter_loc": "",
+          "immunity": 3,
+          "dispellable": 1,
+          "target_team": 0,
+          "behavior": "2",
+          "item_cost": 0
+        },
+        {
+          "name": "faceless_void_time_walk_reverse",
+          "name_loc": "Reverse Time Walk",
+          "desc_loc": "Available for 1.5 seconds after landing Time Walk. If used in this period, you will reverse your time walk back to your previous cast location. Does not affect health or proc scepter hits.",
+          "notes_loc": [],
+          "shard_loc": "",
+          "scepter_loc": "",
+          "immunity": 1,
+          "dispellable": 0,
+          "target_team": 0,
+          "behavior": "8590458885",
+          "item_cost": 0
+        },
+        {
+          "name": "faceless_void_distortion_field",
+          "name_loc": "Distortion Field",
+          "desc_loc": "Enemy Attack Projectiles targetting Faceless Void or allied heroes within a %friendly_hero_distance% radius of him get slowed by %attack_projectile_slow%%%, when they get  within %slow_distance_max% distance of their target.",
+          "notes_loc": [],
+          "shard_loc": "",
+          "scepter_loc": "",
+          "immunity": 0,
+          "dispellable": 0,
+          "target_team": 0,
+          "behavior": "66",
+          "item_cost": 0
+        },
+        {
+          "name": "faceless_void_chronosphere",
+          "name_loc": "Chronosphere",
+          "desc_loc": "Creates a blister in spacetime, trapping all units caught in its sphere of influence and causes you to move very quickly inside it. Only Faceless Void and any units he controls are unaffected. Invisible enemies in the sphere will be revealed.",
+          "notes_loc": [
+            "Pauses all units and buildings, friendly or enemy, except those owned by Faceless Void.",
+            "Faceless Void is never affected by Chronospheres with any owner."
+          ],
+          "shard_loc": "",
+          "scepter_loc": "",
+          "immunity": 3,
+          "dispellable": 3,
+          "target_team": 0,
+          "behavior": "48",
+          "item_cost": 0
+        }
+      ]
+    },
+    "74": {
+      "id": 74,
+      "name": "Invoker",
+      "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=74",
+      "abilities": [
+        {
+          "name": "invoker_quas",
+          "name_loc": "Quas",
+          "desc_loc": "Allows manipulation of ice elements. Active <font color='#7998b5'>Quas</font> instances imbue Invoker with bonus hp regeneration. Passively grants bonus strength per level of <font color='#7998b5'>Quas</font>.",
+          "notes_loc": [
+            "Invoker can only have 3 of any instance.",
+            "Will not break invisibility and can be cast while channeling."
+          ],
+          "shard_loc": "",
+          "scepter_loc": "Grants %scepter_bonus_levels% current and max level.",
+          "immunity": 0,
+          "dispellable": 2,
+          "target_team": 0,
+          "behavior": "70368748374020",
+          "item_cost": 0
+        },
+        {
+          "name": "invoker_wex",
+          "name_loc": "Wex",
+          "desc_loc": "Allows manipulation of storm elements. Active <font color='#d671a9'>Wex</font> instances imbue Invoker with bonus movement and attack speed. Passively grants bonus agility per level of <font color='#d671a9'>Wex</font>.",
+          "notes_loc": [
+            "Invoker can only have 3 of any instance.",
+            "Will not break invisibility and can be cast while channeling."
+          ],
+          "shard_loc": "",
+          "scepter_loc": "Grants %scepter_bonus_levels% current and max level.",
+          "immunity": 0,
+          "dispellable": 3,
+          "target_team": 0,
+          "behavior": "70368748374020",
+          "item_cost": 0
+        },
+        {
+          "name": "invoker_exort",
+          "name_loc": "Exort",
+          "desc_loc": "Allows manipulation of fire elements. Active <font color='#cabe68'>Exort</font> instances imbue Invoker with bonus attack damage. Passively grants bonus intelligence per level of <font color='#cabe68'>Exort</font>.",
+          "notes_loc": [
+            "Invoker can only have 3 of any instance.",
+            "Will not break invisibility and can be cast while channeling."
+          ],
+          "shard_loc": "",
+          "scepter_loc": "Grants %scepter_bonus_levels% current and max level.",
+          "immunity": 0,
+          "dispellable": 3,
+          "target_team": 0,
+          "behavior": "70368748374020",
+          "item_cost": 0
+        },
+        {
+          "name": "invoker_invoke",
+          "name_loc": "Invoke",
+          "desc_loc": "Combines the properties of the elements currently being manipulated to create a new spell for Invoker to use. Invoke cooldown is reduced by %cooldown_reduction_per_orb% seconds for each orb level.  Invoker gains a bonus ability point for his orbs at levels %first_ability_level%, %second_ability_level%, and %third_ability_level%.<br><br>Invoker's vast knowledge of magic allows him to choose from Multiple Aghanim's Scepter and Shard options.  The items must be activated before they can be used, and cannot be changed after they are chosen.<br><br> Click the help button to see the list of possible spells.",
+          "notes_loc": [
+            "The arrangement of instances does not matter.",
+            "Invoke will not cost mana or go on cooldown if the only effect is to swap the positions of existing spells.",
+            "Invoke will not break invisibility and can be cast while channeling."
+          ],
+          "shard_loc": "",
+          "scepter_loc": "",
+          "immunity": 0,
+          "dispellable": 0,
+          "target_team": 0,
+          "behavior": "70377338308676",
+          "item_cost": 0
+        },
+        {
+          "name": "invoker_cold_snap",
+          "name_loc": "Cold Snap",
+          "desc_loc": "Invoker draws the heat from an enemy, chilling them to their very core for a duration based on the level of <font color='#7998b5'>Quas</font>. The enemy will take damage and be briefly frozen. Further damage taken in this state will freeze the enemy again, dealing bonus damage. The enemy can only be frozen so often, but the freeze cooldown decreases based on the level of <font color='#7998b5'>Quas</font>.",
+          "notes_loc": [
+            "The freeze stun only triggers on damage greater than %damage_trigger% after reductions."
+          ],
+          "shard_loc": "",
+          "scepter_loc": "",
+          "immunity": 4,
+          "dispellable": 2,
+          "target_team": 2,
+          "behavior": "9007207978893385",
+          "item_cost": 0
+        },
+        {
+          "name": "invoker_ghost_walk",
+          "name_loc": "Ghost Walk",
+          "desc_loc": "Invoker manipulates the ice and electrical energies around him, rendering his body invisible and gaining health and mana regen. The elemental imbalance created as a consequence slows nearby enemies based on the level of <font color='#7998b5'>Quas</font>, and slows Invoker as well based on the level of <font color='#d671a9'>Wex</font>.",
+          "notes_loc": [
+            "The slow effect does not work on Spell Immune enemies."
+          ],
+          "shard_loc": "Ghost Walk now also applies the Ice Wall Damage Per Second to enemy heroes in its area of effect.",
+          "scepter_loc": "",
+          "immunity": 4,
+          "dispellable": 3,
+          "target_team": 0,
+          "behavior": "9007207848872005",
+          "item_cost": 0
+        },
+        {
+          "name": "invoker_tornado",
+          "name_loc": "Tornado",
+          "desc_loc": "Unleashes a fast moving tornado that picks up enemy units in its path, suspending them helplessly in the air shortly before allowing them to plummet to their doom. Travels further based on the level of <font color='#d671a9'>Wex</font>. Holds enemies in the air for a duration based on the level of <font color='#7998b5'>Quas</font>. Deals base damage plus added damage based on levels in <font color='#d671a9'>Wex</font>.\n\nDISPEL TYPE: Basic Dispel",
+          "notes_loc": [
+            "Units are invulnerable while affected by Tornado, and the damage is dealt when landing."
+          ],
+          "shard_loc": "",
+          "scepter_loc": "Tornado spawns twisters along its path. They persist for Tornado's duration plus additional time based on <font color='#7998b5'>Quas</font>, dealing damage based on <font color='#d671a9'>Wex</font> in a %twister_radius% radius every %twister_tick_rate% seconds. (half damage to creeps.)",
+          "immunity": 4,
+          "dispellable": 2,
+          "target_team": 0,
+          "behavior": "9007482856800337",
+          "item_cost": 0
+        },
+        {
+          "name": "invoker_emp",
+          "name_loc": "E.M.P.",
+          "desc_loc": "Invoker builds up a charge of electromagnetic energy at a targeted location which automatically detonates after %delay% seconds. The detonation covers an area, draining mana based on the level of <font color='#d671a9'>Wex</font>. Deals damage for each point of mana drained.  If EMP drains mana from an enemy hero, Invoker gains %self_mana_restore_pct%%% of the mana drained.",
+          "notes_loc": [
+            "Will not affect cycloned units (Tornado or Eul's Scepter of Divinity)."
+          ],
+          "shard_loc": "Increases damage for each point of mana drained by EMP and pulls enemy units into the EMP's center at %drag_speed% units per second.",
+          "scepter_loc": "",
+          "immunity": 4,
+          "dispellable": 0,
+          "target_team": 0,
+          "behavior": "9007207978893425",
+          "item_cost": 0
+        },
+        {
+          "name": "invoker_alacrity",
+          "name_loc": "Alacrity",
+          "desc_loc": "Invoker infuses an ally with an immense surge of energy, increasing their attack speed based on the level of <font color='#d671a9'>Wex</font> and their damage based on the level of <font color='#cabe68'>Exort</font>.",
+          "notes_loc": [],
+          "shard_loc": "",
+          "scepter_loc": "",
+          "immunity": 1,
+          "dispellable": 2,
+          "target_team": 1,
+          "behavior": "9007208012447817",
+          "item_cost": 0
+        },
+        {
+          "name": "invoker_chaos_meteor",
+          "name_loc": "Chaos Meteor",
+          "desc_loc": "Invoker pulls a flaming meteor from space onto the targeted location. Upon landing, the meteor rolls forward, constantly dealing damage based on the level of <font color='#cabe68'>Exort</font>, and rolling further based on the level of <font color='#d671a9'>Wex</font>. Units hit by the meteor will also be set on fire for a short time, receiving additional damage based on the level of <font color='#cabe68'>Exort</font>.",
+          "notes_loc": [
+            "Deals main damage to enemy units under meteor every %damage_interval% seconds and burns enemies for smaller damage over %burn_duration% seconds.",
+            "The meteor moves at a speed of %travel_speed%."
+          ],
+          "shard_loc": "",
+          "scepter_loc": "",
+          "immunity": 4,
+          "dispellable": 2,
+          "target_team": 0,
+          "behavior": "9007207978893393",
+          "item_cost": 0
+        },
+        {
+          "name": "invoker_sun_strike",
+          "name_loc": "Sun Strike",
+          "desc_loc": "Sends a catastrophic ray of fierce energy from the sun at any targeted location, incinerating all enemies standing beneath it once it reaches the earth. Deals damage based on the level of <font color='#cabe68'>Exort</font>, however this damage is spread evenly over all enemies hit.",
+          "notes_loc": [
+            "Gives vision of the target area before the strike.",
+            "Invoker gains experience with kills made from Sun Strike, even if made from outside of experience range."
+          ],
+          "shard_loc": "If Sun Strike damages an enemy Hero, a Forge Spirit of current level is created at the location.",
+          "scepter_loc": "Creates a Cataclysm when Sun Strike is double tapped. Puts it on a %cataclysm_cooldown% second cooldown. Creates %cataclysm_count% visible %cataclysm_damage_pct%%% damage Sun Strikes within %cataclysm_min_range%-%cataclysm_max_range% range of each enemy hero.",
+          "immunity": 3,
+          "dispellable": 0,
+          "target_team": 0,
+          "behavior": "9007207978893425",
+          "item_cost": 0
+        },
+        {
+          "name": "invoker_forge_spirit",
+          "name_loc": "Forge Spirit",
+          "desc_loc": "Invoker forges a spirit embodying the strength of fire and fortitude of ice. Damage and armor are based on the level of <font color='#cabe68'>Exort</font> while attack range, health, and duration are based on the level of <font color='#7998b5'>Quas</font>. The elemental's scorching attack is capable of melting the armor of enemy heroes. The number of spirits spawned is determined by the lower level of <font color='#7998b5'>Quas</font> and <font color='#cabe68'>Exort</font>.",
+          "notes_loc": [
+            "Casting this ability will replace currently summoned Forged Spirits."
+          ],
+          "shard_loc": "",
+          "scepter_loc": "",
+          "immunity": 4,
+          "dispellable": 0,
+          "target_team": 0,
+          "behavior": "9007207978893381",
+          "item_cost": 0
+        },
+        {
+          "name": "invoker_ice_wall",
+          "name_loc": "Ice Wall",
+          "desc_loc": "Generates a wall of solid ice directly in front of Invoker for a duration based on the level of <font color='#7998b5'>Quas</font>. The bitter cold emanating from it greatly slows nearby enemies based on the level of <font color='#7998b5'>Quas</font> and deals damage each second based on the level of <font color='#cabe68'>Exort</font>.",
+          "notes_loc": [],
+          "shard_loc": "",
+          "scepter_loc": "Ice Wall becomes Ice Floe, Vector Targeted. After a delay, Ice Floe appears as a %wall_width% width Ice Wall. Enemy heroes in its area for longer than %root_delay% seconds become rooted and take magic damage based on <font color='#7998b5'>Quas</font>.",
+          "immunity": 4,
+          "dispellable": 3,
+          "target_team": 0,
+          "behavior": "9007207978893381",
+          "item_cost": 0
+        },
+        {
+          "name": "invoker_deafening_blast",
+          "name_loc": "Deafening Blast",
+          "desc_loc": "Invoker unleashes a mighty sonic wave in front of him, dealing damage to any enemy unit it collides with based on the level of <font color='#cabe68'>Exort</font>. The sheer impact from the blast is enough to knock those enemy units back for a duration based on the level of <font color='#7998b5'>Quas</font>, then disarm their attacks for a duration based on the level of <font color='#d671a9'>Wex</font>.",
+          "notes_loc": [],
+          "shard_loc": "",
+          "scepter_loc": "",
+          "immunity": 4,
+          "dispellable": 3,
+          "target_team": 0,
+          "behavior": "9007207978893393",
+          "item_cost": 0
+        }
+      ]
+    },
+    "110": {
+      "id": 110,
+      "name": "Phoenix",
+      "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=110",
+      "abilities": [
+        {
+          "name": "phoenix_icarus_dive",
+          "name_loc": "Icarus Dive",
+          "desc_loc": "Phoenix dives forward in an arc with a fixed distance in the targeted direction, dealing damage over time and slowing the movement speed of any units it comes into contact with, and then orbiting back to its original position. If Phoenix casts Supernova, the dive ends.",
+          "notes_loc": [
+            "Icarus Dive has a %dive_duration% second travel duration, and can be cancelled by casting the ability again while in flight."
+          ],
+          "shard_loc": "",
+          "scepter_loc": "",
+          "immunity": 4,
+          "dispellable": 2,
+          "target_team": 0,
+          "behavior": "134742032",
+          "item_cost": 0
+        },
+        {
+          "name": "phoenix_fire_spirits",
+          "name_loc": "Fire Spirits",
+          "desc_loc": "Summons 4 fire spirits that circle around Phoenix. Each spirit can be launched independently at a targeted area of effect. Affected enemy units take damage over time and have their attack speed greatly reduced.",
+          "notes_loc": [
+            "Fire Spirits reveal the area they strike for 1 second."
+          ],
+          "shard_loc": "Causes Fire Spirits to become a passive charge-based ability. Has 7 second replenish time.",
+          "scepter_loc": "",
+          "immunity": 4,
+          "dispellable": 2,
+          "target_team": 0,
+          "behavior": "2052",
+          "item_cost": 0
+        },
+        {
+          "name": "phoenix_sun_ray",
+          "name_loc": "Sun Ray",
+          "desc_loc": "Phoenix expels a beam of light at the cost of its own health. The beam damages enemies and heals allies for a base amount plus a percentage of their max health. The percentage increases as the beam continues to fire.",
+          "notes_loc": [
+            "Sun Ray has a width of %radius% units, and a length of %abilitycastrange% units.",
+            "Sun Ray is canceled if Phoenix gets stunned, silenced, cycloned, hexed or slept.",
+            "Phoenix can use items and abilities without canceling Sun Ray."
+          ],
+          "shard_loc": "Allows Sun Ray to be cast during Supernova.",
+          "scepter_loc": "",
+          "immunity": 4,
+          "dispellable": 3,
+          "target_team": 0,
+          "behavior": "16",
+          "item_cost": 0
+        },
+        {
+          "name": "phoenix_dying_light",
+          "name_loc": "Dying Light",
+          "desc_loc": "Phoenix deals %damage_pct%%% of its missing health as magic damage to all enemies in a %radius% radius every second.",
+          "notes_loc": [
+            "Dying Light deals damage while Phoenix is transformed during Supernova."
+          ],
+          "shard_loc": "",
+          "scepter_loc": "",
+          "immunity": 0,
+          "dispellable": 3,
+          "target_team": 0,
+          "behavior": "562949953421379",
+          "item_cost": 0
+        },
+        {
+          "name": "phoenix_supernova",
+          "name_loc": "Supernova",
+          "desc_loc": "The Phoenix willingly ends its current life for the chance to be reborn. Transforms into a burning sun that scorches enemies in a huge area. The sun can be destroyed by attacks from enemy Heroes. After %abilityduration% seconds the sun explodes, stunning all nearby enemies while restoring Phoenix to full health and mana with refreshed abilities.\n\nDISPEL TYPE: Strong Dispel",
+          "notes_loc": [],
+          "shard_loc": "",
+          "scepter_loc": "Increases number of attacks to destroy Supernova and allows Phoenix to cast Supernova on an allied hero, bringing both into the sun to be reborn together.",
+          "immunity": 3,
+          "dispellable": 3,
+          "target_team": 1,
+          "behavior": "33554436",
+          "item_cost": 0
+        }
+      ]
+    },
+    "30": {
+      "id": 30,
+      "name": "Witch Doctor",
+      "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=30",
+      "abilities": [
+        {
+          "name": "witch_doctor_paralyzing_cask",
+          "name_loc": "Paralyzing Cask",
+          "desc_loc": "Launches a cask of paralyzing powder that ricochets between enemy units, stunning and damaging those it hits. Damage increases each bounce.",
+          "notes_loc": [
+            "Targets can be hit multiple times, as long as another unit is struck in between the bounces."
+          ],
+          "shard_loc": "",
+          "scepter_loc": "",
+          "immunity": 4,
+          "dispellable": 1,
+          "target_team": 2,
+          "behavior": "8",
+          "item_cost": 0
+        },
+        {
+          "name": "witch_doctor_voodoo_restoration",
+          "name_loc": "Voodoo Restoration",
+          "desc_loc": "Witch Doctor focuses his magic to heal nearby allied units, costing Witch Doctor mana every second Voodoo Restoration is active.",
+          "notes_loc": [
+            "Healing is done in %heal_interval% second intervals.",
+            "Can heal Spell Immune units."
+          ],
+          "shard_loc": "",
+          "scepter_loc": "",
+          "immunity": 1,
+          "dispellable": 3,
+          "target_team": 0,
+          "behavior": "4194820",
+          "item_cost": 0
+        },
+        {
+          "name": "witch_doctor_maledict",
+          "name_loc": "Maledict",
+          "desc_loc": "Curses all enemy Heroes and player-controlled targets in a small area, causing them to take a set amount of damage each second, as well as bursts of damage every 4 seconds based on how much health they have lost since the curse began.",
+          "notes_loc": [
+            "If an affected hero's health has increased above the amount they had when Maledict was cast, the burst damage will be 0."
+          ],
+          "shard_loc": "",
+          "scepter_loc": "",
+          "immunity": 4,
+          "dispellable": 3,
+          "target_team": 0,
+          "behavior": "134217776",
+          "item_cost": 0
+        },
+        {
+          "name": "witch_doctor_voodoo_switcheroo",
+          "name_loc": "Voodoo Switcheroo",
+          "desc_loc": "Turns Witch Doctor into a Death Ward briefly with reduced attack speed. He is hidden during this time.",
+          "notes_loc": [],
+          "shard_loc": "",
+          "scepter_loc": "",
+          "immunity": 0,
+          "dispellable": 3,
+          "target_team": 0,
+          "behavior": "8589934597",
+          "item_cost": 0
+        },
+        {
+          "name": "witch_doctor_gris_gris",
+          "name_loc": "Gris-Gris",
+          "desc_loc": "Witch Doctor gets a Gris-Gris, an item that cannot be dropped or placed in the backpack. When the owner dies, %death_gold_lost_reduction_pct_tooltip%%% of the gold lost from death is added to the item, and will be refunded when the item is consumed. The value of the Gris-Gris is increased by 1 every %gold_tick_interval_tooltip%s. <br><br> Right-click to consume and permanently remove the item.",
+          "notes_loc": [],
+          "shard_loc": "",
+          "scepter_loc": "",
+          "immunity": 0,
+          "dispellable": 0,
+          "target_team": 0,
+          "behavior": "8796093022210",
+          "item_cost": 0
+        },
+        {
+          "name": "witch_doctor_death_ward",
+          "name_loc": "Death Ward",
+          "desc_loc": "CHANNELED - Summons a deadly ward to attack enemy heroes within its attack range. Lasts a maximum of %abilitychanneltime% seconds. Death Ward has %bonus_accuracy%%% bonus accuracy.",
+          "notes_loc": [
+            "The Death Ward is invulnerable, and is only destroyed if Witch Doctor is interrupted or its duration expires.",
+            "The Death Ward can be controlled, and made to attack a specific target.",
+            "Death Ward attacks once every 0.22 seconds."
+          ],
+          "shard_loc": "",
+          "scepter_loc": "Death Ward attacks bounce between nearby enemies.",
+          "immunity": 3,
+          "dispellable": 0,
+          "target_team": 0,
+          "behavior": "144",
+          "item_cost": 0
+        }
+      ]
+    },
+    "97": {
+      "id": 97,
+      "name": "Magnus",
+      "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=97",
+      "abilities": [
+        {
+          "name": "magnataur_shockwave",
+          "name_loc": "Shockwave",
+          "desc_loc": "Magnus sends out a wave of force, damaging enemy units in a line, pulling them towards him, and slowing them for a brief period.",
+          "notes_loc": [],
+          "shard_loc": "",
+          "scepter_loc": "",
+          "immunity": 4,
+          "dispellable": 0,
+          "target_team": 2,
+          "behavior": "24",
+          "item_cost": 0
+        },
+        {
+          "name": "magnataur_empower",
+          "name_loc": "Empower",
+          "desc_loc": "When cast on an ally, grants them bonus damage and cleave on attack. \n\n Empower is always on Magnus with %self_multiplier%%% larger bonus.",
+          "notes_loc": [
+            "The bonus damage is based only on base damage and damage from primary attributes.",
+            "Cleave damage goes through spell immunity.",
+            "Ranged units cannot Cleave."
+          ],
+          "shard_loc": "",
+          "scepter_loc": "",
+          "immunity": 1,
+          "dispellable": 2,
+          "target_team": 1,
+          "behavior": "33554440",
+          "item_cost": 0
+        },
+        {
+          "name": "magnataur_skewer",
+          "name_loc": "Skewer",
+          "desc_loc": "Magnus rushes forward, goring enemy units on his massive tusk. Heroes hit on the way will be dragged to the destination, then damaged and affected by slowed movement speed. The damage is increased based on distance traveled.",
+          "notes_loc": [
+            "Skewer is interrupted if Magnus is stunned, hexed or banished."
+          ],
+          "shard_loc": "Increases range and deals additional damage when skewering enemies into trees or cliffs.",
+          "scepter_loc": "",
+          "immunity": 4,
+          "dispellable": 2,
+          "target_team": 0,
+          "behavior": "524304",
+          "item_cost": 0
+        },
+        {
+          "name": "magnataur_horn_toss",
+          "name_loc": "Horn Toss",
+          "desc_loc": "Magnus tosses any enemies in front of him, launching them to his rear. Enemies take damage, spend %air_duration% seconds in the air, and are stunned while in the air and an additional amount of time after landing.",
+          "notes_loc": [],
+          "shard_loc": "",
+          "scepter_loc": "",
+          "immunity": 4,
+          "dispellable": 2,
+          "target_team": 2,
+          "behavior": "8589934597",
+          "item_cost": 0
+        },
+        {
+          "name": "magnataur_solid_core",
+          "name_loc": "Solid Core",
+          "desc_loc": "Magnus has increased slow resistance and suffers less knockback from enemy's abilities and items.",
+          "notes_loc": [],
+          "shard_loc": "",
+          "scepter_loc": "",
+          "immunity": 0,
+          "dispellable": 0,
+          "target_team": 0,
+          "behavior": "562949953421315",
+          "item_cost": 0
+        },
+        {
+          "name": "magnataur_reverse_polarity",
+          "name_loc": "Reverse Polarity",
+          "desc_loc": "Magnus changes properties of matter, pulling all nearby enemies in front of him and stunning them with a damaging slam.",
+          "notes_loc": [],
+          "shard_loc": "",
+          "scepter_loc": "",
+          "immunity": 3,
+          "dispellable": 1,
+          "target_team": 0,
+          "behavior": "4",
+          "item_cost": 0
+        }
+      ]
+    },
+    "8": {
+      "id": 8,
+      "name": "Juggernaut",
+      "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=8",
+      "abilities": [
+        {
+          "name": "juggernaut_blade_fury",
+          "name_loc": "Blade Fury",
+          "desc_loc": "Causes a bladestorm of destructive force around Juggernaut, rendering him debuff immune with %immunity_resist%%% magic resistance and dealing damage every %blade_fury_damage_tick%s to nearby enemy units. Applies a strong dispel at the end of the spin.",
+          "notes_loc": [
+            "You can use items during Blade Fury.",
+            "Juggernaut can still perform attacks while in Blade Fury. However, only units that are not affected by Blade Fury, such as wards or structures, will take damage from these attacks."
+          ],
+          "shard_loc": "",
+          "scepter_loc": "Increases radius and slows enemies in the area of effect.<br><br> Juggernaut preforms an attack on affected enemies every %attack_interval%s.",
+          "immunity": 4,
+          "dispellable": 3,
+          "target_team": 0,
+          "behavior": "4196356",
+          "item_cost": 0
+        },
+        {
+          "name": "juggernaut_healing_ward",
+          "name_loc": "Healing Ward",
+          "desc_loc": "Summons a Healing Ward which heals all nearby allied units, based on their max health.  The Healing Ward moves at %healing_ward_movespeed_tooltip% movement speed after being summoned.  Lasts %abilityduration% seconds.",
+          "notes_loc": [
+            "The Healing Ward can be controlled.",
+            "Multiple Healing Wards do not stack."
+          ],
+          "shard_loc": "Increases ward healing and health.",
+          "scepter_loc": "",
+          "immunity": 1,
+          "dispellable": 0,
+          "target_team": 0,
+          "behavior": "48",
+          "item_cost": 0
+        },
+        {
+          "name": "juggernaut_blade_dance",
+          "name_loc": "Blade Dance",
+          "desc_loc": "Gives Juggernaut a chance to deal critical damage with Blade Fury and on each attack.",
+          "notes_loc": [],
+          "shard_loc": "",
+          "scepter_loc": "",
+          "immunity": 0,
+          "dispellable": 0,
+          "target_team": 0,
+          "behavior": "2",
+          "item_cost": 0
+        },
+        {
+          "name": "juggernaut_swift_slash",
+          "name_loc": "Swiftslash",
+          "desc_loc": "Performs a short Omnislash for %duration% seconds.",
+          "notes_loc": [],
+          "shard_loc": "",
+          "scepter_loc": "",
+          "immunity": 3,
+          "dispellable": 3,
+          "target_team": 2,
+          "behavior": "8623489033",
+          "item_cost": 0
+        },
+        {
+          "name": "juggernaut_bladeform",
+          "name_loc": "Bladeform",
+          "desc_loc": "Juggernaut gains a stack of Bladeform every %stack_gain_time%s that Juggernaut does not take damage. Each stack grants bonus base Agility and Movement Speed. Stacks fade after %linger_duration%s upon taking any damage.",
+          "notes_loc": [
+            "Break disables the gaining of new stacks.",
+            "Break does not disable the bonuses from existing stacks."
+          ],
+          "shard_loc": "",
+          "scepter_loc": "",
+          "immunity": 0,
+          "dispellable": 0,
+          "target_team": 0,
+          "behavior": "8796093022210",
+          "item_cost": 0
+        },
+        {
+          "name": "juggernaut_omni_slash",
+          "name_loc": "Omnislash",
+          "desc_loc": "Juggernaut leaps towards the target enemy units, and then slashes the target and other nearby enemy units at an increased attack rate. Juggernaut is invulnerable for the duration.\n\nDISPEL TYPE: Basic Dispel",
+          "notes_loc": [
+            "You can use items during Omnislash."
+          ],
+          "shard_loc": "",
+          "scepter_loc": "",
+          "immunity": 3,
+          "dispellable": 3,
+          "target_team": 2,
+          "behavior": "33554440",
+          "item_cost": 0
+        }
+      ]
+    },
+    "55": {
+      "id": 55,
+      "name": "Dark Seer",
+      "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=55",
+      "abilities": [
+        {
+          "name": "dark_seer_vacuum",
+          "name_loc": "Vacuum",
+          "desc_loc": "Dark Seer creates a vacuum over the target area that sucks in enemy units, disrupting them and dealing damage.",
+          "notes_loc": [
+            "This ability interrupts channeling.",
+            "Pulls units over %duration% seconds before dealing damage.",
+            "Trees near the center of the vacuum will be destroyed."
+          ],
+          "shard_loc": "",
+          "scepter_loc": "",
+          "immunity": 4,
+          "dispellable": 1,
+          "target_team": 0,
+          "behavior": "48",
+          "item_cost": 0
+        },
+        {
+          "name": "dark_seer_ion_shell",
+          "name_loc": "Ion Shell",
+          "desc_loc": "Surrounds the target unit with a bristling shield that damages enemy units in an area around it.",
+          "notes_loc": [
+            "Deals small amounts of damage in %tick_interval% second intervals.",
+            "Doesn't damage the target it is cast on.",
+            "If cast on a unit that already has Ion Shell, the new Shell replaces the old one."
+          ],
+          "shard_loc": "",
+          "scepter_loc": "",
+          "immunity": 4,
+          "dispellable": 2,
+          "target_team": 3,
+          "behavior": "33554440",
+          "item_cost": 0
+        },
+        {
+          "name": "dark_seer_surge",
+          "name_loc": "Surge",
+          "desc_loc": "Charges a target friendly unit with power, giving it a brief burst of phased movement speed. Allows the unit to reach maximum movement speed and cannot be slowed.",
+          "notes_loc": [
+            "Units with Surge cannot be slowed unless the Surge effect is removed."
+          ],
+          "shard_loc": "Surged units leave behind a %trail_radius% radius trail that lasts %trail_duration%s, slows enemies around it by %trail_move_slow%%% and deals %trail_damage% damage per second in %trail_damage_interval%s intervals. Can be put on alt-cast to disable the trail.",
+          "scepter_loc": "",
+          "immunity": 1,
+          "dispellable": 2,
+          "target_team": 1,
+          "behavior": "8",
+          "item_cost": 0
+        },
+        {
+          "name": "dark_seer_normal_punch",
+          "name_loc": "Normal Punch",
+          "desc_loc": "Passive ability. Causes Dark Seer's next attack on a hero to have True Strike, knock a replica out of the victim, damaging and stunning them based on how far Dark Seer has moved in the past %recent_duration% seconds. Max power is reached after %max_distance% distance moved.",
+          "notes_loc": [],
+          "shard_loc": "",
+          "scepter_loc": "",
+          "immunity": 4,
+          "dispellable": 0,
+          "target_team": 2,
+          "behavior": "8589934595",
+          "item_cost": 0
+        },
+        {
+          "name": "dark_seer_aggrandize",
+          "name_loc": "Quick Wit",
+          "desc_loc": "Dark Seer gains %int_to_atkspd% Attack Speed from each point of Intelligence.\n\nWhen Dark Seer levels up, he restores a percentage of his max health and mana.",
+          "notes_loc": [],
+          "shard_loc": "",
+          "scepter_loc": "",
+          "immunity": 0,
+          "dispellable": 0,
+          "target_team": 0,
+          "behavior": "4406636445698",
+          "item_cost": 0
+        },
+        {
+          "name": "dark_seer_wall_of_replica",
+          "name_loc": "Wall of Replica",
+          "desc_loc": "Raises a wall of warping light that slows, damages, and creates replicas of any enemy hero who crosses it. Enemy replicas serve at the Dark Seer's will. Replicas last until they are destroyed, or until the wall's duration ends.",
+          "notes_loc": [
+            "Doesn't create illusions from other illusions.",
+            "There cannot be more than one illusion per player per wall."
+          ],
+          "shard_loc": "",
+          "scepter_loc": "",
+          "immunity": 3,
+          "dispellable": 0,
+          "target_team": 0,
+          "behavior": "1073741840",
+          "item_cost": 0
+        }
+      ]
+    },
+    "7": {
+      "id": 7,
+      "name": "Earthshaker",
+      "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=7",
+      "abilities": [
+        {
+          "name": "earthshaker_fissure",
+          "name_loc": "Fissure",
+          "desc_loc": "Slams the ground with a mighty totem, creating an impassable ridge of stone while stunning and damaging enemy units along its line.",
+          "notes_loc": [
+            "Creeps will wait for Fissure to disappear. They will not attempt to walk around it.",
+            "Fissure is not blocked by Linken's Sphere."
+          ],
+          "shard_loc": "Reduces Fissure cooldown and releases an Aftershock along its path that stuns for a shortened duration when Earthshaker casts another ability.",
+          "scepter_loc": "",
+          "immunity": 4,
+          "dispellable": 1,
+          "target_team": 2,
+          "behavior": "134217744",
+          "item_cost": 0
+        },
+        {
+          "name": "earthshaker_enchant_totem",
+          "name_loc": "Enchant Totem",
+          "desc_loc": "Empowers Earthshaker's totem, causing it to deal extra damage and have %bonus_attack_range% bonus attack range on the next attack.",
+          "notes_loc": [
+            "Bonus damage is based on base damage and that given by primary attribute."
+          ],
+          "shard_loc": "",
+          "scepter_loc": "Enchant Totem becomes a ground target ability, causing Earthshaker to jump in the air and land at the target spot, casting Enchant Totem there.  Self-casting the ability will behave in the original form, without jumping. Grants Enchant Totem a cleaving attack.",
+          "immunity": 0,
+          "dispellable": 2,
+          "target_team": 2,
+          "behavior": "4",
+          "item_cost": 0
+        },
+        {
+          "name": "earthshaker_aftershock",
+          "name_loc": "Aftershock",
+          "desc_loc": "Causes the earth to shake underfoot, adding additional damage and stuns to nearby enemy units when Earthshaker casts his abilities.",
+          "notes_loc": [
+            "Using items does not trigger Aftershock."
+          ],
+          "shard_loc": "",
+          "scepter_loc": "",
+          "immunity": 4,
+          "dispellable": 1,
+          "target_team": 0,
+          "behavior": "2",
+          "item_cost": 0
+        },
+        {
+          "name": "earthshaker_echo_slam",
+          "name_loc": "Echo Slam",
+          "desc_loc": "Shockwaves travel through the ground, damaging enemy units.  Each enemy hit causes an echo to damage nearby units. Real heroes cause two echoes.",
+          "notes_loc": [],
+          "shard_loc": "",
+          "scepter_loc": "",
+          "immunity": 4,
+          "dispellable": 0,
+          "target_team": 0,
+          "behavior": "4",
+          "item_cost": 0
+        },
+        {
+          "name": "earthshaker_slugger",
+          "name_loc": "Slugger",
+          "desc_loc": "Enemies killed with Enchant Totem or Earthshaker's other abilities are sent flying, dealing damage to enemies they hit.",
+          "notes_loc": [],
+          "shard_loc": "",
+          "scepter_loc": "",
+          "immunity": 0,
+          "dispellable": 3,
+          "target_team": 0,
+          "behavior": "8796093022210",
+          "item_cost": 0
+        }
+      ]
+    },
+    "79": {
+      "id": 79,
+      "name": "Shadow Demon",
+      "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=79",
+      "abilities": [
+        {
+          "name": "shadow_demon_disruption",
+          "name_loc": "Disruption",
+          "desc_loc": "Banishes the targeted unit from the battlefield for a short duration.  Upon returning, two illusions of the banished unit with bonus base damage are created under Shadow Demon's control.",
+          "notes_loc": [],
+          "shard_loc": "",
+          "scepter_loc": "",
+          "immunity": 4,
+          "dispellable": 3,
+          "target_team": 3,
+          "behavior": "33554440",
+          "item_cost": 0
+        },
+        {
+          "name": "shadow_demon_disseminate",
+          "name_loc": "Disseminate",
+          "desc_loc": "Whenever the target takes damage, all enemies, including the target itself if it is an enemy, within %radius% range of the target also receive a portion of that damage. Can target enemy and allied units. Effect is paused if the target is hidden by Disruption.",
+          "notes_loc": [
+            "Damage done by this ability is considered reflected damage. Reflected damage does not provide any lifesteal and cannot be reflected."
+          ],
+          "shard_loc": "",
+          "scepter_loc": "",
+          "immunity": 4,
+          "dispellable": 0,
+          "target_team": 3,
+          "behavior": "40",
+          "item_cost": 0
+        },
+        {
+          "name": "shadow_demon_shadow_poison",
+          "name_loc": "Shadow Poison",
+          "desc_loc": "Deals damage in a line, and afflicts enemy units with a poison effect. The poison deals 1/2/4/8/16 times the stack damage based on the number of stacks on the target, up to %max_multiply_stacks% stacks. Additional stacks cause %bonus_stack_damage% damage each.  This deferred damage is dealt when Shadow Poison's duration is expired, or the Release sub-ability is used.",
+          "notes_loc": [
+            "Shadow Poison can affect units under Disruption."
+          ],
+          "shard_loc": "",
+          "scepter_loc": "",
+          "immunity": 4,
+          "dispellable": 3,
+          "target_team": 0,
+          "behavior": "134217776",
+          "item_cost": 0
+        },
+        {
+          "name": "shadow_demon_demonic_cleanse",
+          "name_loc": "Demonic Cleanse",
+          "desc_loc": "Cleanses the target allied unit, removing negative buffs for the duration.  At the end of the duration, the unit is healed. Units under the effect of Disruption can still be affected by Demonic Cleanse.<br><br>DISPEL TYPE: Basic Dispel",
+          "notes_loc": [
+            "Negative buffs are continously removed from the target for the duration of the Cleanse."
+          ],
+          "shard_loc": "",
+          "scepter_loc": "",
+          "immunity": 3,
+          "dispellable": 3,
+          "target_team": 1,
+          "behavior": "8589934665",
+          "item_cost": 0
+        },
+        {
+          "name": "shadow_demon_demonic_purge",
+          "name_loc": "Demonic Purge",
+          "desc_loc": "Purges the target enemy unit, removing positive buffs, and slowing the target for the duration.  The unit slowly regains its speed until the end of the duration, upon which damage is dealt.  Units under the effect of Disruption can still be affected by Demonic Purge.\n\nDISPEL TYPE: Basic Dispel",
+          "notes_loc": [
+            "The slow starts at %max_slow%%% and decreases over time to %min_slow%%%.",
+            "Positive buffs are continously removed from the target for the duration of the Purge."
+          ],
+          "shard_loc": "",
+          "scepter_loc": "Causes Demonic Purge to break and gain %max_charges% charges.",
+          "immunity": 3,
+          "dispellable": 3,
+          "target_team": 2,
+          "behavior": "8",
+          "item_cost": 0
+        },
+        {
+          "name": "shadow_demon_menace",
+          "name_loc": "Menace",
+          "desc_loc": "Shadow Demon's Attacks apply a stacking debuff to the enemy for %duration% seconds that increases their damage taken.",
+          "notes_loc": [
+            "Break disables the application of new stacks.",
+            "Break does not disable the effects of existing stacks."
+          ],
+          "shard_loc": "",
+          "scepter_loc": "",
+          "immunity": 0,
+          "dispellable": 3,
+          "target_team": 0,
+          "behavior": "562949953421315",
+          "item_cost": 0
+        }
+      ]
+    },
+    "9": {
+      "id": 9,
+      "name": "Mirana",
+      "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=9",
+      "abilities": [
+        {
+          "name": "mirana_starfall",
+          "name_loc": "Starstorm",
+          "desc_loc": "Calls down a wave of meteors to damage nearby enemy units. The closest enemy unit to Mirana in a %starfall_secondary_radius% radius will be struck a second time.",
+          "notes_loc": [
+            "Starstorm is not blocked by Linken's Sphere.",
+            "Starstorm cannot hit invisible units.",
+            "Starstorm will choose a new target for the second meteor if the first died before impact."
+          ],
+          "shard_loc": "",
+          "scepter_loc": "",
+          "immunity": 4,
+          "dispellable": 0,
+          "target_team": 0,
+          "behavior": "134217732",
+          "item_cost": 0
+        },
+        {
+          "name": "mirana_arrow",
+          "name_loc": "Sacred Arrow",
+          "desc_loc": "Fires a long-range arrow with deadly precision, which stuns and damages the first enemy unit it strikes. The stun duration ranges from %arrow_min_stun% to %arrow_max_stun% seconds, with bonus damage up to %arrow_bonus_damage% added, based on the distance the arrow travels to its target. Instantly kills the first non-ancient creep it hits.",
+          "notes_loc": [
+            "For every 150 distance the arrow travels, the stun duration upon impact increases by 0.5 seconds, and the bonus damage added increases by 14.",
+            "Sacred Arrow can hit invisible units.",
+            "Starstruck does not apply to the second Starstorm from Aghanim's Scepter."
+          ],
+          "shard_loc": "",
+          "scepter_loc": "Causes Sacred Arrow to release a Starstorm on enemies along the travel path of the primary arrow, releasing a second Starstorm that deals less damage to the impacted unit.",
+          "immunity": 4,
+          "dispellable": 1,
+          "target_team": 0,
+          "behavior": "134218768",
+          "item_cost": 0
+        },
+        {
+          "name": "mirana_leap",
+          "name_loc": "Leap",
+          "desc_loc": "Mirana leaps forward into battle, empowering herself with a ferocious roar that grants bonus attack and movement speed. Speed bonus lasts %leap_bonus_duration% seconds.",
+          "notes_loc": [],
+          "shard_loc": "Grants +%additional_charges% Leap charge.",
+          "scepter_loc": "",
+          "immunity": 0,
+          "dispellable": 2,
+          "target_team": 0,
+          "behavior": "134742020",
+          "item_cost": 0
+        },
+        {
+          "name": "mirana_celestial_quiver",
+          "name_loc": "Celestial Quiver",
+          "desc_loc": "When a charge is available, Mirana's next attack will deal bonus magic damage.",
+          "notes_loc": [],
+          "shard_loc": "Grants %quiver_restore% temporary Charges while Leap's buff is active.",
+          "scepter_loc": "",
+          "immunity": 0,
+          "dispellable": 0,
+          "target_team": 2,
+          "behavior": "562949953556488",
+          "item_cost": 0
+        },
+        {
+          "name": "mirana_invis",
+          "name_loc": "Moonlight Shadow",
+          "desc_loc": "Turns Mirana and all allied heroes invisible and grants bonus movement speed. Mirana gains bonus outgoing damage during the duration. If a hero is revealed, invisibility will restore after the fade delay as long as Moonlight Shadow's duration has not expired.",
+          "notes_loc": [
+            "Units affected will not auto attack enemies."
+          ],
+          "shard_loc": "",
+          "scepter_loc": "",
+          "immunity": 1,
+          "dispellable": 3,
+          "target_team": 0,
+          "behavior": "167772164",
+          "item_cost": 0
+        }
+      ]
+    },
+    "3": {
+      "id": 3,
+      "name": "Bane",
+      "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=3",
+      "abilities": [
+        {
+          "name": "bane_enfeeble",
+          "name_loc": "Enfeeble",
+          "desc_loc": "Deals damage every second and lowers the enemy's total attack damage and cast range.",
+          "notes_loc": [],
+          "shard_loc": "",
+          "scepter_loc": "",
+          "immunity": 4,
+          "dispellable": 2,
+          "target_team": 2,
+          "behavior": "8",
+          "item_cost": 0
+        },
+        {
+          "name": "bane_brain_sap",
+          "name_loc": "Brain Sap",
+          "desc_loc": "Feasts on the vital energies of an enemy unit, healing Bane and dealing damage.",
+          "notes_loc": [],
+          "shard_loc": "Reduces cooldown by %bonus_AbilityCooldown%. Causes Brain Sap to become a %shard_radius% AoE spell. Secondary targets only heal for %shard_secondary_target_heal_pct%%%.",
+          "scepter_loc": "",
+          "immunity": 3,
+          "dispellable": 0,
+          "target_team": 2,
+          "behavior": "8",
+          "item_cost": 0
+        },
+        {
+          "name": "bane_nightmare",
+          "name_loc": "Nightmare",
+          "desc_loc": "Puts the target enemy or friendly Hero to sleep. Sleeping units walk in Bane's chosen direction and are awakened when damaged. If the target was directly attacked, the Nightmare passes to the attacking unit. Bane can attack and damage Nightmared targets freely.<br><br> Can be put on alt-cast to have the target stand still.",
+          "notes_loc": [
+            "In the first second of Nightmare, the unit is invulnerable.",
+            "Bane can wake himself from Nightmare.",
+            "On cast, replaced with Nightmare End: Ends all ongoing Nightmares on any affected units."
+          ],
+          "shard_loc": "",
+          "scepter_loc": "",
+          "immunity": 2,
+          "dispellable": 2,
+          "target_team": 3,
+          "behavior": "1099545182216",
+          "item_cost": 0
+        },
+        {
+          "name": "bane_fiends_grip",
+          "name_loc": "Fiend's Grip",
+          "desc_loc": "CHANNELED - Grips an enemy unit, disabling it and causing heavy damage over time, while stealing mana every %fiend_grip_tick_interval% seconds based on the unit's maximum mana.",
+          "notes_loc": [],
+          "shard_loc": "",
+          "scepter_loc": "Reduces Fiend's Grip cooldown by %bonus_AbilityCooldown%s. Fiend's Grip now creates two uncontrollable illusions that are also channeling Fiend's Grip on the target. Illusions take %scepter_incoming_illusion_damage%%% incoming damage and immediately die if they are interrupted. Damage does not stack.",
+          "immunity": 3,
+          "dispellable": 1,
+          "target_team": 2,
+          "behavior": "136",
+          "item_cost": 0
+        },
+        {
+          "name": "bane_ichor_of_nyctasha",
+          "name_loc": "Ichor of Nyctasha",
+          "desc_loc": "Every time Bane kills an enemy hero or they die under the effect of Bane's debuff, they receive a Terror for the rest of the game that decreases their status resistance to Bane's subsequent debuffs.",
+          "notes_loc": [],
+          "shard_loc": "",
+          "scepter_loc": "",
+          "immunity": 0,
+          "dispellable": 0,
+          "target_team": 0,
+          "behavior": "567347999932419",
+          "item_cost": 0
+        }
+      ]
+    },
+    "129": {
+      "id": 129,
+      "name": "Mars",
+      "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=129",
+      "abilities": [
+        {
+          "name": "mars_spear",
+          "name_loc": "Spear of Mars",
+          "desc_loc": "Mars throws his legendary Spear with deadly precision, damaging each enemy unit it strikes. The first enemy hero it hits is skewered on the spear, pushing it back. If a skewered hero hits a tree, building, or cliff, they will be impaled to it and stunned.",
+          "notes_loc": [
+            "Spear of Mars can hit invisible units and reveals them if they are stunned.",
+            "Spear of Mars will only pin a unit to cliffs onto elevated areas, otherwise it will push them off onto lower ground."
+          ],
+          "shard_loc": "Spear of Mars impales up to %max_impale_targets% heroes and leaves a fire trail behind that deals damage over time and slows movement speed.",
+          "scepter_loc": "",
+          "immunity": 4,
+          "dispellable": 1,
+          "target_team": 2,
+          "behavior": "1040",
+          "item_cost": 0
+        },
+        {
+          "name": "mars_gods_rebuke",
+          "name_loc": "God's Rebuke",
+          "desc_loc": "Mars smashes enemies in front of him with his shield, knocking them back and damaging them with a critical hit based on his attack. Bonus damage is added when hitting heroes. Has True Strike.",
+          "notes_loc": [
+            "Attack modifiers have a chance to proc on God's Rebuke attacks."
+          ],
+          "shard_loc": "",
+          "scepter_loc": "",
+          "immunity": 0,
+          "dispellable": 0,
+          "target_team": 2,
+          "behavior": "67108880",
+          "item_cost": 0
+        },
+        {
+          "name": "mars_bulwark",
+          "name_loc": "Bulwark",
+          "desc_loc": "Mars wields his massive shield to block a portion of each physical attack when hit from the front or sides.<br><br> Can be toggled, granting phased movement, removing Mars's ability to attack, and locking the direction he is facing. When active, reduces movement speed and re-directs %redirect_chance%%% of the attack projectiles aimed at allies towards himself.",
+          "notes_loc": [
+            "Redirect only works if the projectile targets are in a cone behind Mars or within 100 range of him.",
+            "Break disables the front and side damage reduction."
+          ],
+          "shard_loc": "",
+          "scepter_loc": "Creates %soldier_count% invulnerable soldiers on both sides of Mars front while Bulwark is toggled on. Soldiers move alongside Mars, dealing his attacks that have bonus damage, knock back and slow approaching enemies. An enemy can only be attacked by one soldier at a time.",
+          "immunity": 0,
+          "dispellable": 0,
+          "target_team": 0,
+          "behavior": "134219792",
+          "item_cost": 0
+        },
+        {
+          "name": "mars_dauntless",
+          "name_loc": "Dauntless",
+          "desc_loc": "Mars gets more HP Regen the more he is outnumbered by enemy heroes in %radius% radius.",
+          "notes_loc": [],
+          "shard_loc": "",
+          "scepter_loc": "",
+          "immunity": 0,
+          "dispellable": 0,
+          "target_team": 0,
+          "behavior": "66",
+          "item_cost": 0
+        },
+        {
+          "name": "mars_arena_of_blood",
+          "name_loc": "Arena Of Blood",
+          "desc_loc": "After a short formation time, Mars summons an arena lined with the undead warriors of the Ash Legion, who block enemy attacks and movement. Enemy heroes near the inside edge of the arena will be attacked by spears, dealing damage and knocking them back.",
+          "notes_loc": [],
+          "shard_loc": "",
+          "scepter_loc": "Lowers cooldown by %bonus_AbilityCooldown%s and increases duration. If an enemy is killed in the Arena, Mars and all of his allies inside the Arena restore %arena_kill_buff_heal_pct%%  of their max health and mana and get a %arena_kill_buff_damage_pct%%  attack damage buff for %arena_kill_buff_duration%s. This effect stacks.",
+          "immunity": 4,
+          "dispellable": 0,
+          "target_team": 2,
+          "behavior": "48",
+          "item_cost": 0
+        }
+      ]
+    },
+    "128": {
+      "id": 128,
+      "name": "Snapfire",
+      "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=128",
+      "abilities": [
+        {
+          "name": "snapfire_scatterblast",
+          "name_loc": "Scatterblast",
+          "desc_loc": "Snapfire unloads with a wide blast that damages and slows enemies in a cone. Damage is increased by %point_blank_dmg_bonus_pct%%% and Movement Slow, Attack Slow and Slow Duration are increased by %point_blank_debuff_duration_pct%%% for enemies caught at point-blank range.",
+          "notes_loc": [],
+          "shard_loc": "",
+          "scepter_loc": "",
+          "immunity": 4,
+          "dispellable": 2,
+          "target_team": 2,
+          "behavior": "16",
+          "item_cost": 0
+        },
+        {
+          "name": "snapfire_firesnap_cookie",
+          "name_loc": "Firesnap Cookie",
+          "desc_loc": "Snapfire feeds a potent cookie to Mortimer or an ally, causing them to hop a short distance. The hopping unit stuns and damages enemies in the landing zone.",
+          "notes_loc": [
+            "The cookie projectile has a speed of %projectile_speed%."
+          ],
+          "shard_loc": "Firesnap cookies become even more potent, healing the target and launching a Mortimer Kiss that does %shard_damage_multiplier_tooltip%%% impact damage to the landing destination.",
+          "scepter_loc": "",
+          "immunity": 0,
+          "dispellable": 1,
+          "target_team": 1,
+          "behavior": "8",
+          "item_cost": 0
+        },
+        {
+          "name": "snapfire_lil_shredder",
+          "name_loc": "Lil' Shredder",
+          "desc_loc": "Snapfire heats up her mounted turret to rapidly fire %buffed_attacks% attacks dealing fixed damage plus a percentage of her attack damage. Each attack reduces the enemy's armor. Provides bonus attack range for the duration.",
+          "notes_loc": [
+            "Sets base attack time to %base_attack_time%s for the duration.",
+            "Attack modifiers have a chance to proc on Lil' Shredder attacks."
+          ],
+          "shard_loc": "",
+          "scepter_loc": "",
+          "immunity": 0,
+          "dispellable": 0,
+          "target_team": 0,
+          "behavior": "134217732",
+          "item_cost": 0
+        },
+        {
+          "name": "snapfire_gobble_up",
+          "name_loc": "Gobble Up",
+          "desc_loc": "Mortimer gobbles up a creep or an allied hero, which he can then spit towards enemies. The unit stays in his belly up to %max_time_in_belly% seconds.",
+          "notes_loc": [
+            "Snapfire earns the creep's bounty after it has been spat out and died."
+          ],
+          "shard_loc": "",
+          "scepter_loc": "",
+          "immunity": 0,
+          "dispellable": 0,
+          "target_team": 4,
+          "behavior": "8623489033",
+          "item_cost": 0
+        },
+        {
+          "name": "snapfire_spit_creep",
+          "name_loc": "Spit Out",
+          "desc_loc": "Mortimer spits out the unit that's in his mouth, causing impact damage and stun in a large area. The glob leaves a pool of firespit based on the current level of Mortimer Kisses, that slows and applies damage over time. Spit Out has a no minimum launch range.",
+          "notes_loc": [],
+          "shard_loc": "",
+          "scepter_loc": "",
+          "immunity": 4,
+          "dispellable": 2,
+          "target_team": 2,
+          "behavior": "8623751217",
+          "item_cost": 0
+        },
+        {
+          "name": "snapfire_mortimer_kisses",
+          "name_loc": "Mortimer Kisses",
+          "desc_loc": "Snapfire's friend launches a barrage of firespit globs over %duration_tooltip% seconds. Globs cause impact damage and create pools of firespit, which slow and apply damage over time. Snapfire has a reduced turn rate for the duration and a minimum launch range of %min_range%. Each glob can be targeted with a right click.",
+          "notes_loc": [
+            "Can be cancelled by pressing Stop, Hold Position, or using another ability.",
+            "Has a minimum travel time of %min_lob_travel_time% and maximum travel time of %max_lob_travel_time%."
+          ],
+          "shard_loc": "",
+          "scepter_loc": "",
+          "immunity": 4,
+          "dispellable": 2,
+          "target_team": 2,
+          "behavior": "33816624",
+          "item_cost": 0
+        },
+        {
+          "name": "snapfire_boomstick",
+          "name_loc": "Boomstick",
+          "desc_loc": "Snapfire deals more damage to nearby enemies.",
+          "notes_loc": [],
+          "shard_loc": "",
+          "scepter_loc": "",
+          "immunity": 0,
+          "dispellable": 0,
+          "target_team": 0,
+          "behavior": "66",
+          "item_cost": 0
+        }
+      ]
+    },
+    "33": {
+      "id": 33,
+      "name": "Enigma",
+      "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=33",
+      "abilities": [
+        {
+          "name": "enigma_malefice",
+          "name_loc": "Malefice",
+          "desc_loc": "Focuses Enigma's power on a target, causing it to take damage and become repeatedly stunned for multiple instances.  An instance strikes every %tick_rate% seconds.",
+          "notes_loc": [],
+          "shard_loc": "Increases Malefice stun duration by %shard_bonus_stun_duration_tooltip%s and creates an Eidolon next to the target every instance of Malefice stun. These Eidolons will not multiply further.",
+          "scepter_loc": "",
+          "immunity": 4,
+          "dispellable": 2,
+          "target_team": 2,
+          "behavior": "8",
+          "item_cost": 0
+        },
+        {
+          "name": "enigma_demonic_conversion",
+          "name_loc": "Demonic Summoning",
+          "desc_loc": "Summons three fragments of Enigma himself at the cost of health.  The eidolons health is increased by %current_health_pct%%% of Enigma's current health. These eidolons are all under Enigma's control, and repeated successful attacks cause them to multiply.  When this happens, the eidolons have their health restored.",
+          "notes_loc": [],
+          "shard_loc": "",
+          "scepter_loc": "",
+          "immunity": 0,
+          "dispellable": 0,
+          "target_team": 0,
+          "behavior": "33554448",
+          "item_cost": 0
+        },
+        {
+          "name": "enigma_midnight_pulse",
+          "name_loc": "Midnight Pulse",
+          "desc_loc": "Steeps an area in dark resonance, dealing %base_damage% + a percentage of the enemies current HP as damage.",
+          "notes_loc": [
+            "This ability destroys trees in its area.",
+            "Multiple instances of Midnight Pulse do not stack."
+          ],
+          "shard_loc": "",
+          "scepter_loc": "",
+          "immunity": 3,
+          "dispellable": 0,
+          "target_team": 0,
+          "behavior": "134217776",
+          "item_cost": 0
+        },
+        {
+          "name": "enigma_event_horizon",
+          "name_loc": "Event Horizon",
+          "desc_loc": "Units in a %radius% radius moving away from Enigma have a movespeed penalty.",
+          "notes_loc": [],
+          "shard_loc": "",
+          "scepter_loc": "",
+          "immunity": 0,
+          "dispellable": 3,
+          "target_team": 0,
+          "behavior": "13194139533379",
+          "item_cost": 0
+        },
+        {
+          "name": "enigma_black_hole",
+          "name_loc": "Black Hole",
+          "desc_loc": "CHANNELED - Summons a vortex that sucks in nearby enemy units.  Enemies affected by Black Hole cannot move, attack, or cast spells.",
+          "notes_loc": [],
+          "shard_loc": "",
+          "scepter_loc": "Black Hole deals additional damage equivalent to %scepter_pct_damage%%% of the unit's Max Health per second and does a non-interrupting pull towards it in a %scepter_radius% AoE. Pulls at a rate of %scepter_drag_speed%.",
+          "immunity": 3,
+          "dispellable": 0,
+          "target_team": 0,
+          "behavior": "176",
+          "item_cost": 0
+        }
+      ]
+    },
+    "89": {
+      "id": 89,
+      "name": "Naga Siren",
+      "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=89",
+      "abilities": [
+        {
+          "name": "naga_siren_mirror_image",
+          "name_loc": "Mirror Image",
+          "desc_loc": "Creates multiple images of Naga Siren under her control.\n\nDISPEL TYPE: Basic Dispel",
+          "notes_loc": [
+            "Naga Siren is invulnerable for %invuln_duration% seconds when casting, allowing her to dodge stuns and damage.",
+            "Upon casting, most effects are removed from Naga Siren.",
+            "Upon casting, existing Mirror Image illusions are destroyed."
+          ],
+          "shard_loc": "",
+          "scepter_loc": "",
+          "immunity": 0,
+          "dispellable": 0,
+          "target_team": 0,
+          "behavior": "4",
+          "item_cost": 0
+        },
+        {
+          "name": "naga_siren_ensnare",
+          "name_loc": "Ensnare",
+          "desc_loc": "Interrupts the target and traps them in place, preventing movement or blinking. Can target units affected by Song of the Siren.",
+          "notes_loc": [],
+          "shard_loc": "",
+          "scepter_loc": "Increases cast range and projectile speed.  Allows Ensnare to target and affect Debuff Immune units. Ensnare applies Break.",
+          "immunity": 4,
+          "dispellable": 2,
+          "target_team": 2,
+          "behavior": "8",
+          "item_cost": 0
+        },
+        {
+          "name": "naga_siren_rip_tide",
+          "name_loc": "Rip Tide",
+          "desc_loc": "Naga Siren and her illusions deal bonus damage to enemies and reduce their armor for %duration% seconds every %hits% attacks.",
+          "notes_loc": [
+            "Using Rip Tide doesn't interrupt channeling."
+          ],
+          "shard_loc": "",
+          "scepter_loc": "",
+          "immunity": 4,
+          "dispellable": 2,
+          "target_team": 0,
+          "behavior": "2",
+          "item_cost": 0
+        },
+        {
+          "name": "naga_siren_eelskin",
+          "name_loc": "Eelskin",
+          "desc_loc": "Naga Siren has bonus evasion, increased per every other Naga Siren within %radius% radius.",
+          "notes_loc": [],
+          "shard_loc": "",
+          "scepter_loc": "",
+          "immunity": 0,
+          "dispellable": 0,
+          "target_team": 0,
+          "behavior": "4406636445698",
+          "item_cost": 0
+        },
+        {
+          "name": "naga_siren_song_of_the_siren",
+          "name_loc": "Song of the Siren",
+          "desc_loc": "All enemies in range of the Naga Siren are put into a magical stasis where they cannot act or be attacked. Using Song of the Siren again will end the duration early.",
+          "notes_loc": [
+            "Units affected by Song of the Siren are invulnerable and cannot take damage from any source.",
+            "The area of the song follows Naga, so if she moves far enough away from affected units, they will wake up."
+          ],
+          "shard_loc": "Allies in range of Song of the Siren recover a percentage of their health and mana per second.",
+          "scepter_loc": "",
+          "immunity": 4,
+          "dispellable": 3,
+          "target_team": 0,
+          "behavior": "4",
+          "item_cost": 0
+        }
+      ]
+    },
+    "31": {
+      "id": 31,
+      "name": "Lich",
+      "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=31",
+      "abilities": [
+        {
+          "name": "lich_frost_nova",
+          "name_loc": "Frost Blast",
+          "desc_loc": "Blasts the target enemy unit with damaging frost, dealing area damage and slowing movement and attack rates for %abilityduration% seconds.  The primary target receives both base and area damage.",
+          "notes_loc": [],
+          "shard_loc": "",
+          "scepter_loc": "",
+          "immunity": 4,
+          "dispellable": 2,
+          "target_team": 2,
+          "behavior": "40",
+          "item_cost": 0
+        },
+        {
+          "name": "lich_frost_shield",
+          "name_loc": "Frost Shield",
+          "desc_loc": "Applies a magical frost shield around the target, reducing damage from attacks against it. While the shield is active, ice magic will affect nearby enemy units every %interval% seconds, dealing minor damage and slowing them.",
+          "notes_loc": [
+            "Spell-immune enemies are not affected by the damage or slow.",
+            "Frost Shield can be cast on buildings."
+          ],
+          "shard_loc": "",
+          "scepter_loc": "",
+          "immunity": 5,
+          "dispellable": 2,
+          "target_team": 1,
+          "behavior": "33554440",
+          "item_cost": 0
+        },
+        {
+          "name": "lich_sinister_gaze",
+          "name_loc": "Sinister Gaze",
+          "desc_loc": "CHANNELED - Hypnotizes an enemy unit, causing it to move towards a point between the two of you and drains a percentage of its current mana.",
+          "notes_loc": [],
+          "shard_loc": "",
+          "scepter_loc": "Sinister Gaze becomes an Area of Effect ability, affecting units within a radius of %aoe_scepter% in the target area. Sinister Gaze allows Lich to cast other abilities while channeling it.",
+          "immunity": 4,
+          "dispellable": 2,
+          "target_team": 2,
+          "behavior": "136",
+          "item_cost": 0
+        },
+        {
+          "name": "lich_ice_spire",
+          "name_loc": "Ice Spire",
+          "desc_loc": "Creates an Ice Spire at the target spot, slowing enemies around it. Can take %max_hero_attacks% hero hits or %max_creep_attacks% creep hits and when destroyed it will create a Frost Blast around it.<br><br>Chain Frost can be cast on the Spire and can bounce to the Spire and damage the spire by 1 hero attack if there are no other enemies in range.<br><br>Lich can cast Frost Shield on the Spire. Each Frost Shield tick will heal the spire by 1 hero attack.",
+          "notes_loc": [],
+          "shard_loc": "",
+          "scepter_loc": "",
+          "immunity": 4,
+          "dispellable": 3,
+          "target_team": 0,
+          "behavior": "8724152369",
+          "item_cost": 0
+        },
+        {
+          "name": "lich_death_charge",
+          "name_loc": "Sacrifice",
+          "desc_loc": "Sacrifice an allied creep to convert its current health into mana for Lich and give Lich its experience bounty.<br><br>Begins the game on cooldown and with no charges.",
+          "notes_loc": [
+            "Cannot sacrifice ancients or creep-heroes.",
+            "Sacrificed creeps count as denies and can give experience to enemy heroes. Lich's experience bounty and enemy heroes' deny experience are independent."
+          ],
+          "shard_loc": "",
+          "scepter_loc": "",
+          "immunity": 0,
+          "dispellable": 0,
+          "target_team": 1,
+          "behavior": "72",
+          "item_cost": 0
+        },
+        {
+          "name": "lich_chain_frost",
+          "name_loc": "Chain Frost",
+          "desc_loc": "Releases an orb of frost that bounces between nearby enemy units up to %jumps% times, slowing and damaging each time it hits. Each bounce increases the damage for the subsequent bounces. Chain Frost lingers on its last target if it fails to bounce and can bounce again if new targets become available.",
+          "notes_loc": [
+            "Chain Frost cannot be disjointed.",
+            "Chain Frost has a movement speed of %projectile_speed%.",
+            "Chain Frost doesn't bounce to Zombies."
+          ],
+          "shard_loc": "",
+          "scepter_loc": "",
+          "immunity": 4,
+          "dispellable": 2,
+          "target_team": 2,
+          "behavior": "8",
+          "item_cost": 0
+        }
+      ]
+    },
+    "121": {
+      "id": 121,
+      "name": "Grimstroke",
+      "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=121",
+      "abilities": [
+        {
+          "name": "grimstroke_dark_artistry",
+          "name_loc": "Stroke of Fate",
+          "desc_loc": "Grimstroke paints a curved path of ink with his brush, damaging and slowing enemies. The damage is increased with each enemy the ink hits.<br><br> Can be put on alt-cast to have the path be straight.",
+          "notes_loc": [],
+          "shard_loc": "",
+          "scepter_loc": "",
+          "immunity": 4,
+          "dispellable": 2,
+          "target_team": 0,
+          "behavior": "1099511627792",
+          "item_cost": 0
+        },
+        {
+          "name": "grimstroke_ink_creature",
+          "name_loc": "Phantom's Embrace",
+          "desc_loc": "Summons a phantom that moves quickly towards the target, latching to it when she arrives. Once latched, the phantom damages and silences. If she survives the full latch duration she rends her victim for heavy damage and refreshes Phantom's Embrace's cooldown.\n\nHero attacks against the phantom count as 3 attacks each.",
+          "notes_loc": [
+            "The phantom falls off if the target becomes invisible or spell immune.",
+            "The phantom will return if the target dies during the latch."
+          ],
+          "shard_loc": "",
+          "scepter_loc": "",
+          "immunity": 4,
+          "dispellable": 3,
+          "target_team": 2,
+          "behavior": "134217736",
+          "item_cost": 0
+        },
+        {
+          "name": "grimstroke_spirit_walk",
+          "name_loc": "Ink Swell",
+          "desc_loc": "Grimstroke shrouds an allied unit in ink, increasing its movement speed. Enemies in range of the allied unit are damaged with inky tendrils over time. After %buff_duration% seconds it applies damage and stun in an area around the unit in proportion to how long ink tendril was near any hero.",
+          "notes_loc": [],
+          "shard_loc": "Ink Swell dispels the allied unit when cast. Causes Ink Swell to deal %shard_bonus_damage_pct%%% more damage and heal the target for %shard_heal_pct%%% of the damage Ink Swell deals.<br><br>DISPEL TYPE: Basic Dispel",
+          "scepter_loc": "",
+          "immunity": 5,
+          "dispellable": 2,
+          "target_team": 1,
+          "behavior": "33554440",
+          "item_cost": 0
+        },
+        {
+          "name": "grimstroke_dark_portrait",
+          "name_loc": "Dark Portrait",
+          "desc_loc": "Creates an ink illusion of a target enemy hero. Illusion is debuff immune, has %immunity_resist%%% magic resistance, and has bonus movement speed and attack damage.",
+          "notes_loc": [],
+          "shard_loc": "",
+          "scepter_loc": "",
+          "immunity": 3,
+          "dispellable": 0,
+          "target_team": 2,
+          "behavior": "8589934601",
+          "item_cost": 0
+        },
+        {
+          "name": "grimstroke_soul_chain",
+          "name_loc": "Soulbind",
+          "desc_loc": "Binds a targeted enemy hero to its nearest allied hero within the bind radius, preventing both from moving away from each other. Any unit-targeted ability that either bound hero receives also gets cast on the other hero. If the bind is broken before the duration expires, the initial target will be bound to its nearest allied hero in the radius.",
+          "notes_loc": [
+            "If bound to another unit, affected units are leashed and prevented from blinking.",
+            "Provides vision of both leashed units."
+          ],
+          "shard_loc": "",
+          "scepter_loc": "",
+          "immunity": 3,
+          "dispellable": 3,
+          "target_team": 2,
+          "behavior": "40",
+          "item_cost": 0
+        },
+        {
+          "name": "grimstroke_ink_trail",
+          "name_loc": "Ink Trail",
+          "desc_loc": "Grimstroke's attacks and spells cause affected enemy heroes to leave a trail of Ink behind them and deal less damage to Grimstroke for %debuff_duration%s.",
+          "notes_loc": [
+            "Provides vision over affected heroes.",
+            "Grimstroke's illusions (including Dark Portrait) also have Ink Trail."
+          ],
+          "shard_loc": "",
+          "scepter_loc": "",
+          "immunity": 4,
+          "dispellable": 0,
+          "target_team": 0,
+          "behavior": "567347999932419",
+          "item_cost": 0
+        }
+      ]
+    },
+    "111": {
+      "id": 111,
+      "name": "Oracle",
+      "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=111",
+      "abilities": [
+        {
+          "name": "oracle_fortunes_end",
+          "name_loc": "Fortune's End",
+          "desc_loc": "CHANNELED - Gathers Oracle's power into a bolt of scouring energy that, when released, damages, roots, and dispels enemies of buffs in an area around the target. If target is an ally it will only dispel debuffs. The root duration increases with channeling time.\n\nDISPEL TYPE: Basic Dispel",
+          "notes_loc": [
+            "Affects invulnerable units."
+          ],
+          "shard_loc": "",
+          "scepter_loc": "",
+          "immunity": 4,
+          "dispellable": 2,
+          "target_team": 3,
+          "behavior": "536871080",
+          "item_cost": 0
+        },
+        {
+          "name": "oracle_fates_edict",
+          "name_loc": "Fate's Edict",
+          "desc_loc": "Oracle enraptures a target, disarming them and granting them %magic_damage_resistance_pct_tooltip%%% magic damage resistance.",
+          "notes_loc": [],
+          "shard_loc": "",
+          "scepter_loc": "",
+          "immunity": 2,
+          "dispellable": 2,
+          "target_team": 3,
+          "behavior": "8",
+          "item_cost": 0
+        },
+        {
+          "name": "oracle_purifying_flames",
+          "name_loc": "Purifying Flames",
+          "desc_loc": "Burns away impurities, dealing heavy magic damage to the target before causing them to regenerate health over time. The amount of health regenerated over its duration exceeds the amount of initial damage. Can be cast on enemies and allies.",
+          "notes_loc": [
+            "The healing from Purifying Flames can be stacked with itself.",
+            "The damage from Purifying Flames cannot be lethal to allies."
+          ],
+          "shard_loc": "",
+          "scepter_loc": "",
+          "immunity": 4,
+          "dispellable": 2,
+          "target_team": 3,
+          "behavior": "8",
+          "item_cost": 0
+        },
+        {
+          "name": "oracle_rain_of_destiny",
+          "name_loc": "Rain of Destiny",
+          "desc_loc": "Brings forth rain to the target area. Enemies standing in the area receive damage and have reduced Heal Amplification. Allies in the area heal and have increased incoming Heal Amplification.",
+          "notes_loc": [],
+          "shard_loc": "",
+          "scepter_loc": "",
+          "immunity": 4,
+          "dispellable": 0,
+          "target_team": 0,
+          "behavior": "8589934641",
+          "item_cost": 0
+        },
+        {
+          "name": "oracle_false_promise",
+          "name_loc": "False Promise",
+          "desc_loc": "Temporarily alters an ally's destiny, delaying any healing or damage taken until False Promise ends. Any healing that is delayed by False Promise is amplified. Removes most negative status effects and disables on initial cast.\n\nDISPEL TYPE: Strong Dispel",
+          "notes_loc": [
+            "Delayed damage and healing will take armor and magic resistance reductions into account when received.",
+            "The delayed damage and healing takes effect as soon as the target becomes vulnerable."
+          ],
+          "shard_loc": "",
+          "scepter_loc": "",
+          "immunity": 1,
+          "dispellable": 3,
+          "target_team": 1,
+          "behavior": "8",
+          "item_cost": 0
+        },
+        {
+          "name": "oracle_prognosticate",
+          "name_loc": "Prognosticate",
+          "desc_loc": "Oracle will predict and announce to allies, where the next power rune will spawn (top or bottom) as well as Roshan's exact respawn time.",
+          "notes_loc": [],
+          "shard_loc": "",
+          "scepter_loc": "",
+          "immunity": 0,
+          "dispellable": 0,
+          "target_team": 0,
+          "behavior": "13194139533314",
+          "item_cost": 0
+        }
+      ]
+    },
+    "59": {
+      "id": 59,
+      "name": "Huskar",
+      "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=59",
+      "abilities": [
+        {
+          "name": "huskar_inner_fire",
+          "name_loc": "Inner Fire",
+          "desc_loc": "In a fiery rage, knocks all nearby enemies away from you to a fixed distance, dealing damage and silencing them.",
+          "notes_loc": [],
+          "shard_loc": "",
+          "scepter_loc": "",
+          "immunity": 4,
+          "dispellable": 2,
+          "target_team": 0,
+          "behavior": "4",
+          "item_cost": 0
+        },
+        {
+          "name": "huskar_burning_spear",
+          "name_loc": "Burning Spear",
+          "desc_loc": "Huskar sets his spears aflame, dealing damage over time with his regular attack.  Multiple attacks will stack additional damage.  Each attack drains some of Huskar's health.",
+          "notes_loc": [
+            "Burning Spear stacks additively when used multiple times on one target.  There is no cap.",
+            "Huskar cannot kill himself with this skill.",
+            "Incendiary does not deal extra Max Health Burn Damage to Roshan."
+          ],
+          "shard_loc": "",
+          "scepter_loc": "Burning Spears launches an additional %multishot_targets% spears onto random enemies within Huskar's attack range.",
+          "immunity": 4,
+          "dispellable": 3,
+          "target_team": 2,
+          "behavior": "135176",
+          "item_cost": 0
+        },
+        {
+          "name": "huskar_berserkers_blood",
+          "name_loc": "Berserker's Blood",
+          "desc_loc": "Huskar's injuries feed his power, giving increased attack speed, magic resistance and health regen based on missing health. Health regen is a percentage of your strength.",
+          "notes_loc": [
+            "Bonuses are provided linearly, no bonus at Full HP and full bonus at strictly less than %hp_threshold_max%%% HP."
+          ],
+          "shard_loc": "Huskar can activate Berserker's Blood for a health cost to cauterize himself. Dispels Huskar, then after a delay, heals for the amount of health consumed plus an additional bonus per debuff dispelled.<br/><br/>DISPEL TYPE: Basic Dispel",
+          "scepter_loc": "",
+          "immunity": 0,
+          "dispellable": 0,
+          "target_team": 1,
+          "behavior": "2",
+          "item_cost": 0
+        },
+        {
+          "name": "huskar_blood_magic",
+          "name_loc": "Blood Magic",
+          "desc_loc": "Huskar does not have mana. Mana costs of items are converted into health costs.<br/><br/>Huskar's Health Costs are Magical Damage and can be reduced by Magic Resist.",
+          "notes_loc": [],
+          "shard_loc": "",
+          "scepter_loc": "",
+          "immunity": 0,
+          "dispellable": 0,
+          "target_team": 0,
+          "behavior": "4406636445698",
+          "item_cost": 0
+        },
+        {
+          "name": "huskar_life_break",
+          "name_loc": "Life Break",
+          "desc_loc": "Huskar draws upon his health to break an enemy's life, leaping at a target to shatter a percentage of that hero's current health and slow both their movement and attack speed.  While leaping, Huskar is Debuff Immune with %immunity_resist%%% magic resistance.\n\nDISPEL TYPE: Basic Dispel",
+          "notes_loc": [
+            "If Huskar is disabled during the charge or the target moves more than 1400 units in 0.015 seconds, the charge stops.",
+            "Slow works on Spell Immune units.",
+            "Life Break cannot be disjointed."
+          ],
+          "shard_loc": "",
+          "scepter_loc": "Forces the enemy target to attack Huskar and increases cast range.",
+          "immunity": 3,
+          "dispellable": 2,
+          "target_team": 2,
+          "behavior": "8",
+          "item_cost": 0
+        }
+      ]
+    },
+    "102": {
+      "id": 102,
+      "name": "Abaddon",
+      "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=102",
+      "abilities": [
+        {
+          "name": "abaddon_death_coil",
+          "name_loc": "Mist Coil",
+          "desc_loc": "Abaddon releases a coil of deathly mist that can damage an enemy unit or heal a friendly unit at the cost of some of Abaddon's health.",
+          "notes_loc": [
+            "Abaddon can not kill himself with this skill."
+          ],
+          "shard_loc": "",
+          "scepter_loc": "",
+          "immunity": 5,
+          "dispellable": 0,
+          "target_team": 3,
+          "behavior": "8",
+          "item_cost": 0
+        },
+        {
+          "name": "abaddon_aphotic_shield",
+          "name_loc": "Aphotic Shield",
+          "desc_loc": "Summons dark energies around an ally unit, dispelling them and creating an all damage barrier that absorbs a set amount of damage before expiring. When the barrier is destroyed it will burst and deal damage equal to the amount it could absorb to an area around it.\n\nDISPEL TYPE: Strong Dispel",
+          "notes_loc": [
+            "The max damage is always dealt whether the barrier is destroyed by expiring or absorbing damage.",
+            "The explosion does not damage units hidden by the fog of war."
+          ],
+          "shard_loc": "%absorb_to_damage%%% of absorbed damage is dealt to nearby enemies.",
+          "scepter_loc": "",
+          "immunity": 2,
+          "dispellable": 2,
+          "target_team": 1,
+          "behavior": "8",
+          "item_cost": 0
+        },
+        {
+          "name": "abaddon_frostmourne",
+          "name_loc": "Curse of Avernus",
+          "desc_loc": "Abaddon strikes an enemy, affecting them by a chilling curse, slowing them, causing them to take damage over time, and all attacks against them gain an attack speed boost. Damage over time component to buildings is reduced by %tower_dps_pct%%%.",
+          "notes_loc": [],
+          "shard_loc": "",
+          "scepter_loc": "",
+          "immunity": 4,
+          "dispellable": 2,
+          "target_team": 0,
+          "behavior": "2",
+          "item_cost": 0
+        },
+        {
+          "name": "abaddon_withering_mist",
+          "name_loc": "Withering Mist",
+          "desc_loc": "Damaging enemies applies the Withering Mist debuff for %duration%s. Affected enemies have their Health Restoration reduced by %heal_reduction_pct%%% if they are below %hp_threshold_pct%%% HP.",
+          "notes_loc": [],
+          "shard_loc": "",
+          "scepter_loc": "",
+          "immunity": 0,
+          "dispellable": 0,
+          "target_team": 0,
+          "behavior": "562949953421379",
+          "item_cost": 0
+        },
+        {
+          "name": "abaddon_borrowed_time",
+          "name_loc": "Borrowed Time",
+          "desc_loc": "When activated, dispels you and all damage dealt to you will heal instead of harm. If the ability is not on cooldown, it will automatically activate if your health falls below %hp_threshold%.\n\nDISPEL TYPE: Strong Dispel",
+          "notes_loc": [
+            "Borrowed Time can be manually activated while Abaddon is disabled, but not while silenced.  The passive activation can still occur while silenced.",
+            "Aphotic Shield does not block any damage to Abaddon when Borrowed Time is active, allowing him to heal.",
+            "Break prevents Borrowed Time from automatically activating."
+          ],
+          "shard_loc": "",
+          "scepter_loc": "Increases duration. While Borrowed Time is active, anytime an ally takes more than %ally_threshold_scepter% damage while within Mist Coil's cast range of Abaddon, an individual Mist Coil will automatically fire towards that ally.",
+          "immunity": 0,
+          "dispellable": 3,
+          "target_team": 0,
+          "behavior": "2099204",
+          "item_cost": 0
+        }
+      ]
+    },
+    "104": {
+      "id": 104,
+      "name": "Legion Commander",
+      "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=104",
+      "abilities": [
+        {
+          "name": "legion_commander_overwhelming_odds",
+          "name_loc": "Overwhelming Odds",
+          "desc_loc": "Turns the foes' numbers against them, dealing a %movement_slow%%% impact slow for %slow_duration%s and damage to all enemies in the area. Damage increases with each enemy unit or hero in the area, and grants Legion Commander bonus attack speed.",
+          "notes_loc": [],
+          "shard_loc": "Overwhelming Odds has larger radius and grants an all damage barrier based on the damage it deals to enemy heroes.",
+          "scepter_loc": "",
+          "immunity": 4,
+          "dispellable": 2,
+          "target_team": 0,
+          "behavior": "134217764",
+          "item_cost": 0
+        },
+        {
+          "name": "legion_commander_press_the_attack",
+          "name_loc": "Press The Attack",
+          "desc_loc": "Removes debuffs and disables from the target friendly unit, and grants bonus movement speed and health regen for a short time.\n\nDISPEL TYPE: Strong Dispel",
+          "notes_loc": [],
+          "shard_loc": "",
+          "scepter_loc": "Increases movement speed and becomes an %radius% area of effect ability, and always affects Legion Commander when used.",
+          "immunity": 2,
+          "dispellable": 2,
+          "target_team": 1,
+          "behavior": "8",
+          "item_cost": 0
+        },
+        {
+          "name": "legion_commander_moment_of_courage",
+          "name_loc": "Moment of Courage",
+          "desc_loc": "When attacked a number of times, Legion Commander will counter-attack her target with bonus lifesteal.",
+          "notes_loc": [
+            "The lifestealing strike is only triggered if being attacked."
+          ],
+          "shard_loc": "",
+          "scepter_loc": "",
+          "immunity": 0,
+          "dispellable": 0,
+          "target_team": 0,
+          "behavior": "2",
+          "item_cost": 0
+        },
+        {
+          "name": "legion_commander_outfight_them",
+          "name_loc": "Outfight Them!",
+          "desc_loc": "When Legion Commander or an allied Hero within %radius% range casts an ability, they gain bonus armor for %duration%s; allies gain %ally_factor%%% of the value.  This bonus stacks independently.",
+          "notes_loc": [],
+          "shard_loc": "",
+          "scepter_loc": "",
+          "immunity": 0,
+          "dispellable": 0,
+          "target_team": 0,
+          "behavior": "562949953421379",
+          "item_cost": 0
+        },
+        {
+          "name": "legion_commander_duel",
+          "name_loc": "Duel",
+          "desc_loc": "Legion Commander and the target enemy hero are forced to attack each other for a short duration. Neither hero can use items, and the target enemy hero cannot use abilities. If either hero dies during the duration, the hero winning the Duel gains permanent bonus damage.",
+          "notes_loc": [
+            "Duels will end if the units are pushed 2000 units apart."
+          ],
+          "shard_loc": "",
+          "scepter_loc": "When Legion Commander wins a duel, Press the Attack is automatically triggered around her.",
+          "immunity": 3,
+          "dispellable": 3,
+          "target_team": 2,
+          "behavior": "8",
+          "item_cost": 0
+        }
+      ]
+    },
+    "75": {
+      "id": 75,
+      "name": "Silencer",
+      "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=75",
+      "abilities": [
+        {
+          "name": "silencer_curse_of_the_silent",
+          "name_loc": "Arcane Curse",
+          "desc_loc": "Curses the target area, dealing damage and causing enemies to take damage over time and slowing their movement speed.<br><br>Anytime affected enemies cast a spell, the duration is increased. The duration is paused as long as the target is silenced.",
+          "notes_loc": [
+            "Affects creeps."
+          ],
+          "shard_loc": "",
+          "scepter_loc": "",
+          "immunity": 4,
+          "dispellable": 2,
+          "target_team": 0,
+          "behavior": "48",
+          "item_cost": 0
+        },
+        {
+          "name": "silencer_glaives_of_wisdom",
+          "name_loc": "Glaives of Wisdom",
+          "desc_loc": "Silencer enchants his glaives with his wisdom, stealing his target's Intelligence with each hit and dealing additional damage based on his Intelligence.",
+          "notes_loc": [],
+          "shard_loc": "Causes Glaives of Wisdom to bounce %bounce_count% time to a random enemy within %bounce_range% range and increases intelligence steal.",
+          "scepter_loc": "",
+          "immunity": 4,
+          "dispellable": 3,
+          "target_team": 2,
+          "behavior": "135176",
+          "item_cost": 0
+        },
+        {
+          "name": "silencer_last_word",
+          "name_loc": "Last Word",
+          "desc_loc": "Enchants a target, providing vision of them and causing them to be damaged and silenced if they cast a spell or if the enchantment timer expires. Deals extra damage based on the difference in intelligence between Silencer and the target.",
+          "notes_loc": [
+            "Channeling abilities will trigger this effect once the caster finishes its channel."
+          ],
+          "shard_loc": "",
+          "scepter_loc": "",
+          "immunity": 4,
+          "dispellable": 2,
+          "target_team": 2,
+          "behavior": "8",
+          "item_cost": 0
+        },
+        {
+          "name": "silencer_brain_drain",
+          "name_loc": "Suffer In Silence",
+          "desc_loc": "Silencer takes less damage from and deals more damage to silenced targets.<br><br>If an enemy Hero dies within %permanent_int_steal_range% range of Silencer or was debuffed by Silencer at the time of death, Silencer permanently steals %permanent_int_steal_amount% Intelligence from them.  If the victim was silenced, steal an extra %silenced_bonus_int_steal_amount% Intelligence.",
+          "notes_loc": [],
+          "shard_loc": "Increases the Intelligence stolen per kill.",
+          "scepter_loc": "",
+          "immunity": 0,
+          "dispellable": 0,
+          "target_team": 0,
+          "behavior": "66",
+          "item_cost": 0
+        },
+        {
+          "name": "silencer_global_silence",
+          "name_loc": "Global Silence",
+          "desc_loc": "Silencer stops all sound, preventing enemy heroes and units on the map from casting spells.",
+          "notes_loc": [
+            "This skill works on invisible and Debuff Immune units, but gaining debuff immunity will remove its effect.",
+            "Multiple Arcane Curses from Aghanim's Scepter Global Silence do not stack."
+          ],
+          "shard_loc": "",
+          "scepter_loc": "Global Silence applies Arcane Curse to heroes for the duration of Global Silence.",
+          "immunity": 3,
+          "dispellable": 2,
+          "target_team": 0,
+          "behavior": "4",
+          "item_cost": 0
+        }
+      ]
+    },
+    "65": {
+      "id": 65,
+      "name": "Batrider",
+      "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=65",
+      "abilities": [
+        {
+          "name": "batrider_sticky_napalm",
+          "name_loc": "Sticky Napalm",
+          "desc_loc": "Drenches an area in sticky oil, amplifying damage from Batrider's attacks and abilities and slowing the movement speed and turn rate of enemies. Additional casts of Sticky Napalm continue to increase damage, up to %max_stacks% stacks. Applies a small amount of damage with each cast.",
+          "notes_loc": [
+            "All damage from Batrider gets amplified, except for Radiance, Orb of Venom, Urn of Shadows, and Spirit Vessel.",
+            "Sticky Napalm does not require turning to cast.",
+            "Sticky Napalm deals %creep_damage_pct%%% damage to creeps."
+          ],
+          "shard_loc": "Sticky Napalm no longer has a stack limit.<br><br>Sticky Napalm deals damage to structures.",
+          "scepter_loc": "",
+          "immunity": 4,
+          "dispellable": 2,
+          "target_team": 2,
+          "behavior": "35184506306608",
+          "item_cost": 0
+        },
+        {
+          "name": "batrider_flamebreak",
+          "name_loc": "Flamebreak",
+          "desc_loc": "Hurls an explosive cocktail that explodes when it reaches the target location, knocking back, slowing and dealing damage over time to enemies in the area.",
+          "notes_loc": [],
+          "shard_loc": "",
+          "scepter_loc": "",
+          "immunity": 4,
+          "dispellable": 2,
+          "target_team": 0,
+          "behavior": "48",
+          "item_cost": 0
+        },
+        {
+          "name": "batrider_firefly",
+          "name_loc": "Firefly",
+          "desc_loc": "Batrider takes to the skies, moving increasingly fast and laying down a trail of flames from the air. The fire damages any enemies it touches and destroys trees below Batrider. Maximum movement speed bonus is reached at the end of Firefly's duration.",
+          "notes_loc": [
+            "During this the Batrider can fly above units, trees and impassable terrain.",
+            "If duration ends when above impassable terrain, the Batrider can get stuck.",
+            "The trail persists through Batrider's death."
+          ],
+          "shard_loc": "",
+          "scepter_loc": "",
+          "immunity": 4,
+          "dispellable": 3,
+          "target_team": 0,
+          "behavior": "2052",
+          "item_cost": 0
+        },
+        {
+          "name": "batrider_smoldering_resin",
+          "name_loc": "Smoldering Resin",
+          "desc_loc": "Batrider's attacks apply a debuff that deals %tick_attack_damage_pct%%% of the attack damage every %tick_rate%s for %total_ticks%s.",
+          "notes_loc": [],
+          "shard_loc": "",
+          "scepter_loc": "",
+          "immunity": 0,
+          "dispellable": 0,
+          "target_team": 0,
+          "behavior": "8796093022210",
+          "item_cost": 0
+        },
+        {
+          "name": "batrider_flaming_lasso",
+          "name_loc": "Flaming Lasso",
+          "desc_loc": "Lassoes an enemy and drags them in Batrider's wake. Dragged units cannot move, attack, or use abilities.  Teleporting or blinking will break the lasso.",
+          "notes_loc": [
+            "Killing the target or the Batrider will break the lasso before its expiration.",
+            "If Batrider moves more than 425 units in 0.05 seconds the lasso breaks.",
+            "Batrider cannot attack while using Flaming Lasso."
+          ],
+          "shard_loc": "",
+          "scepter_loc": "Flaming Lasso grabs both its target, as well as the target's nearest allied hero within %grab_radius_scepter% units. The secondary target is tethered to the first.",
+          "immunity": 3,
+          "dispellable": 1,
+          "target_team": 2,
+          "behavior": "8",
+          "item_cost": 0
+        }
+      ]
+    },
+    "69": {
+      "id": 69,
+      "name": "Doom",
+      "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=69",
+      "abilities": [
+        {
+          "name": "doom_bringer_devour",
+          "name_loc": "Devour",
+          "desc_loc": "Consumes an enemy or neutral creep, acquiring any special abilities that it possessed. If alt-cast is activated, Doom will not acquire the creep's abilities. Duration is equal to the cooldown.",
+          "notes_loc": [
+            "Gives Doom the original bounty of the creep, along with the bonus gold.",
+            "If you devour a creep without abilities, you'll keep the abilities you had previously."
+          ],
+          "shard_loc": "Devour has %AbilityCharges% charges and can target Ancients. Stolen creep abilities have %bonus_aoe_pct%%% increased AoE and %bonus_spell_amp_pct%%% increased spell amplification.",
+          "scepter_loc": "",
+          "immunity": 0,
+          "dispellable": 3,
+          "target_team": 4,
+          "behavior": "1099545182216",
+          "item_cost": 0
+        },
+        {
+          "name": "doom_bringer_scorched_earth",
+          "name_loc": "Scorched Earth",
+          "desc_loc": "Carpets the nearby earth in flames which damage enemies, while also granting Doom increased movement speed and health regeneration.",
+          "notes_loc": [
+            "Scorched Earth follows Doom, centered on his location."
+          ],
+          "shard_loc": "",
+          "scepter_loc": "",
+          "immunity": 4,
+          "dispellable": 3,
+          "target_team": 0,
+          "behavior": "4",
+          "item_cost": 0
+        },
+        {
+          "name": "doom_bringer_infernal_blade",
+          "name_loc": "Infernal Blade",
+          "desc_loc": "Doom swings his burning sword, igniting the enemy. Stuns for %ministun_duration% seconds and applies a %burn_duration% second burn that deals a base damage plus a percentage of the target's Max HP as damage per second.",
+          "notes_loc": [
+            "Interrupts channeling abilities."
+          ],
+          "shard_loc": "",
+          "scepter_loc": "",
+          "immunity": 4,
+          "dispellable": 2,
+          "target_team": 2,
+          "behavior": "135176",
+          "item_cost": 0
+        },
+        {
+          "name": "doom_bringer_doom",
+          "name_loc": "Doom",
+          "desc_loc": "Inflicts a curse that dispels an enemy and prevents them from casting spells or healing in any way, while taking damage over time.\n\nDISPEL TYPE: Basic Dispel",
+          "notes_loc": [],
+          "shard_loc": "",
+          "scepter_loc": "Doom applies Break to enemies. Allies in a %scepter_aura_radius% radius around the doomed target also suffer the effects of Doom. Allows Doom to be self-cast to affect enemies around himself with Doom.",
+          "immunity": 3,
+          "dispellable": 3,
+          "target_team": 3,
+          "behavior": "8",
+          "item_cost": 0
+        },
+        {
+          "name": "doom_bringer_lvl_pain",
+          "name_loc": "Lvl ? Pain",
+          "desc_loc": "Doom's attacks curse enemy heroes. After %damage_debuff_duration%s, the cursed hero bursts with a pillar of fire, damaging itself and all units in a %spread_radius% AoE for %bonus_damage_pct_base%%% of the damage taken from Doom during the curse. The damage and radius of the curse is %bonus_at_level_pct%%% stronger if the enemy's level is a multiple of %level_multiplier%.",
+          "notes_loc": [
+            "Also applies to all attacks when Doom is at max level."
+          ],
+          "shard_loc": "",
+          "scepter_loc": "",
+          "immunity": 0,
+          "dispellable": 0,
+          "target_team": 0,
+          "behavior": "567356589867011",
+          "item_cost": 0
+        }
+      ]
+    },
+    "68": {
+      "id": 68,
+      "name": "Ancient Apparition",
+      "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=68",
+      "abilities": [
+        {
+          "name": "ancient_apparition_cold_feet",
+          "name_loc": "Cold Feet",
+          "desc_loc": "Places a curse on an enemy, dealing damage over time.  If the enemy unit doesn't move outside of the given range from the initial location, it will be stunned and frozen in place after %AbilityDuration% seconds.",
+          "notes_loc": [
+            "Deals damage every half second."
+          ],
+          "shard_loc": "",
+          "scepter_loc": "",
+          "immunity": 4,
+          "dispellable": 2,
+          "target_team": 2,
+          "behavior": "134217736",
+          "item_cost": 0
+        },
+        {
+          "name": "ancient_apparition_ice_vortex",
+          "name_loc": "Ice Vortex",
+          "desc_loc": "Creates a vortex of icy energy that slows, deals damage, and increases magic damage done to enemies in its range.",
+          "notes_loc": [
+            "Provides vision in a small area where it is placed."
+          ],
+          "shard_loc": "",
+          "scepter_loc": "",
+          "immunity": 4,
+          "dispellable": 3,
+          "target_team": 0,
+          "behavior": "134217776",
+          "item_cost": 0
+        },
+        {
+          "name": "ancient_apparition_chilling_touch",
+          "name_loc": "Chilling Touch",
+          "desc_loc": "Enhances Ancient Apparition's attack with increased range and a burst of magical damage and slow.",
+          "notes_loc": [],
+          "shard_loc": "",
+          "scepter_loc": "Removes cooldown.",
+          "immunity": 4,
+          "dispellable": 2,
+          "target_team": 2,
+          "behavior": "135176",
+          "item_cost": 0
+        },
+        {
+          "name": "ancient_apparition_bone_chill",
+          "name_loc": "Bone Chill",
+          "desc_loc": "When Ancient Apparition deals Magic damage to an enemy with his abilities, it is slowed for a short duration. If the target is a Hero, its Strength is also reduced. Multiple instances of this effect stack and have independent durations.",
+          "notes_loc": [],
+          "shard_loc": "",
+          "scepter_loc": "Increases Base Strength Reduction by %tooltip_scepter_bonus%.",
+          "immunity": 4,
+          "dispellable": 0,
+          "target_team": 0,
+          "behavior": "562949953421315",
+          "item_cost": 0
+        },
+        {
+          "name": "ancient_apparition_ice_blast",
+          "name_loc": "Ice Blast",
+          "desc_loc": "Launches a tracer toward any location on the battlefield, which must be triggered again to mark the area to be blasted by a damaging explosion of hail. The further the tracer travels, the larger the explosion will be. Enemies caught in the explosion, or who touch the icy ball of hail as it travels, are Frostbitten, taking damage over time and prevented from regenerating or healing. If a Frostbitten unit's health drops below a certain percentage, they will instantly shatter.",
+          "notes_loc": [
+            "Upon cast, this ability is replaced by Release, used to stop the tracer on the target area.",
+            "The area of effect is %radius_min% + %radius_grow%*TimeTraveled, capped at %radius_max%.",
+            "Kill will be granted to the source of the damage that triggers the shatter.",
+            "The shatter effect doesn't work on illusions.",
+            "The HP Freeze prevents most kinds of healing, including the fountain, except Sunder, Time Lapse and Supernova."
+          ],
+          "shard_loc": "Freezes enemies hit with the current level of Cold Feet for %cold_feet_stun_duration_pct%%% of the duration.",
+          "scepter_loc": "",
+          "immunity": 3,
+          "dispellable": 3,
+          "target_team": 0,
+          "behavior": "48",
+          "item_cost": 0
+        }
+      ]
+    },
+    "112": {
+      "id": 112,
+      "name": "Winter Wyvern",
+      "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=112",
+      "abilities": [
+        {
+          "name": "winter_wyvern_arctic_burn",
+          "name_loc": "Arctic Burn",
+          "desc_loc": "Winter Wyvern soars upon an arctic wind, granting her unobstructed movement and allowing her to exhale a blistering chill into each attack. While soaring, her attacks travel further and faster, and slow enemies with a magical freeze that strips them of %percent_damage%%% of their current health each second.",
+          "notes_loc": [
+            "This ability does not affect Roshan.",
+            "Reduces Winter Wyvern's attack point to %attack_point%.",
+            "The damage and slow from Arctic Burn can be dispelled."
+          ],
+          "shard_loc": "",
+          "scepter_loc": "Causes Arctic Burn to be a toggle ability, draining mana every second when active. Increases Winter Wyvern's movement speed.",
+          "immunity": 4,
+          "dispellable": 3,
+          "target_team": 0,
+          "behavior": "2052",
+          "item_cost": 0
+        },
+        {
+          "name": "winter_wyvern_splinter_blast",
+          "name_loc": "Splinter Blast",
+          "desc_loc": "Launches a ball of brittle ice toward a unit. The ice shatters on impact, leaving the primary target completely unaffected, while hurling damaging splinters into nearby enemies in a %split_radius% base radius. Enemies struck by these splinters are slowed by %movespeed_slow_tooltip%%%.",
+          "notes_loc": [
+            "The primary projectile moves at %projectile_speed% movement speed.",
+            "The primary projectile cannot be disjointed and cannot be targeted towards Winter Wyvern herself."
+          ],
+          "shard_loc": "",
+          "scepter_loc": "",
+          "immunity": 4,
+          "dispellable": 2,
+          "target_team": 3,
+          "behavior": "40",
+          "item_cost": 0
+        },
+        {
+          "name": "winter_wyvern_cold_embrace",
+          "name_loc": "Cold Embrace",
+          "desc_loc": "Encases an ally in an icy cocoon, freezing them solid while healing a base amount as well as a percentage of their maximum health each second. The cocoon blocks all physical damage.",
+          "notes_loc": [],
+          "shard_loc": "Reduces cooldown by %shard_cooldown_reduction% seconds. Allied units gain bonus attack damage when emerging from the icy cocoon.",
+          "scepter_loc": "",
+          "immunity": 1,
+          "dispellable": 3,
+          "target_team": 1,
+          "behavior": "8",
+          "item_cost": 0
+        },
+        {
+          "name": "winter_wyvern_eldwurms_edda",
+          "name_loc": "Eldwurm's Edda",
+          "desc_loc": "Grants Winter Wyvern the item Eldwurm's Edda, which can be consumed to increase the current and maximum level of a basic ability by one and Winter Wyvern's base intelligence by %tooltip_int_pct%%% of its current value at the time of consumption.",
+          "notes_loc": [],
+          "shard_loc": "",
+          "scepter_loc": "",
+          "immunity": 0,
+          "dispellable": 0,
+          "target_team": 0,
+          "behavior": "562949953421315",
+          "item_cost": 0
+        },
+        {
+          "name": "winter_wyvern_winters_curse",
+          "name_loc": "Winter's Curse",
+          "desc_loc": "Winter Wyvern dispells then freezes an enemy in place while striking those nearby with a maddening curse which causes them to attack their frozen ally with increased attack speed. The frozen ally and those cursed to attack their ally are immune to all damage from their enemies with the exception of damage from Winter Wyvern or her controlled units. Enemy heroes which enter the cursed area after the cast add to the duration of the curse.",
+          "notes_loc": [
+            "If the target dies to its allies, Winter Wyvern will receive credit for the kill.",
+            "Will only pierce the spell immunity of the primary target, not the target's surrounding allies."
+          ],
+          "shard_loc": "",
+          "scepter_loc": "",
+          "immunity": 3,
+          "dispellable": 0,
+          "target_team": 2,
+          "behavior": "35184372088872",
+          "item_cost": 0
+        }
+      ]
+    },
+    "76": {
+      "id": 76,
+      "name": "Outworld Devourer",
+      "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=76",
+      "abilities": [
+        {
+          "name": "obsidian_destroyer_arcane_orb",
+          "name_loc": "Arcane Orb",
+          "desc_loc": "Adds extra pure damage to Outworld Destroyer's attacks, based on his remaining mana pool.",
+          "notes_loc": [
+            "The damage is calculated after the mana cost is spent."
+          ],
+          "shard_loc": "",
+          "scepter_loc": "Arcane Orb bounces to an additional target for %bounce_damage_reduction%%% less damage.",
+          "immunity": 4,
+          "dispellable": 0,
+          "target_team": 2,
+          "behavior": "135176",
+          "item_cost": 0
+        },
+        {
+          "name": "obsidian_destroyer_astral_imprisonment",
+          "name_loc": "Astral Imprisonment",
+          "desc_loc": "Steals a percentage of the target's max mana and places them into an astral prison. The hidden unit is invulnerable and disabled. When the astral prison implodes, it deals damage to the target.",
+          "notes_loc": [
+            "Imprisoned units can still be hit by Sanity's Eclipse.",
+            "Max mana steal does not increase Outworld Destroyer's current mana values or directly reduce the victim's mana values."
+          ],
+          "shard_loc": "Astral Imprisonment now deals damage in an area. Also allows allies to move at %allied_movement_speed_pct%%% movement speed during Astral Imprisonment (they are visible, but untargettable and can't perform any other actions).",
+          "scepter_loc": "",
+          "immunity": 4,
+          "dispellable": 3,
+          "target_team": 3,
+          "behavior": "33554472",
+          "item_cost": 0
+        },
+        {
+          "name": "obsidian_destroyer_objurgation",
+          "name_loc": "Objurgation",
+          "desc_loc": "Increases Outworld Destroyer's maximum mana. When cast, protects Outworld Destroyer with an all damage barrier equal to a flat amount and a percentage of his maximum mana.",
+          "notes_loc": [],
+          "shard_loc": "",
+          "scepter_loc": "Increases max mana to barrier. Damage that would bring Outworld Destroyer below %automatic_trigger_threshold%%% health is prevented. When that happens, Outworld Destroyer receives a strong dispel and gains an undispellable instance of Objurgation. This effect cannot occur more than once every %automatic_trigger_cd% seconds.",
+          "immunity": 0,
+          "dispellable": 2,
+          "target_team": 1,
+          "behavior": "2052",
+          "item_cost": 0
+        },
+        {
+          "name": "obsidian_destroyer_equilibrium",
+          "name_loc": "Essence Flux",
+          "desc_loc": "Passively grants a chance to restore a percentage of your max mana each time you cast an ability. Restores less mana from spells that modify attacks.",
+          "notes_loc": [],
+          "shard_loc": "",
+          "scepter_loc": "",
+          "immunity": 0,
+          "dispellable": 0,
+          "target_team": 0,
+          "behavior": "562949953421315",
+          "item_cost": 0
+        },
+        {
+          "name": "obsidian_destroyer_sanity_eclipse",
+          "name_loc": "Sanity's Eclipse",
+          "desc_loc": "Unleashes a psychic blast that deals damage to enemies based on the difference between your max mana and the target's max mana. Sanity's Eclipse can hit units trapped by Astral Imprisonment.",
+          "notes_loc": [],
+          "shard_loc": "",
+          "scepter_loc": "",
+          "immunity": 4,
+          "dispellable": 0,
+          "target_team": 0,
+          "behavior": "48",
+          "item_cost": 0
+        }
+      ]
+    },
+    "100": {
+      "id": 100,
+      "name": "Tusk",
+      "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=100",
+      "abilities": [
+        {
+          "name": "tusk_ice_shards",
+          "name_loc": "Ice Shards",
+          "desc_loc": "Tusk compresses shards of ice into a ball of frozen energy that damages all enemies it comes in contact with. When the ball reaches its target destination the shards are released, creating a barrier that lasts for %shard_duration% seconds.",
+          "notes_loc": [
+            "Creates an impassable barrier."
+          ],
+          "shard_loc": "",
+          "scepter_loc": "",
+          "immunity": 4,
+          "dispellable": 0,
+          "target_team": 2,
+          "behavior": "134218768",
+          "item_cost": 0
+        },
+        {
+          "name": "tusk_snowball",
+          "name_loc": "Snowball",
+          "desc_loc": "Tusk begins rolling into a snowball. Allies within a %snowball_grab_radius% radius can also be added to the snowball by right-clicking on them, even while the snowball is moving. Once launched, any enemies caught in the snowball's path will be stunned and take damage. Each allied Hero in the snowball will add to its damage and stun duration.",
+          "notes_loc": [
+            "The snowball will break apart a maximum of 3 seconds after launch.",
+            "The snowball can be launched early by pressing using the Launch Snowball ability.",
+            "Doesn't carry illusions, but will carry Meepo clones and other units that Tusk controls.",
+            "Each Meepo clone added to the snowball will add its own bonus damage.",
+            "Allies can click on a snowball to add themselves to it."
+          ],
+          "shard_loc": "",
+          "scepter_loc": "",
+          "immunity": 4,
+          "dispellable": 3,
+          "target_team": 2,
+          "behavior": "524296",
+          "item_cost": 0
+        },
+        {
+          "name": "tusk_tag_team",
+          "name_loc": "Tag Team",
+          "desc_loc": "Activate to temporarily apply a negative debuff aura around you, causing enemies that are attacked under it to take bonus physical damage and reduced movement speed. Lasts %debuff_duration% seconds.",
+          "notes_loc": [
+            "Affects attacks from allied heroes, Tusk or any of his units."
+          ],
+          "shard_loc": "",
+          "scepter_loc": "",
+          "immunity": 4,
+          "dispellable": 3,
+          "target_team": 2,
+          "behavior": "2052",
+          "item_cost": 0
+        },
+        {
+          "name": "tusk_drinking_buddies",
+          "name_loc": "Drinking Buddies",
+          "desc_loc": "Tusk reaches out to tag an allied unit, pulling them closer. Once tagged, both Tusk and his tagged ally gain movement speed and armor.",
+          "notes_loc": [
+            "Doesn't pull Tusk or targeted ally if they are within %min_distance% range of each other.",
+            "Cannot be used during Snowball."
+          ],
+          "shard_loc": "",
+          "scepter_loc": "",
+          "immunity": 0,
+          "dispellable": 2,
+          "target_team": 1,
+          "behavior": "8590458889",
+          "item_cost": 0
+        },
+        {
+          "name": "tusk_walrus_kick",
+          "name_loc": "Walrus Kick",
+          "desc_loc": "Kicks the closest enemy unit in the drawn direction, stunning, damaging, and slowing them. Also deals damage to all heroes within %search_radius% radius of its landing area. Cooldown is reduced by %creep_cooldown_reduction_pct%%% if kicking a creep.",
+          "notes_loc": [],
+          "shard_loc": "",
+          "scepter_loc": "",
+          "immunity": 3,
+          "dispellable": 2,
+          "target_team": 2,
+          "behavior": "9663676425",
+          "item_cost": 0
+        },
+        {
+          "name": "tusk_walrus_punch",
+          "name_loc": "Walrus PUNCH!",
+          "desc_loc": "Tusk connects with his mighty Walrus Punch, a critical strike with bonus damage so powerful it launches its victim into the air.",
+          "notes_loc": [
+            "Walrus PUNCH has true strike."
+          ],
+          "shard_loc": "",
+          "scepter_loc": "",
+          "immunity": 3,
+          "dispellable": 2,
+          "target_team": 2,
+          "behavior": "135176",
+          "item_cost": 0
+        },
+        {
+          "name": "tusk_bitter_chill",
+          "name_loc": "Bitter Chill",
+          "desc_loc": "Passively slows the attack speed of all enemy heroes within a %radius% unit radius.",
+          "notes_loc": [],
+          "shard_loc": "",
+          "scepter_loc": "",
+          "immunity": 0,
+          "dispellable": 0,
+          "target_team": 0,
+          "behavior": "567347999932483",
+          "item_cost": 0
+        }
+      ]
+    },
+    "20": {
+      "id": 20,
+      "name": "Vengeful Spirit",
+      "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=20",
+      "abilities": [
+        {
+          "name": "vengefulspirit_magic_missile",
+          "name_loc": "Magic Missile",
+          "desc_loc": "Fires a magic missile at an enemy unit, stunning and dealing damage.",
+          "notes_loc": [],
+          "shard_loc": "Bounces once on an enemy, prioritizing heroes, within %bounce_range_pct%%% of Magic Missile's current cast range from the first target.",
+          "scepter_loc": "",
+          "immunity": 4,
+          "dispellable": 1,
+          "target_team": 2,
+          "behavior": "8",
+          "item_cost": 0
+        },
+        {
+          "name": "vengefulspirit_wave_of_terror",
+          "name_loc": "Wave of Terror",
+          "desc_loc": "Vengeful Spirit lets loose a wicked cry, weakening the total attack damage and armor of enemies, and giving vision of the path ahead.",
+          "notes_loc": [],
+          "shard_loc": "",
+          "scepter_loc": "",
+          "immunity": 4,
+          "dispellable": 2,
+          "target_team": 0,
+          "behavior": "16",
+          "item_cost": 0
+        },
+        {
+          "name": "vengefulspirit_command_aura",
+          "name_loc": "Vengeance Aura",
+          "desc_loc": "Vengeful Spirit's presence increases the damage of nearby friendly heroes. Vengeful Spirit herself receives %self_multiplier%%% extra bonus.",
+          "notes_loc": [
+            "Break disables the damage aura."
+          ],
+          "shard_loc": "",
+          "scepter_loc": "Increases self multiplier. Upon death, creates a strong illusion of Vengeful Spirit that deals full damage, and can cast all of her spells.<br><br>If the illusion is alive when Vengeful Spirit respawn, she will take its place. XP earned by her illusion is given to her. Strong Illusions are not instantly killed by spells.",
+          "immunity": 1,
+          "dispellable": 0,
+          "target_team": 1,
+          "behavior": "65538",
+          "item_cost": 0
+        },
+        {
+          "name": "vengefulspirit_retribution",
+          "name_loc": "Retribution",
+          "desc_loc": "Vengeful Spirit is considered both a ranged and a melee attacker to gain the respective bonuses.<br><br>When killed by an enemy hero, Vengeful Spirit deals %bonus_damage%%% bonus damage to her killer until their next death. Only one debuff can exist at a time.",
+          "notes_loc": [],
+          "shard_loc": "",
+          "scepter_loc": "",
+          "immunity": 0,
+          "dispellable": 3,
+          "target_team": 0,
+          "behavior": "13194139533378",
+          "item_cost": 0
+        },
+        {
+          "name": "vengefulspirit_nether_swap",
+          "name_loc": "Nether Swap",
+          "desc_loc": "Instantaneously swaps positions with a target Hero, friend or enemy. Nether Swap interrupts channeling abilities on the target. Enemy Swapped units take damage. Vengeful Spirit and allied swapped units gain a barrier equal to the damage dealt.",
+          "notes_loc": [
+            "Works on Spell Immune units.",
+            "Trees near Vengeful Spirit and the target will be destroyed when the spell is cast.",
+            "Channeling spells are interrupted by Nether Swap."
+          ],
+          "shard_loc": "",
+          "scepter_loc": "",
+          "immunity": 3,
+          "dispellable": 2,
+          "target_team": 4,
+          "behavior": "8",
+          "item_cost": 0
+        }
+      ]
+    },
+    "101": {
+      "id": 101,
+      "name": "Skywrath Mage",
+      "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=101",
+      "abilities": [
+        {
+          "name": "skywrath_mage_arcane_bolt",
+          "name_loc": "Arcane Bolt",
+          "desc_loc": "Skywrath Mage launches a slow-moving bolt of arcane magic, dealing damage to an enemy unit based on Skywrath Mage's intelligence.",
+          "notes_loc": [
+            "The projectile moves very slowly (500 ms), providing 325 vision around it.  Upon impact, it will reveal the target area for 3.34 seconds.",
+            "Arcane Bolt cannot be disjointed."
+          ],
+          "shard_loc": "When Skywrath Mage casts Arcane Bolt, %total_bolt_count% bolts are created, one aimed at the original target, and two others aimed at random enemies within %extra_bolt_search_radius% range of the original target. Heroes will take priority.",
+          "scepter_loc": "",
+          "immunity": 4,
+          "dispellable": 0,
+          "target_team": 2,
+          "behavior": "8",
+          "item_cost": 0
+        },
+        {
+          "name": "skywrath_mage_concussive_shot",
+          "name_loc": "Concussive Shot",
+          "desc_loc": "Skywrath Mage sets off a long range shot that hits the closest hero within a long range.  Upon impact, it deals damage and slows in an area of effect.",
+          "notes_loc": [
+            "If no enemy heroes are in range or they are in fog, Concussive Shot targets the nearest enemy creep.",
+            "Damages creeps around the impact area.",
+            "Provides 400 vision around the projectile, and reveals the target area for 3.34 seconds upon impact."
+          ],
+          "shard_loc": "",
+          "scepter_loc": "When Skywrath Mage casts Concussive Shot, a different random target within %scepter_radius% range of the original target will be hit with the same ability. Heroes will take priority.",
+          "immunity": 4,
+          "dispellable": 2,
+          "target_team": 0,
+          "behavior": "4",
+          "item_cost": 0
+        },
+        {
+          "name": "skywrath_mage_ancient_seal",
+          "name_loc": "Ancient Seal",
+          "desc_loc": "Skywrath Mage seals the targeted unit with an ancient rune, silencing it and causing it to take additional damage from spells.",
+          "notes_loc": [
+            "The magic damage resistance reduction doesn't affect creeps."
+          ],
+          "shard_loc": "",
+          "scepter_loc": "Anytime Skywrath Mage casts Ancient Seal, a different random target within %scepter_radius% range of the original target will be affected by the same ability. Heroes will take priority.",
+          "immunity": 4,
+          "dispellable": 2,
+          "target_team": 2,
+          "behavior": "8",
+          "item_cost": 0
+        },
+        {
+          "name": "skywrath_mage_shield_of_the_scion",
+          "name_loc": "Shield of the Scion",
+          "desc_loc": "Every time Skywrath Mage deals magical damage to an enemy hero with his abilities, he gains a small magic damage barrier. Each buff stacks independently.",
+          "notes_loc": [],
+          "shard_loc": "",
+          "scepter_loc": "",
+          "immunity": 0,
+          "dispellable": 0,
+          "target_team": 0,
+          "behavior": "562949953421315",
+          "item_cost": 0
+        },
+        {
+          "name": "skywrath_mage_mystic_flare",
+          "name_loc": "Mystic Flare",
+          "desc_loc": "Skywrath Mage uses his ultimate magical ability to conjure a precise and violent mystical field that lays waste to his adversaries. Deals massive damage distributed evenly among any Heroes in the area over %duration% seconds.",
+          "notes_loc": [
+            "Mystic Flare only affects Heroes. Mystic Flare does not damage creep heroes.",
+            "Mystic Flare will damage enemy creeps if no enemy heroes are present.",
+            "Mystic Flare will immediately destroy illusions."
+          ],
+          "shard_loc": "",
+          "scepter_loc": "When Skywrath Mage casts Mystic Flare, another Mystic Flare will be created on the position of a different random target enemy within %scepter_radius% range of the original target. Heroes will take priority.",
+          "immunity": 4,
+          "dispellable": 0,
+          "target_team": 0,
+          "behavior": "134217776",
+          "item_cost": 0
+        }
+      ]
+    },
+    "26": {
+      "id": 26,
+      "name": "Lion",
+      "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=26",
+      "abilities": [
+        {
+          "name": "lion_impale",
+          "name_loc": "Earth Spike",
+          "desc_loc": "Rock spikes burst from the earth along a straight path. Enemy units are hurled into the air, then are stunned and take damage when they fall.",
+          "notes_loc": [
+            "The spikes move at %speed% units per second.",
+            "Does not trigger spell block or spell reflect."
+          ],
+          "shard_loc": "",
+          "scepter_loc": "",
+          "immunity": 4,
+          "dispellable": 1,
+          "target_team": 2,
+          "behavior": "134217752",
+          "item_cost": 0
+        },
+        {
+          "name": "lion_voodoo",
+          "name_loc": "Hex",
+          "desc_loc": "Transforms an enemy unit into a harmless beast, with all special abilities disabled.",
+          "notes_loc": [
+            "Instantly destroys illusions.",
+            "The target will have a base movement speed of %movespeed%, but buffs granting maximum movement speed won't be disabled."
+          ],
+          "shard_loc": "",
+          "scepter_loc": "",
+          "immunity": 4,
+          "dispellable": 1,
+          "target_team": 2,
+          "behavior": "8",
+          "item_cost": 0
+        },
+        {
+          "name": "lion_mana_drain",
+          "name_loc": "Mana Drain",
+          "desc_loc": "CHANNELED - Channels magical energy, taking mana and slowing enemies over time. If the enemy has no mana remaining, the slow is increased by %movespeed_bonus_when_empty_pct%%%. <br><br> Can target allies to give them mana and movement speed at a %ally_pct%%% rate.",
+          "notes_loc": [
+            "Prevents heroes from going invisible."
+          ],
+          "shard_loc": "Causes Mana Drain to affect up to %shard_bonus_targets% additional enemies and increases break distance. Lion becomes Debuff Immune with %magic_resist%%% magic resistance while channeling.",
+          "scepter_loc": "",
+          "immunity": 4,
+          "dispellable": 3,
+          "target_team": 2,
+          "behavior": "134217864",
+          "item_cost": 0
+        },
+        {
+          "name": "lion_to_hell_and_back",
+          "name_loc": "To Hell and Back",
+          "desc_loc": "Lion gains %debuff_amp%%% debuff duration after killing or assisting in a Hero kill while that Hero is dead.<br><br>Lion gains %spell_amp%%% spell amplification for %duration%s after respawning or resurrecting or until he gets a kill or assist.",
+          "notes_loc": [],
+          "shard_loc": "",
+          "scepter_loc": "",
+          "immunity": 0,
+          "dispellable": 3,
+          "target_team": 0,
+          "behavior": "4398046511106",
+          "item_cost": 0
+        },
+        {
+          "name": "lion_finger_of_death",
+          "name_loc": "Finger of Death",
+          "desc_loc": "Rips at an enemy unit, trying to turn it inside-out, dealing massive damage to the target.<br><br>After using Finger of Death, Lion's hand becomes empowered, allowing him to use a cleaving melee attack with %punch_attack_range% range with bonus movement speed.<br><br>Finger of Death gains permanent bonus damage for it and the fist for each enemy Hero it or the fist kills. <br><br>The melee attack may be disabled by setting the ability to Alt Cast.",
+          "notes_loc": [
+            "Finger of Death has a %damage_delay% delay before the damage is applied after the spell is cast, allowing certain abilities to avoid the damage.",
+            "Finger of Death only gains damage if the enemy hero dies within %grace_period% seconds of being affected by Finger of Death."
+          ],
+          "shard_loc": "",
+          "scepter_loc": "Finger of Death gains area of effect damage on the initial cast, and increases duration and cleave damage on its subsequent melee attacks.",
+          "immunity": 4,
+          "dispellable": 0,
+          "target_team": 2,
+          "behavior": "1099511627816",
+          "item_cost": 0
+        }
+      ]
+    },
+    "17": {
+      "id": 17,
+      "name": "Storm Spirit",
+      "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=17",
+      "abilities": [
+        {
+          "name": "storm_spirit_static_remnant",
+          "name_loc": "Static Remnant",
+          "desc_loc": "Creates an explosively charged image of Storm Spirit that walks to the target position and lasts for %abilityduration% seconds. Will detonate and deal damage if an enemy unit comes near it.",
+          "notes_loc": [
+            "Remnants take %static_remnant_delay% second to materialize after the spell is cast.",
+            "Remnants grant unobstructed vision for their duration.",
+            "The explosion actually hits units in a %static_remnant_damage_radius% radius, but will only be triggered in %static_remnant_radius%.",
+            "Can be self-cast to cast in place."
+          ],
+          "shard_loc": "",
+          "scepter_loc": "",
+          "immunity": 4,
+          "dispellable": 0,
+          "target_team": 0,
+          "behavior": "4",
+          "item_cost": 0
+        },
+        {
+          "name": "storm_spirit_electric_vortex",
+          "name_loc": "Electric Vortex",
+          "desc_loc": "A vortex that pulls an enemy unit to Storm Spirit's location.",
+          "notes_loc": [],
+          "shard_loc": "",
+          "scepter_loc": "Electric Vortex affects all enemies within a radius around Storm Spirit.",
+          "immunity": 4,
+          "dispellable": 1,
+          "target_team": 2,
+          "behavior": "8",
+          "item_cost": 0
+        },
+        {
+          "name": "storm_spirit_overload",
+          "name_loc": "Overload",
+          "desc_loc": "Casting a spell creates an electrical charge, which is released in a burst on Storm's next attack, dealing damage and slowing nearby enemies.",
+          "notes_loc": [
+            "Using items doesn't trigger Overload.",
+            "Overload charges do not stack."
+          ],
+          "shard_loc": "Can be activated to grant Storm Spirit and nearby allied heroes %shard_activation_charges% Overload charges. Provides bonus Attack Speed. Lasts up to %shard_activation_duration% seconds or until the charges are depleted.",
+          "scepter_loc": "",
+          "immunity": 4,
+          "dispellable": 2,
+          "target_team": 0,
+          "behavior": "2",
+          "item_cost": 0
+        },
+        {
+          "name": "storm_spirit_ball_lightning",
+          "name_loc": "Ball Lightning",
+          "desc_loc": "Storm Spirit becomes volatile electricity, charging across the battlefield until he depletes his mana or reaches his target. The activation mana cost is %ball_lightning_initial_mana_base%+%ball_lightning_initial_mana_percentage%%% of his total mana pool, and the cost per 100 units traveled is %ball_lightning_travel_cost_base%+%ball_lightning_travel_cost_percent%%% of his total mana pool.  Damage is expressed in damage per 100 units traveled.",
+          "notes_loc": [
+            "Abilities and items can be used while traveling.",
+            "This ability will destroy trees.",
+            "Storm Spirit is invulnerable during Ball Lightning."
+          ],
+          "shard_loc": "",
+          "scepter_loc": "",
+          "immunity": 4,
+          "dispellable": 0,
+          "target_team": 0,
+          "behavior": "4295499792",
+          "item_cost": 0
+        },
+        {
+          "name": "storm_spirit_galvanized",
+          "name_loc": "Galvanized",
+          "desc_loc": "Storm Spirit gains a charge of %mp_per_kill% mana regeneration per kill, and a charge every %level_divisor% levels. Loses %charges_per_death% charges per death. Additionally every time he gains a charge he also gains %perma_mp_per_kill% Mana Regen permanently.",
+          "notes_loc": [
+            "Break disables the gaining of new stacks from kills."
+          ],
+          "shard_loc": "",
+          "scepter_loc": "",
+          "immunity": 0,
+          "dispellable": 3,
+          "target_team": 0,
+          "behavior": "4398046511106",
+          "item_cost": 0
+        }
+      ]
+    },
+    "13": {
+      "id": 13,
+      "name": "Puck",
+      "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=13",
+      "abilities": [
+        {
+          "name": "puck_illusory_orb",
+          "name_loc": "Illusory Orb",
+          "desc_loc": "Vector Targeted. Puck launches a magic orb that travels along the path, damaging enemy units along the way. The orb deals an additional %damage_over_time_pct%%% of its impact damage every %damage_interval%s in its area of effect, but if it exceeds the max cast range it will be destroyed.\n\n At any point, Puck may teleport to the orb's location using Ethereal Jaunt.<br><br> Can be put on alt-cast to launch the Orb straight ahead.",
+          "notes_loc": [
+            "The Illusory Orb grants unobstructed vision around its location while it travels.",
+            "Jaunting to the Orb will disjoint projectiles."
+          ],
+          "shard_loc": "",
+          "scepter_loc": "",
+          "immunity": 4,
+          "dispellable": 0,
+          "target_team": 0,
+          "behavior": "1099511627792",
+          "item_cost": 0
+        },
+        {
+          "name": "puck_waning_rift",
+          "name_loc": "Waning Rift",
+          "desc_loc": "Puck teleports to the target location and releases a burst of faerie dust that deals damage and silences enemy units nearby.",
+          "notes_loc": [],
+          "shard_loc": "",
+          "scepter_loc": "",
+          "immunity": 4,
+          "dispellable": 2,
+          "target_team": 0,
+          "behavior": "48",
+          "item_cost": 0
+        },
+        {
+          "name": "puck_phase_shift",
+          "name_loc": "Phase Shift",
+          "desc_loc": "CHANNELED - Puck briefly shifts into another dimension where it is immune from harm.",
+          "notes_loc": [
+            "Puck retains collision size while under the effects of Phase Shift.",
+            "Issuing any action will cancel Phase Shift.",
+            "Puck is invulnerable during Phase Shift."
+          ],
+          "shard_loc": "Puck's attacks deal bonus magic damage. Puck attacks all enemies within its attack range every time it phase shifts.",
+          "scepter_loc": "",
+          "immunity": 0,
+          "dispellable": 0,
+          "target_team": 0,
+          "behavior": "33816708",
+          "item_cost": 0
+        },
+        {
+          "name": "puck_puckish",
+          "name_loc": "Puckish",
+          "desc_loc": "Whenever Puck disjoints an attack, it restores %mana_and_health_restore_pct%%% of its max health and mana. Dodging a targeted spell projectile restores %dodged_spell_multiplier%x that amount. Does not apply to attacks by Towers.",
+          "notes_loc": [],
+          "shard_loc": "",
+          "scepter_loc": "",
+          "immunity": 0,
+          "dispellable": 0,
+          "target_team": 0,
+          "behavior": "2",
+          "item_cost": 0
+        },
+        {
+          "name": "puck_dream_coil",
+          "name_loc": "Dream Coil",
+          "desc_loc": "Creates a coil of volatile magic that latches onto enemy Heroes, damaging and leashing them.  If the enemy hero stretches the coil by moving too far away, it snaps, stunning and dealing additional damage.",
+          "notes_loc": [],
+          "shard_loc": "",
+          "scepter_loc": "All enemies affected by Dream Coil are attacked at a rate equal to %attack_rate_pct%%% of Puck's attack rate. The attacks continue while the target is stunned if they break the Dream Coil.",
+          "immunity": 4,
+          "dispellable": 3,
+          "target_team": 0,
+          "behavior": "48",
+          "item_cost": 0
+        }
+      ]
+    },
+    "39": {
+      "id": 39,
+      "name": "Queen of Pain",
+      "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=39",
+      "abilities": [
+        {
+          "name": "queenofpain_shadow_strike",
+          "name_loc": "Shadow Strike",
+          "desc_loc": "Hurls a poisoned dagger which deals large initial damage, and then deals damage over time. The poisoned unit has its movement speed slowed for %duration% seconds.  An instance of damage is dealt every %damage_interval% seconds.",
+          "notes_loc": [
+            "The affected unit slowly regains its original movement speed every second during the duration.",
+            "Units afflicted by Shadow Strike can be denied by their allies when their HP drops below 25% of their maximum health."
+          ],
+          "shard_loc": "",
+          "scepter_loc": "Causes Shadow Strike to become a %aoe_radius% AoE Spell. When Shadow Strike ends or is re-applied to an enemy Hero, the target emits a Scream of Pain, hitting any nearby enemies.",
+          "immunity": 4,
+          "dispellable": 2,
+          "target_team": 2,
+          "behavior": "8",
+          "item_cost": 0
+        },
+        {
+          "name": "queenofpain_blink",
+          "name_loc": "Blink",
+          "desc_loc": "Short distance teleportation that allows Queen of Pain to move in and out of combat.",
+          "notes_loc": [
+            "You can use Blink to dodge incoming projectiles."
+          ],
+          "shard_loc": "Releases a sonic boom when Queen of Pain blinks, at both her starting and ending locations. Deals %shard_damage% damage in a %shard_aoe% AoE and silences the target for %shard_duration% seconds.",
+          "scepter_loc": "",
+          "immunity": 0,
+          "dispellable": 0,
+          "target_team": 0,
+          "behavior": "274878431248",
+          "item_cost": 0
+        },
+        {
+          "name": "queenofpain_scream_of_pain",
+          "name_loc": "Scream Of Pain",
+          "desc_loc": "The Queen of Pain lets loose a piercing scream around her, damaging nearby enemies.<br><br>%damage_reflected_to_self%%% of the damage dealt to heroes is reflected back to her.",
+          "notes_loc": [
+            "Scream Of Pain will hit invisible units.",
+            "Scream Of Pain cannot be disjointed.",
+            "Damage to illusions is not reflected. Damage reflected is before reduction and non-lethal.",
+            "Reflected damage does not provide any lifesteal and cannot be reflected."
+          ],
+          "shard_loc": "",
+          "scepter_loc": "",
+          "immunity": 4,
+          "dispellable": 0,
+          "target_team": 0,
+          "behavior": "4",
+          "item_cost": 0
+        },
+        {
+          "name": "queenofpain_succubus",
+          "name_loc": "Succubus",
+          "desc_loc": "All sources of Spell Lifesteal also apply to Pure Damage. Queen of Pain gains Spell Lifesteal that increases with proximity to her enemies. Lifesteal is at its maximum when the enemy is %close_radius% units or closer to her and at its minimum when the enemy is %max_radius% units or further from her.",
+          "notes_loc": [],
+          "shard_loc": "",
+          "scepter_loc": "",
+          "immunity": 0,
+          "dispellable": 0,
+          "target_team": 0,
+          "behavior": "8796093022210",
+          "item_cost": 0
+        },
+        {
+          "name": "queenofpain_sonic_wave",
+          "name_loc": "Sonic Wave",
+          "desc_loc": "Creates a gigantic wave of sound in front of Queen of Pain, dealing heavy damage to all enemy units in its wake and pushing them back.",
+          "notes_loc": [
+            "Sonic Wave can hit units up to 1150 units away."
+          ],
+          "shard_loc": "",
+          "scepter_loc": "",
+          "immunity": 3,
+          "dispellable": 0,
+          "target_team": 0,
+          "behavior": "1040",
+          "item_cost": 0
+        }
+      ]
+    },
+    "107": {
+      "id": 107,
+      "name": "Earth Spirit",
+      "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=107",
+      "abilities": [
+        {
+          "name": "earth_spirit_boulder_smash",
+          "name_loc": "Boulder Smash",
+          "desc_loc": "Earth Spirit smashes the target enemy or ally, sending them in the direction he is facing. If Earth Spirit targets an area, he will smash the nearest unit in a %remnant_smash_radius_tooltip% radius, prioritizing Stone Remnants. The travelling unit or Remnant damages all enemy units it hits.  If an enemy is hit by a Stone Remnant, they are also slowed. Stone Remnants travel further than other units.",
+          "notes_loc": [],
+          "shard_loc": "",
+          "scepter_loc": "",
+          "immunity": 4,
+          "dispellable": 2,
+          "target_team": 3,
+          "behavior": "134217752",
+          "item_cost": 0
+        },
+        {
+          "name": "earth_spirit_rolling_boulder",
+          "name_loc": "Rolling Boulder",
+          "desc_loc": "Earth Spirit gathers himself into a boulder and, after a %delay%s delay, rolls toward the target location, dealing %damage% + %damage_str%%% STR damage and stunning enemy units. He will stop if he collides with an enemy hero or is stunned. If he rolls over a Stone Remnant, he will travel further and faster, and stun enemies for longer.",
+          "notes_loc": [
+            "Rolling over a Stone Remnant will destroy the Remnant.",
+            "The boulder has a radius of %radius%.",
+            "Earth Spirit is untargetable and invulnerable while rolling."
+          ],
+          "shard_loc": "",
+          "scepter_loc": "",
+          "immunity": 4,
+          "dispellable": 1,
+          "target_team": 0,
+          "behavior": "134742032",
+          "item_cost": 0
+        },
+        {
+          "name": "earth_spirit_geomagnetic_grip",
+          "name_loc": "Geomagnetic Grip",
+          "desc_loc": "Earth Spirit pulls the target Stone Remnant or Allied Unit. Enemies struck by the gripped target will be silenced.<br><br>Pulled Remnants also deal damage to struck enemies.<br><br>Cast range is reduced when targeting an ally.",
+          "notes_loc": [
+            "Will not work on a unit inside Chronosphere, Duel, or Black Hole.",
+            "Geomagnetic Grip can also target allied creeps."
+          ],
+          "shard_loc": "Decreases cooldown to %AbilityCooldown%s and increases allied unit cast range and pull speed.",
+          "scepter_loc": "",
+          "immunity": 4,
+          "dispellable": 2,
+          "target_team": 1,
+          "behavior": "134217752",
+          "item_cost": 0
+        },
+        {
+          "name": "earth_spirit_stone_caller",
+          "name_loc": "Stone Remnant",
+          "desc_loc": "Call a Stone Remnant to the target location.  Stone Remnants have no vision and are invulnerable, and can be used with Earth Spirit's abilities.  Calling a Stone Remnant consumes a charge, which recharge over time. Stone Remnant has %AbilityCharges% charges.<br><br>Earth Spirit passively gains %attack_damage_per_stone%%% bonus damage per unused Stone Remnant charge, and gains an additional %attack_damage_per_stone_used%%% bonus damage for %buff_duration%s when a Stone Remnant is targeted with an ability (does not stack).",
+          "notes_loc": [],
+          "shard_loc": "",
+          "scepter_loc": "",
+          "immunity": 0,
+          "dispellable": 0,
+          "target_team": 0,
+          "behavior": "8724152400",
+          "item_cost": 0
+        },
+        {
+          "name": "earth_spirit_petrify",
+          "name_loc": "Enchant Remnant",
+          "desc_loc": "Earth Spirit temporarily enchants a hero, granting them the properties of a Stone Remnant. After a short duration the remnant shatters, releasing the hero and damaging nearby enemies. < br><br>Can be cast on Stone Remnants. Has a 5 second cooldown when used that way.<br>Has a larger cast range when cast on an ally hero.",
+          "notes_loc": [
+            "Earth Spirit himself can be targeted by Boulder Smash if he is enchanted."
+          ],
+          "shard_loc": "",
+          "scepter_loc": "",
+          "immunity": 4,
+          "dispellable": 3,
+          "target_team": 4,
+          "behavior": "8589934601",
+          "item_cost": 0
+        },
+        {
+          "name": "earth_spirit_magnetize",
+          "name_loc": "Magnetize",
+          "desc_loc": "Magnetizes units in a small nearby area, causing them to take damage for a short duration. Magnetized heroes cause nearby Stone Remnants to explode, destroying the remnant and refreshing Magnetize's duration on all nearby enemies. This process can repeat multiple times. If an enemy hero is affected by Geomagnetic Grip or Boulder Smash, all magnetized heroes share the effects.",
+          "notes_loc": [],
+          "shard_loc": "",
+          "scepter_loc": "",
+          "immunity": 3,
+          "dispellable": 2,
+          "target_team": 0,
+          "behavior": "134217732",
+          "item_cost": 0
+        }
+      ]
+    },
+    "16": {
+      "id": 16,
+      "name": "Sand King",
+      "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=16",
+      "abilities": [
+        {
+          "name": "sandking_burrowstrike",
+          "name_loc": "Burrowstrike",
+          "desc_loc": "Sand King burrows into the ground and tunnels forward, damaging and stunning enemy units above him as he resurfaces. Adds Caustic Finale poison to heroes hit<br><br> Can be put on alt-cast to immediately cast in the desired direction, without walking towards the targeted location.",
+          "notes_loc": [
+            "Does not trigger spell block or spell reflect."
+          ],
+          "shard_loc": "",
+          "scepter_loc": "",
+          "immunity": 4,
+          "dispellable": 1,
+          "target_team": 2,
+          "behavior": "1099512152080",
+          "item_cost": 0
+        },
+        {
+          "name": "sandking_sand_storm",
+          "name_loc": "Sand Storm",
+          "desc_loc": "Sand King creates a fearsome sandstorm that damages enemy units and grants Sand King Invisibility while he is in it. The effect ends when Sand King leaves the area.",
+          "notes_loc": [
+            "Sand Storm can be used to dodge projectiles.",
+            "Sand King briefly becomes visible upon attacking or using spells while in Sand Storm. Sand King will become invisible again in %fade_delay% seconds."
+          ],
+          "shard_loc": "",
+          "scepter_loc": "",
+          "immunity": 4,
+          "dispellable": 3,
+          "target_team": 0,
+          "behavior": "33554436",
+          "item_cost": 0
+        },
+        {
+          "name": "sandking_scorpion_strike",
+          "name_loc": "Stinger",
+          "desc_loc": "Sand King strikes an area, performing an attack on all enemies in the area of effect, dealing extra damage to each. Enemies within an innermost radius of %inner_radius% take %inner_radius_bonus_damage_pct%%% extra damage. Applies Caustic Finale and a slow to all enemies hit.",
+          "notes_loc": [],
+          "shard_loc": "A Caustic Finale explosion that deals %caustic_damage_pct%%% damage is created around every enemy hero hit in Stinger's innermost radius. Does not apply to strikes created by Aghanim's Scepter upgrade.",
+          "scepter_loc": "",
+          "immunity": 0,
+          "dispellable": 0,
+          "target_team": 2,
+          "behavior": "134217776",
+          "item_cost": 0
+        },
+        {
+          "name": "sandking_caustic_finale",
+          "name_loc": "Caustic Finale",
+          "desc_loc": "Sand King's attacks inject a venom that causes enemy units to violently explode when they die that does a flat amount of damage and an additional amount based on the dying units max health.",
+          "notes_loc": [],
+          "shard_loc": "",
+          "scepter_loc": "",
+          "immunity": 4,
+          "dispellable": 2,
+          "target_team": 0,
+          "behavior": "567347999932483",
+          "item_cost": 0
+        },
+        {
+          "name": "sandking_epicenter",
+          "name_loc": "Epicenter",
+          "desc_loc": "After a cast point of %abilitycastpoint% seconds, Sand King sends a disturbance into the earth, causing it to shudder violently. All enemies caught within range will take damage and become slowed. Each subsequent pulse increases the radius of damage dealt.",
+          "notes_loc": [
+            "The pulses are centered on Sand King, not where he first cast the spell."
+          ],
+          "shard_loc": "Every %shard_interval%s causes a small single Epicenter Pulse around Sand King.",
+          "scepter_loc": "When the pulses start, %scepter_explosions_per_pulse% Stinger attack areas are created every %spine_tick_rate%s at random locations, each measuring %scepter_explosion_radius_pct%%% of the Epicenter's current radius, that apply %spine_damage_pct%%% of Stinger damage to enemies hit. Shard pulses cause %shard_explosions_per_pulse% attack(s).",
+          "immunity": 4,
+          "dispellable": 3,
+          "target_team": 0,
+          "behavior": "134217732",
+          "item_cost": 0
+        }
+      ]
+    },
+    "120": {
+      "id": 120,
+      "name": "Pangolier",
+      "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=120",
+      "abilities": [
+        {
+          "name": "pangolier_swashbuckle",
+          "name_loc": "Swashbuckle",
+          "desc_loc": "Pangolier dashes along the target line, then slashes and briefly slows all enemies in the drawn direction with several quick swipes.\n\nLucky Shot has a chance to activate from this damage.",
+          "notes_loc": [
+            "Casting Swashbuckle during Rolling Thunder ends Rolling Thunder."
+          ],
+          "shard_loc": "",
+          "scepter_loc": "",
+          "immunity": 3,
+          "dispellable": 0,
+          "target_team": 0,
+          "behavior": "1074528272",
+          "item_cost": 0
+        },
+        {
+          "name": "pangolier_shield_crash",
+          "name_loc": "Shield Crash",
+          "desc_loc": "Pangolier jumps in the air and slams back to the ground in front of his current position damaging all enemies in a radius. Pangolier gains an all damage barrier for a short time if Shield Crash hits an enemy hero.\n\nForward movement is maintained if Shield Crash is used while Rolling Thunder is active, and allows Rolling Thunder to clear walls or cliffs.",
+          "notes_loc": [],
+          "shard_loc": "",
+          "scepter_loc": "Causes Shield Crash to cast a 2-attack Swashbuckle every 90 degrees around your hero that deals %scepter_damage_outgoing_tooltip%%% damage.",
+          "immunity": 4,
+          "dispellable": 2,
+          "target_team": 0,
+          "behavior": "2052",
+          "item_cost": 0
+        },
+        {
+          "name": "pangolier_lucky_shot",
+          "name_loc": "Lucky Shot",
+          "desc_loc": "Pangolier rolls the dice and lets fate decide the outcome for his enemies. Grants a chance to drastically slow their attack speed and reduce armor on any damage dealt by Pangolier's attacks or abilities.",
+          "notes_loc": [],
+          "shard_loc": "",
+          "scepter_loc": "",
+          "immunity": 4,
+          "dispellable": 2,
+          "target_team": 0,
+          "behavior": "2",
+          "item_cost": 0
+        },
+        {
+          "name": "pangolier_rollup",
+          "name_loc": "Roll Up",
+          "desc_loc": "Pangolier curls into an immobile protective ball, gaining debuff immunity, %magic_resistance%%% magic resistance, and allowing him to turn. Can be cast during Rolling Thunder to temporarily hit the brakes. Can cast Rolling Thunder and Shield Crash during Roll Up. If enemies attack Pangolier during this, he will roll away from the attacker, applying Rolling Thunder damage/stun if there are enemies in the way.",
+          "notes_loc": [],
+          "shard_loc": "",
+          "scepter_loc": "",
+          "immunity": 4,
+          "dispellable": 3,
+          "target_team": 0,
+          "behavior": "8589934597",
+          "item_cost": 0
+        },
+        {
+          "name": "pangolier_gyroshell",
+          "name_loc": "Rolling Thunder",
+          "desc_loc": "Pangolier curls into a debuff immune ball with %magic_resistance%%% magic resistance and rolls out. When rolling, he moves at an increased speed and can move through trees, but has a decreased ability to turn. Striking enemies knocks them back, inflicting damage proportional to his attack damage and stunning them when they land. \n\nColliding with walls or cliffs will cause a temporary pause while Pangolier reverses in direction.\n\nDISPEL TYPE: Basic Dispel",
+          "notes_loc": [
+            "Enemies can be stunned multiple times per use, but cannot be affected a subsequent time until the previous stun duration ends.",
+            "If Pangolier is disabled while rolling, he will continue to stun and knock enemies that come within range.",
+            "It takes Pangolier %move_speed_ramp_up_time%s to reach full roll speed."
+          ],
+          "shard_loc": "",
+          "scepter_loc": "",
+          "immunity": 4,
+          "dispellable": 3,
+          "target_team": 0,
+          "behavior": "134742020",
+          "item_cost": 0
+        },
+        {
+          "name": "pangolier_fortune_favors_the_bold",
+          "name_loc": "Fortune Favors the Bold",
+          "desc_loc": "Random item and ability effects of enemies near Pangolier have a reduced chance to affect him.",
+          "notes_loc": [
+            "Applies to hero abilities and items.",
+            "Effect is a relative reduction in chance for effects to happen."
+          ],
+          "shard_loc": "",
+          "scepter_loc": "",
+          "immunity": 0,
+          "dispellable": 0,
+          "target_team": 0,
+          "behavior": "562949953421379",
+          "item_cost": 0
+        }
+      ]
+    },
+    "2": {
+      "id": 2,
+      "name": "Axe",
+      "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=2",
+      "abilities": [
+        {
+          "name": "axe_berserkers_call",
+          "name_loc": "Berserker's Call",
+          "desc_loc": "Axe taunts nearby enemy units, forcing them to attack him while he gains bonus armor during the duration.",
+          "notes_loc": [],
+          "shard_loc": "Berserker's Call applies Battle Hunger to affected units.",
+          "scepter_loc": "",
+          "immunity": 3,
+          "dispellable": 3,
+          "target_team": 0,
+          "behavior": "262148",
+          "item_cost": 0
+        },
+        {
+          "name": "axe_battle_hunger",
+          "name_loc": "Battle Hunger",
+          "desc_loc": "Enrages an enemy unit, causing it to take damage over time until it kills another unit or the duration ends. The enemy is slowed as long as they are facing away from Axe.",
+          "notes_loc": [
+            "Destroying buildings will also remove the debuff."
+          ],
+          "shard_loc": "Multiple instances of Battle Hunger can stack on a single target.",
+          "scepter_loc": "",
+          "immunity": 4,
+          "dispellable": 2,
+          "target_team": 2,
+          "behavior": "8",
+          "item_cost": 0
+        },
+        {
+          "name": "axe_counter_helix",
+          "name_loc": "Counter Helix",
+          "desc_loc": "After a set number of attacks, Axe will perform a helix counter attack, dealing pure damage to all nearby enemies.",
+          "notes_loc": [
+            "Counter Helix triggers when the attack hits.",
+            "Illusions' counters don't increase when they attack when you have a Scepter."
+          ],
+          "shard_loc": "",
+          "scepter_loc": "Counter Helix now applies a stacking debuff to enemies hit by it that causes them to deal less total attack damage to Axe. Counter Helix no longer has a cooldown and its counter advances when Axe attacks.",
+          "immunity": 3,
+          "dispellable": 0,
+          "target_team": 0,
+          "behavior": "2",
+          "item_cost": 0
+        },
+        {
+          "name": "axe_culling_blade",
+          "name_loc": "Culling Blade",
+          "desc_loc": "Axe spots a weakness and strikes, dealing pure damage. When an enemy hero is killed with Culling Blade, its cooldown is reset, and all nearby allied units gain bonus movement speed and armor.\n\nAxe permanently drenches his blade every time he kills an enemy Hero with Culling Blade, gaining bonus armor for each stack.",
+          "notes_loc": [
+            "Culling Blade death cannot be prevented with other abilities like Shallow Grave."
+          ],
+          "shard_loc": "",
+          "scepter_loc": "",
+          "immunity": 3,
+          "dispellable": 2,
+          "target_team": 2,
+          "behavior": "8",
+          "item_cost": 0
+        },
+        {
+          "name": "axe_one_man_army",
+          "name_loc": "One Man Army",
+          "desc_loc": "Axe gains Strength based on %armor_pct_as_strength%%% of his Armor as long as there are no allied heroes within %radius% distance from Axe.  The effect fades over %bonus_linger_duration%s after approaching an ally.",
+          "notes_loc": [],
+          "shard_loc": "",
+          "scepter_loc": "",
+          "immunity": 0,
+          "dispellable": 3,
+          "target_team": 0,
+          "behavior": "3",
+          "item_cost": 0
+        }
+      ]
+    },
+    "87": {
+      "id": 87,
+      "name": "Disruptor",
+      "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=87",
+      "abilities": [
+        {
+          "name": "disruptor_thunder_strike",
+          "name_loc": "Thunder Strike",
+          "desc_loc": "Repeatedly strikes the targeted unit with lightning.  Each strike damages nearby enemy units in a small radius and slows enemy movement and attack speed by %slow_amount%%% for %slow_duration% seconds.  Provides vision of its target.",
+          "notes_loc": [],
+          "shard_loc": "Increases the cast range and strike count of Thunder Strike. It can now also be ground targeted, where it will lie dormant for up to %shard_ground_delay% seconds and attach to the first enemy that comes within the radius.",
+          "scepter_loc": "",
+          "immunity": 4,
+          "dispellable": 2,
+          "target_team": 2,
+          "behavior": "134217736",
+          "item_cost": 0
+        },
+        {
+          "name": "disruptor_glimpse",
+          "name_loc": "Glimpse",
+          "desc_loc": "Teleports the target hero back to where it was %backtrack_time% seconds ago.  Instantly kills illusions. Deals damage equal to a percentage of the distance glimpsed, that cannot go over a damage maximum.",
+          "notes_loc": [
+            "The travel time is a function of the distance the target will travel."
+          ],
+          "shard_loc": "",
+          "scepter_loc": "",
+          "immunity": 4,
+          "dispellable": 3,
+          "target_team": 2,
+          "behavior": "8",
+          "item_cost": 0
+        },
+        {
+          "name": "disruptor_kinetic_field",
+          "name_loc": "Kinetic Field",
+          "desc_loc": "After a short formation time, creates a circular barrier of kinetic energy that enemies can't pass.",
+          "notes_loc": [
+            "Debuff Immune units can travel through the field."
+          ],
+          "shard_loc": "Both shapes have an independent cooldown.",
+          "scepter_loc": "",
+          "immunity": 4,
+          "dispellable": 0,
+          "target_team": 0,
+          "behavior": "134217776",
+          "item_cost": 0
+        },
+        {
+          "name": "disruptor_kinetic_fence",
+          "name_loc": "Kinetic Fence",
+          "desc_loc": "After a short formation time, creates a wall out of kinetic energy that enemies cannot pass.",
+          "notes_loc": [],
+          "shard_loc": "",
+          "scepter_loc": "",
+          "immunity": 4,
+          "dispellable": 0,
+          "target_team": 0,
+          "behavior": "9797894161",
+          "item_cost": 0
+        },
+        {
+          "name": "disruptor_electromagnetic_repulsion",
+          "name_loc": "Electromagnetic Repulsion",
+          "desc_loc": "Whenever Disruptor takes more than %damage_threshold% damage from any source within %effect_radius% radius, all nearby enemies within take damage equal to %damage_per_int%x of Disruptor's Intelligence, and are pushed back up to a %effect_radius% distance away.",
+          "notes_loc": [
+            "After %damage_reset_interval%s, the damage counter is reset."
+          ],
+          "shard_loc": "",
+          "scepter_loc": "",
+          "immunity": 0,
+          "dispellable": 3,
+          "target_team": 0,
+          "behavior": "66",
+          "item_cost": 0
+        },
+        {
+          "name": "disruptor_static_storm",
+          "name_loc": "Static Storm",
+          "desc_loc": "Creates a damaging static storm that also silences all enemy units in the area for the duration.  The damage starts off weak, but increases in power over the duration.",
+          "notes_loc": [],
+          "shard_loc": "",
+          "scepter_loc": "Mutes items.",
+          "immunity": 4,
+          "dispellable": 3,
+          "target_team": 0,
+          "behavior": "134217776",
+          "item_cost": 0
+        }
+      ]
+    },
+    "32": {
+      "id": 32,
+      "name": "Riki",
+      "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=32",
+      "abilities": [
+        {
+          "name": "riki_smoke_screen",
+          "name_loc": "Smoke Screen",
+          "desc_loc": "Throws down a smoke bomb, silencing enemies and causing them to miss attacks.",
+          "notes_loc": [
+            "Can be cast during Tricks of the Trade.",
+            "Doesn't prevent the use of active items."
+          ],
+          "shard_loc": "Enemies caught in the smoke screen have their armor reduced by %armor_reduction% and cannot be targeted by their allies.",
+          "scepter_loc": "",
+          "immunity": 4,
+          "dispellable": 3,
+          "target_team": 0,
+          "behavior": "134217776",
+          "item_cost": 0
+        },
+        {
+          "name": "riki_blink_strike",
+          "name_loc": "Blink Strike",
+          "desc_loc": "Teleports behind the target unit, momentarily slowing them by %slow_pct_tooltip%%% and attacking them with bonus damage if it is an enemy.",
+          "notes_loc": [],
+          "shard_loc": "",
+          "scepter_loc": "",
+          "immunity": 3,
+          "dispellable": 0,
+          "target_team": 4,
+          "behavior": "134742024",
+          "item_cost": 0
+        },
+        {
+          "name": "riki_tricks_of_the_trade",
+          "name_loc": "Tricks of the Trade",
+          "desc_loc": "CHANNELED - Riki phases out of the world and periodically strikes %interval_targets% random enemy units from behind in an area around him. He has fixed attack damage while phased out.",
+          "notes_loc": [],
+          "shard_loc": "",
+          "scepter_loc": "Increases Cast Range to %AbilityCastRange%. Allows you to target an allied unit, hiding inside them for the duration. While hiding in an allied unit, they have %scepter_movespeed%%% bonus movement speed, and Tricks of the Trade lasts %scepter_bonus_duration%s longer and does an additional %scepter_bonus_attacks% attacks.",
+          "immunity": 3,
+          "dispellable": 0,
+          "target_team": 1,
+          "behavior": "176",
+          "item_cost": 0
+        },
+        {
+          "name": "riki_innate_backstab",
+          "name_loc": "Backstab",
+          "desc_loc": "Every time Riki strikes his enemy from behind, he deals additional bonus damage equal to a multiple of his Agility.",
+          "notes_loc": [
+            "Works when denying friendly units at %ally_multiplier%%% effectiveness.",
+            "Illusions of Riki will play Backstab animations, but not deal any bonus damage."
+          ],
+          "shard_loc": "",
+          "scepter_loc": "",
+          "immunity": 0,
+          "dispellable": 0,
+          "target_team": 0,
+          "behavior": "562949953421379",
+          "item_cost": 0
+        },
+        {
+          "name": "riki_backstab",
+          "name_loc": "Cloak and Dagger",
+          "desc_loc": "Riki fades into the shadows, becoming invisible until he attacks. Hero kills and assists grant additional experience.",
+          "notes_loc": [],
+          "shard_loc": "",
+          "scepter_loc": "",
+          "immunity": 3,
+          "dispellable": 3,
+          "target_team": 0,
+          "behavior": "2",
+          "item_cost": 0
+        }
+      ]
+    },
+    "36": {
+      "id": 36,
+      "name": "Necrophos",
+      "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=36",
+      "abilities": [
+        {
+          "name": "necrolyte_death_pulse",
+          "name_loc": "Death Pulse",
+          "desc_loc": "Necrophos releases a wave of death around him, dealing damage to enemy units and healing allied units.",
+          "notes_loc": [
+            "Death Pulse can't be disjointed."
+          ],
+          "shard_loc": "",
+          "scepter_loc": "",
+          "immunity": 5,
+          "dispellable": 0,
+          "target_team": 0,
+          "behavior": "4",
+          "item_cost": 0
+        },
+        {
+          "name": "necrolyte_ghost_shroud",
+          "name_loc": "Ghost Shroud",
+          "desc_loc": "Necrophos slips into the realm that separates the living from the dead. Unable to attack or be attacked, he emits an aura that slows enemies around him. He takes additional magic damage in this form, but his restorative powers are amplified.",
+          "notes_loc": [],
+          "shard_loc": "",
+          "scepter_loc": "",
+          "immunity": 4,
+          "dispellable": 2,
+          "target_team": 0,
+          "behavior": "2052",
+          "item_cost": 0
+        },
+        {
+          "name": "necrolyte_heartstopper_aura",
+          "name_loc": "Heartstopper Aura",
+          "desc_loc": "Necrophos stills the hearts of his opponents, causing nearby enemy units to lose a percentage of their max health over time.",
+          "notes_loc": [
+            "Damage won't disable items like Blink Dagger.",
+            "Does not affect ancient creeps."
+          ],
+          "shard_loc": "",
+          "scepter_loc": "Heartstopper Aura's Health Decay is increased by %heal_regen_to_damage%%% of Necrophos's current health regeneration.",
+          "immunity": 3,
+          "dispellable": 3,
+          "target_team": 2,
+          "behavior": "65538",
+          "item_cost": 0
+        },
+        {
+          "name": "necrolyte_death_seeker",
+          "name_loc": "Death Seeker",
+          "desc_loc": "Necrophos turns into a large Death Pulse towards the target unit's position. Once it arrives to the location, the Death Pulse spreads towards nearby enemies and allies.",
+          "notes_loc": [
+            "Does not trigger spell reflect."
+          ],
+          "shard_loc": "",
+          "scepter_loc": "",
+          "immunity": 4,
+          "dispellable": 2,
+          "target_team": 3,
+          "behavior": "8590458889",
+          "item_cost": 0
+        },
+        {
+          "name": "necrolyte_sadist",
+          "name_loc": "Sadist",
+          "desc_loc": "Necrophos gains stacking regen for %regen_duration% seconds for each unit he kills. Hero kills multiply the effect.",
+          "notes_loc": [
+            "Break disables the gaining of new stacks.",
+            "Break does not disable the bonuses from existing stacks."
+          ],
+          "shard_loc": "",
+          "scepter_loc": "",
+          "immunity": 0,
+          "dispellable": 0,
+          "target_team": 0,
+          "behavior": "562949953421379",
+          "item_cost": 0
+        },
+        {
+          "name": "necrolyte_reapers_scythe",
+          "name_loc": "Reaper's Scythe",
+          "desc_loc": "Stuns the target enemy hero, then deals damage based on how much life it is missing. If Necrophos kills an enemy this way, he'll permanently gain Health and Mana Regen. Any kill under this effect is credited to Necrophos.",
+          "notes_loc": [
+            "Damage is dealt at the end of the stun."
+          ],
+          "shard_loc": "",
+          "scepter_loc": "",
+          "immunity": 4,
+          "dispellable": 3,
+          "target_team": 2,
+          "behavior": "8",
+          "item_cost": 0
+        }
+      ]
+    },
+    "52": {
+      "id": 52,
+      "name": "Leshrac",
+      "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=52",
+      "abilities": [
+        {
+          "name": "leshrac_split_earth",
+          "name_loc": "Split Earth",
+          "desc_loc": "Splits the earth under enemies. Deals damage and stuns for a short duration.",
+          "notes_loc": [
+            "Split Earth will destroy trees in its area of effect.",
+            "There is a %delay% second delay before the effect is applied."
+          ],
+          "immunity": 4,
+          "dispellable": 1,
+          "target_team": 2,
+          "behavior": "48"
+        },
+        {
+          "name": "leshrac_diabolic_edict",
+          "name_loc": "Diabolic Edict",
+          "desc_loc": "Saturates the area around Leshrac with magical explosions that deal pure damage to enemy units and buildings.  The fewer units available to attack, the more damage those units will take.",
+          "notes_loc": [
+            "The explosions will continue even if Leshrac is killed."
+          ],
+          "immunity": 3,
+          "dispellable": 3,
+          "target_team": 2,
+          "behavior": "4"
+        },
+        {
+          "name": "leshrac_lightning_storm",
+          "name_loc": "Lightning Storm",
+          "desc_loc": "Summons a lightning storm that blasts the target enemy unit, then strikes any nearby enemy units. Struck enemies have their move speed slowed.",
+          "notes_loc": [],
+          "immunity": 4,
+          "dispellable": 2,
+          "target_team": 2,
+          "behavior": "8"
+        },
+        {
+          "name": "leshrac_greater_lightning_storm",
+          "name_loc": "Nihilism",
+          "desc_loc": "Causes Leshrac and all nearby enemies to turn ethereal, preventing them from attacking, slowing them, and making them take more magic damage. Increases Leshrac's speed rather than reducing it. Does not cause Leshrac to take amplified damage.",
+          "notes_loc": [],
+          "immunity": 4,
+          "dispellable": 2,
+          "target_team": 2,
+          "behavior": "8589936645"
+        },
+        {
+          "name": "leshrac_defilement",
+          "name_loc": "Defilement",
+          "desc_loc": "Leshrac gains %aoe_per_int% Area of Effect Bonus per Intelligence.",
+          "notes_loc": [],
+          "immunity": 0,
+          "dispellable": 0,
+          "target_team": 0,
+          "behavior": "2"
+        },
+        {
+          "name": "leshrac_pulse_nova",
+          "name_loc": "Pulse Nova",
+          "desc_loc": "Creates waves of damaging energy around Leshrac, one per second, to damage nearby enemy units. Drains Leshrac's mana with each pulse.",
+          "notes_loc": [],
+          "immunity": 4,
+          "dispellable": 3,
+          "target_team": 2,
+          "behavior": "4194820"
+        }
+      ]
+    },
+    "60": {
+      "id": 60,
+      "name": "Night Stalker",
+      "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=60",
+      "abilities": [
+        {
+          "name": "night_stalker_void",
+          "name_loc": "Void",
+          "desc_loc": "Creates a damaging void that slows an enemy unit and deals damage. At night, Void also mini-stuns, interrupting channeling abilities, and its effects lasts longer.",
+          "notes_loc": [
+            "Void does not ministun enemies during the day."
+          ],
+          "immunity": 4,
+          "dispellable": 2,
+          "target_team": 2,
+          "behavior": "8"
+        },
+        {
+          "name": "night_stalker_crippling_fear",
+          "name_loc": "Crippling Fear",
+          "desc_loc": "Night Stalker horrifies all nearby enemies, causing them to become silenced and take damage over time while near him.  The effect lasts longer at night.",
+          "notes_loc": [],
+          "immunity": 4,
+          "dispellable": 3,
+          "target_team": 0,
+          "behavior": "2052"
+        },
+        {
+          "name": "night_stalker_midnight_feast",
+          "name_loc": "Midnight Feast",
+          "desc_loc": "Night Stalker heals himself when attacking enemy units. At night, the ability can be activated to instantly destroy a non-ancient creep and restore a percentage of Night Stalker's maximum health and mana.",
+          "notes_loc": [
+            "Amount of health gained from attacking is affecting by Health Restoration and is decreased when attacking non-hero targets."
+          ],
+          "immunity": 4,
+          "dispellable": 0,
+          "target_team": 0,
+          "behavior": "2"
+        },
+        {
+          "name": "night_stalker_hunter_in_the_night",
+          "name_loc": "Hunter in the Night",
+          "desc_loc": "Night Stalker is in his element at night, attacking and moving with great swiftness.",
+          "notes_loc": [],
+          "immunity": 0,
+          "dispellable": 0,
+          "target_team": 0,
+          "behavior": "562949953421315"
+        },
+        {
+          "name": "night_stalker_darkness",
+          "name_loc": "Dark Ascension",
+          "desc_loc": "Night Stalker smothers the sun and summons instant darkness, so that he might use his powers at their fullest. Night Stalker gains flight and bonus damage during this time. Has unobstructed vision.",
+          "notes_loc": [],
+          "immunity": 0,
+          "dispellable": 3,
+          "target_team": 0,
+          "behavior": "4"
+        }
+      ]
+    },
+    "12": {
+      "id": 12,
+      "name": "Phantom Lancer",
+      "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=12",
+      "abilities": [
+        {
+          "name": "phantom_lancer_spirit_lance",
+          "name_loc": "Spirit Lance",
+          "desc_loc": "Sends a magical spirit lance to a target enemy unit that damages and slows, while summoning an illusory phantom to attack the unit.",
+          "notes_loc": [
+            "Illusions within %fake_lance_distance% range of Phantom Lancer will mimic the cast animation."
+          ],
+          "immunity": 4,
+          "dispellable": 2,
+          "target_team": 2,
+          "behavior": "8"
+        },
+        {
+          "name": "phantom_lancer_doppelwalk",
+          "name_loc": "Doppelganger",
+          "desc_loc": "Phantom Lancer briefly vanishes from the battlefield. After %delay% second, Phantom Lancer and any of his nearby illusions reappear at a random position within the targeted location, along with two additional doppelgangers. Extends duration of all illusions. The two added doppelgangers have different properties: one takes normal damage and deals none, while the other takes %illusion_2_damage_in_pct%%% bonus damage and deals %illusion_2_damage_out_pct%%% less damage.\n\nDISPEL TYPE: Basic Dispel",
+          "notes_loc": [
+            "This ability can be used to dodge projectiles, and dispel debuffs.",
+            "Trees near a reappearing unit will be destroyed.",
+            "Phantom Lancer and his allies can see which illusion is the 100% damage illusion."
+          ],
+          "immunity": 0,
+          "dispellable": 0,
+          "target_team": 0,
+          "behavior": "524336"
+        },
+        {
+          "name": "phantom_lancer_phantom_edge",
+          "name_loc": "Phantom Rush",
+          "desc_loc": "When targeting an enemy for an attack, Phantom Lancer quickly charges into range, gaining increased movement speed and evasion.",
+          "notes_loc": [
+            "If the attack order is cancelled, the movement speed bonus is lost.",
+            "Rush movement speed is %bonus_speed%."
+          ],
+          "immunity": 0,
+          "dispellable": 2,
+          "target_team": 0,
+          "behavior": "137438956036"
+        },
+        {
+          "name": "phantom_lancer_illusory_armaments",
+          "name_loc": "Illusory Armaments",
+          "desc_loc": "Whenever an illusion of Phantom Lancer is created, its outgoing damage cannot go below a fixed value for %duration% seconds.",
+          "notes_loc": [],
+          "immunity": 0,
+          "dispellable": 0,
+          "target_team": 0,
+          "behavior": "562949953421315"
+        },
+        {
+          "name": "phantom_lancer_juxtapose",
+          "name_loc": "Juxtapose",
+          "desc_loc": "Phantom Lancer has a chance to fracture his presence on an attack, creating an illusion of himself. Illusions also have a chance to fracture further. Illusions created from Phantom Lancer last for %illusion_duration% seconds, while illusions created from other illusions last %illusion_from_illusion_duration% seconds.",
+          "notes_loc": [],
+          "immunity": 0,
+          "dispellable": 0,
+          "target_team": 0,
+          "behavior": "2"
+        }
+      ]
+    },
+    "21": {
+      "id": 21,
+      "name": "Windranger",
+      "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=21",
+      "abilities": [
+        {
+          "name": "windrunner_shackleshot",
+          "name_loc": "Shackleshot",
+          "desc_loc": "Shackles the target to an enemy unit or tree in a line directly behind it.  If no unit or tree is present, the stun duration is reduced to %fail_stun_duration%.",
+          "notes_loc": [
+            "This spell can shackle two enemies together, stunning them both.",
+            "Can shackle the target to an enemy unit or tree at most %shackle_distance% behind the target.",
+            "Shackleshot can be disjointed."
+          ],
+          "immunity": 4,
+          "dispellable": 1,
+          "target_team": 2,
+          "behavior": "8"
+        },
+        {
+          "name": "windrunner_powershot",
+          "name_loc": "Powershot",
+          "desc_loc": "CHANNELED - Windranger charges her bow for up to %abilitychanneltime% second for a single powerful shot, which deals more damage the longer it is charged. The arrow damages and slows enemies' movement speed along its path. For each enemy that Powershot hits, its damage and slow is reduced.",
+          "notes_loc": [
+            "Powershot will destroy trees in its area of effect."
+          ],
+          "immunity": 4,
+          "dispellable": 0,
+          "target_team": 0,
+          "behavior": "144"
+        },
+        {
+          "name": "windrunner_windrun",
+          "name_loc": "Windrun",
+          "desc_loc": "Increases movement speed and adds evasion from all physical attacks.",
+          "notes_loc": [],
+          "immunity": 4,
+          "dispellable": 2,
+          "target_team": 0,
+          "behavior": "2052"
+        },
+        {
+          "name": "windrunner_gale_force",
+          "name_loc": "Gale Force",
+          "desc_loc": "Vector Targeted. Summons a strong wind that pushes all enemies in the target area towards the target direction.",
+          "notes_loc": [],
+          "immunity": 4,
+          "dispellable": 0,
+          "target_team": 0,
+          "behavior": "9663676433"
+        },
+        {
+          "name": "windrunner_focusfire",
+          "name_loc": "Focus Fire",
+          "desc_loc": "Windranger channels the wind to gain %bonus_attack_speed% additional attack speed against a single enemy unit or structure, though with a reduction to her attack damage.  Extra damage from secondary item effects is not reduced.",
+          "notes_loc": [
+            "Issuing a Hold Position command will pause Windranger's attacks.",
+            "Windranger can move while attacking."
+          ],
+          "immunity": 3,
+          "dispellable": 3,
+          "target_team": 2,
+          "behavior": "134217736"
+        },
+        {
+          "name": "windrunner_tailwind",
+          "name_loc": "Tailwind",
+          "desc_loc": "Using an ability conjures a stacking Tailwind that gives Windranger a brief burst of movement speed. Movement speed bonus gradually starts fading halfway through the Tailwind duration.\n\nPassively increases Windranger's max movement speed.",
+          "notes_loc": [],
+          "immunity": 0,
+          "dispellable": 2,
+          "target_team": 0,
+          "behavior": "562949953421315"
+        }
+      ]
+    },
+    "119": {
+      "id": 119,
+      "name": "Dark Willow",
+      "url": "https://www.dota2.com/datafeed/herodata?language=english&hero_id=119",
+      "abilities": [
+        {
+          "name": "dark_willow_bramble_maze",
+          "name_loc": "Bramble Maze",
+          "desc_loc": "Dark Willow creates a %placement_range% AoE maze of %placement_count% brambles that grow in the target area after %initial_creation_delay% seconds. Enemies that walk into a bramble are rooted and take damage over time. Lasts %placement_duration% seconds.",
+          "notes_loc": [
+            "Does not interrupt channeling spells upon rooting."
+          ],
+          "immunity": 4,
+          "dispellable": 2,
+          "target_team": 2,
+          "behavior": "48"
+        },
+        {
+          "name": "dark_willow_shadow_realm",
+          "name_loc": "Shadow Realm",
+          "desc_loc": "Dark Willow recedes into the shadows, becoming untargetable.  Her next attack has %attack_range_bonus% bonus attack range and deals bonus magic damage, and will end Shadow Realm. Damage scales based on how long she remains under the effects of Shadow Realm, the maximum being reached after %max_damage_duration% seconds.",
+          "notes_loc": [
+            "Disjoints projectiles upon cast.",
+            "Grants phased movement.",
+            "Spells which require vision cannot affect Dark Willow in the Shadow Realm."
+          ],
+          "immunity": 4,
+          "dispellable": 3,
+          "target_team": 0,
+          "behavior": "4196356"
+        },
+        {
+          "name": "dark_willow_cursed_crown",
+          "name_loc": "Cursed Crown",
+          "desc_loc": "Dark Willow casts an ancient fae curse on the target. After a delay, the target and nearby enemies are stunned.",
+          "notes_loc": [],
+          "immunity": 4,
+          "dispellable": 2,
+          "target_team": 2,
+          "behavior": "8"
+        },
+        {
+          "name": "dark_willow_bedlam",
+          "name_loc": "Bedlam",
+          "desc_loc": "Dark Willow sends her pet wisp to roam around herself for the duration, rapidly attacking nearby enemies.  Bedlam cannot be used while Terrorize is active.",
+          "notes_loc": [],
+          "immunity": 4,
+          "dispellable": 3,
+          "target_team": 1,
+          "behavior": "2052"
+        },
+        {
+          "name": "dark_willow_pixie_dust",
+          "name_loc": "Pixie Dust",
+          "desc_loc": "Dark Willow gains %hp_regen_amp%%% bonus Health and Mana Regeneration, increased to %hp_regen_amp_out_of_world%%% while she is untargetable or invulnerable.",
+          "notes_loc": [],
+          "immunity": 0,
+          "dispellable": 0,
+          "target_team": 0,
+          "behavior": "4406636445698"
+        },
+        {
+          "name": "dark_willow_terrorize",
+          "name_loc": "Terrorize",
+          "desc_loc": "Dark Willow releases her pet wisp to terrorize her enemies. After a short delay, all enemies in the target area become fearful and run toward their home fountain. Terrorize cannot be used while Bedlam is active.",
+          "notes_loc": [
+            "Terrorize provides vision on affected units."
+          ],
+          "immunity": 4,
+          "dispellable": 2,
+          "target_team": 2,
+          "behavior": "67108912"
+        }
+      ]
+    }
+  },
+  "items": {
+    "116": {
+      "id": 116,
+      "name": "item_black_king_bar",
+      "url": "https://www.dota2.com/datafeed/itemdata?language=english&item_id=116",
+      "name_loc": "Black King Bar",
+      "desc_loc": "<h1>Active: Avatar</h1> Applies a basic dispel. Grants %spell_reduce%%% magic resistance and immunity to reflected and pure damage. For the duration of the effect, any negative effect from enemy spells has no effect. <br><br>Duration: %duration%s <br>Dispel Type: <span class=\"GameplayValues GameplayVariable\">Basic Dispel</span>",
+      "notes_loc": [
+        "Purchasing another Black King Bar will not reset its immunity duration.",
+        "Avatar duration is not affected by increases to buff duration."
+      ],
+      "shard_loc": "",
+      "scepter_loc": "",
+      "immunity": 0,
+      "dispellable": 0,
+      "target_team": 0,
+      "behavior": "2052",
+      "item_cost": 4050
+    },
+    "123": {
+      "id": 123,
+      "name": "item_sphere",
+      "url": "https://www.dota2.com/datafeed/itemdata?language=english&item_id=123",
+      "name_loc": "Linken's Sphere",
+      "desc_loc": "<h1>Passive: Spellblock</h1>Blocks most targeted spells once every %block_cooldown% seconds.\n\n<h1>Active: Transfer Spellblock</h1>Temporarily removes Spellblock from the item's owner and transfers it to an allied unit for %block_cooldown% seconds.",
+      "notes_loc": [
+        "Targeted abilities from neutral items do not trigger Spellblock."
+      ],
+      "shard_loc": "",
+      "scepter_loc": "",
+      "immunity": 0,
+      "dispellable": 0,
+      "target_team": 1,
+      "behavior": "8",
+      "item_cost": 4800
+    },
+    "147": {
+      "id": 147,
+      "name": "item_manta",
+      "url": "https://www.dota2.com/datafeed/itemdata?language=english&item_id=147",
+      "name_loc": "Manta Style",
+      "desc_loc": "<h1>Active: Mirror Image</h1>Creates %images_count% images of your hero that last %illusion_duration% seconds. <br><br>Melee images deal %tooltip_damage_outgoing_melee%%% damage, while Ranged images deal %tooltip_damage_outgoing_ranged%%%. Illusions take %tooltip_damage_incoming_total_pct%%% damage. <br><br>Dispel Type: <span class=\"GameplayValues GameplayVariable\">Basic Dispel</span>",
+      "notes_loc": [
+        "Has a %invuln_duration% second cast time during which you are invulnerable.",
+        "Many effects are removed upon using Manta.",
+        "Yasha based movement speed bonuses from multiple items do not stack."
+      ],
+      "shard_loc": "",
+      "scepter_loc": "",
+      "immunity": 0,
+      "dispellable": 0,
+      "target_team": 0,
+      "behavior": "33554436",
+      "item_cost": 4650
+    },
+    "102": {
+      "id": 102,
+      "name": "item_force_staff",
+      "url": "https://www.dota2.com/datafeed/itemdata?language=english&item_id=102",
+      "name_loc": "Force Staff",
+      "desc_loc": "<h1>Active: Force</h1>Pushes any target unit %push_length% units in the direction it is facing.",
+      "notes_loc": [
+        "Self-cast will cause you to use Force on yourself.",
+        "Force Staff doesn't interrupt the target's actions.",
+        "Will not work on a unit inside Chronosphere, Duel, or Black Hole.",
+        "Force Staff has %enemy_cast_range% cast range when cast on enemies."
+      ],
+      "shard_loc": "",
+      "scepter_loc": "",
+      "immunity": 0,
+      "dispellable": 0,
+      "target_team": 7,
+      "behavior": "33554440",
+      "item_cost": 2200
+    },
+    "254": {
+      "id": 254,
+      "name": "item_glimmer_cape",
+      "url": "https://www.dota2.com/datafeed/itemdata?language=english&item_id=254",
+      "name_loc": "Glimmer Cape",
+      "desc_loc": "<h1>Active: Glimmer</h1> After a %initial_fade_delay% second delay, grants invisibility, %active_movement_speed% movement speed and a magic damage barrier that absorbs up to %barrier_block% damage to you or a target allied unit for %duration% seconds.<br><br>Can be cast while channeling.",
+      "notes_loc": [],
+      "shard_loc": "",
+      "scepter_loc": "",
+      "immunity": 0,
+      "dispellable": 2,
+      "target_team": 1,
+      "behavior": "4458504",
+      "item_cost": 2150
+    },
+    "226": {
+      "id": 226,
+      "name": "item_lotus_orb",
+      "url": "https://www.dota2.com/datafeed/itemdata?language=english&item_id=226",
+      "name_loc": "Lotus Orb",
+      "desc_loc": "<h1>Active: Echo Shell</h1>Applies a shield to the target unit for %active_duration% seconds which re-casts most targeted spells back to their caster.<br><br>The shielded unit will still take damage from the spell.<br>Dispel Type: <span class=\"GameplayValues GameplayVariable\">Basic Dispel</span>",
+      "notes_loc": [
+        "Targeted abilities from neutral items do not trigger Echo Shell."
+      ],
+      "shard_loc": "",
+      "scepter_loc": "",
+      "immunity": 0,
+      "dispellable": 0,
+      "target_team": 1,
+      "behavior": "8",
+      "item_cost": 3850
+    },
+    "100": {
+      "id": 100,
+      "name": "item_cyclone",
+      "url": "https://www.dota2.com/datafeed/itemdata?language=english&item_id=100",
+      "name_loc": "Eul's Scepter of Divinity",
+      "desc_loc": "<h1>Active: Cyclone</h1> Sweeps a target unit up into a cyclone, making them invulnerable for %cyclone_duration% seconds. Cyclone can only be cast on enemy units or yourself.<br><br>Enemy units take %tooltip_drop_damage% magical damage upon landing.<br>Dispel Type: <span class=\"GameplayValues GameplayVariable\">Basic Dispel</span>",
+      "notes_loc": [
+        "You cannot cyclone allies.",
+        "Cyclones cast on yourself go through spell immunity.",
+        "Cyclone can dispel some buffs and debuffs.",
+        "Cyclone duration is unaffected by status resistance."
+      ],
+      "shard_loc": "",
+      "scepter_loc": "",
+      "immunity": 0,
+      "dispellable": 2,
+      "target_team": 4,
+      "behavior": "33554440",
+      "item_cost": 2600
+    }
+  },
+  "note": "Selected official descriptions used to audit explicit rules. Not a full ability simulator."
+}

@@ -1,0 +1,61 @@
+{
+  "modelVersion": 9,
+  "banScoring": "Enemy pick value plus current protection and future pick setup, minus own opportunity cost; bounded scenarios with schedule discount",
+  "defaultSource": "OpenDota public_matches",
+  "metaFile": "data/meta.json",
+  "patchFilter": "7.41f",
+  "matchCount": 49919,
+  "downloadedAt": 1792674306.900278,
+  "rulesVersion": "cm-7.40-v2",
+  "legacyCache": {
+    "source": "OpenDota heroStats and hero matchups",
+    "patchFilter": null
+  },
+  "synergy": "Patch-filtered empirical pair results plus expert rules",
+  "roleSpecificStatistics": false,
+  "carryDuel": "Additional adjusted whole-game Carry-v-Carry weight: +0.8 for positive effects, +1.3 for negative effects",
+  "finalOutlook": {
+    "method": "heuristic-v1",
+    "calibrated": false,
+    "scale": 18,
+    "range": [
+      5,
+      95
+    ]
+  },
+  "draftExplanation": "Role- and spell-aware plans, conditional allied saves and potential item responses; mechanical adjustments affect indices, while the heuristic percentage scale is unchanged",
+  "roleModel": "Curated flexes plus verified Slark mid / Undying support / Phoenix hard support; personal role confirmations remain supported",
+  "abilityRules": {
+    "verifiedPatch": "7.41f",
+    "comboCount": 16,
+    "threatCount": 13,
+    "mechanicsFile": "mechanics.mjs",
+    "referenceFile": "data/mechanics-reference.json",
+    "potentialItemCap": 0.25,
+    "threatCap": 3.5,
+    "changesEmpiricalCounterWR": false,
+    "potentialItemScope": "one next defensive branch per team, one protected target; unknown role build receives zero credit"
+  },
+  "buildReference": {
+    "file": "data/build-reference.json",
+    "checkedAt": "2026-10-23",
+    "heroRoleExamples": 50,
+    "heroes": 45,
+    "itemObservations": 1317,
+    "autoUpdated": false,
+    "patchPure": false,
+    "roleSpecificBuilds": true
+  },
+  "economyModel": "Role-aware farm demand, personal purchase ownership, build opportunity cost; no gold or GPM forecast",
+  "developmentModel": {
+    "file": "development.mjs",
+    "method": "bounded expert item-plan context; candidate marginal contribution; final team contribution counted once",
+    "teamRange": [
+      -3,
+      0.5
+    ],
+    "toggle": "state.potentialItems",
+    "changesEmpiricalCounterWR": false,
+    "calibrated": false
+  }
+}
